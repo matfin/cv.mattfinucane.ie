@@ -69,7 +69,135 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 9, ../sass/screen.scss */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 14, ../sass/screen.scss */
 body {
+  width: 100%;
   font-family: 'Average Sans' sans-serif;
+  font-size: 1.0em;
   color: #000;
+  border-top: 30px solid #D0E2D5;
+}
+
+/* line 22, ../sass/screen.scss */
+header, section {
+  display: inline;
+  float: left;
+  width: 80%;
+  margin: 0px 0px 0px 10%;
+  padding: 50px 0px 10px 0px;
+  clear: both;
+}
+
+/* line 31, ../sass/screen.scss */
+header {
+  border-bottom: 1px solid #cdc9c8;
+}
+/* line 33, ../sass/screen.scss */
+header h1 {
+  display: inline;
+  float: left;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+/* line 39, ../sass/screen.scss */
+header a {
+  display: inline;
+  float: right;
+  text-decoration: underline;
+  font-size: 0.75em;
+  color: #cdc9c8;
+  margin: 0px 0px 0px 5px;
+}
+/* line 46, ../sass/screen.scss */
+header a[href*='tel']:before {
+  content: 't:';
+}
+/* line 49, ../sass/screen.scss */
+header a[href*='mailto']:before {
+  content: 'e:';
+}
+
+/* line 56, ../sass/screen.scss */
+section h2 {
+  display: inline;
+  float: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  clear: both;
+}
+/* line 63, ../sass/screen.scss */
+section h3 {
+  display: inline;
+  float: left;
+  font-size: 1.1em;
+  clear: left;
+  margin: 10px 0px 10px 0px;
+}
+/* line 70, ../sass/screen.scss */
+section h4 {
+  display: inline;
+  float: right;
+  font-size: 1.1em;
+  margin: 10px 0px 10px 0px;
+}
+/* line 76, ../sass/screen.scss */
+section h5 {
+  display: inline;
+  float: left;
+  font-size: 1.1em;
+  clear: both;
+}
+/* line 82, ../sass/screen.scss */
+section p {
+  display: inline;
+  float: left;
+  clear: both;
+}
+/* line 87, ../sass/screen.scss */
+section ol {
+  display: inline;
+  float: left;
+  clear: both;
+}
+/* line 91, ../sass/screen.scss */
+section ol li {
+  display: inline;
+  float: left;
+  clear: both;
+}
+
+/* line 100, ../sass/screen.scss */
+#technical_skills h2 {
+  width: 100%;
+}
+/* line 103, ../sass/screen.scss */
+#technical_skills dl {
+  display: inline;
+  float: left;
+  width: 33%;
+  min-height: 220px;
+  line-height: 1.2em;
+}
+/* line 110, ../sass/screen.scss */
+#technical_skills dl dt, #technical_skills dl dd {
+  display: inline;
+  float: left;
+}
+/* line 114, ../sass/screen.scss */
+#technical_skills dl dt {
+  margin: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+/* line 118, ../sass/screen.scss */
+#technical_skills dl dd {
+  clear: both;
+}
+/* line 120, ../sass/screen.scss */
+#technical_skills dl dd:before {
+  content: '-';
 }

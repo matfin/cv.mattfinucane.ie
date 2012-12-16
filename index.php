@@ -17,9 +17,6 @@
             <a href="tel:+353861945324" title="Phone Matt Finucane">
                 +353 (0)86 1945324
             </a>
-            <span>
-                Referees available on request
-            </span>
         </header>
         <section id="profile">
             <h2>
@@ -244,17 +241,6 @@
                 </dd>
                 <dd>
                     Visual Studio 2010
-                </dd>
-            </dl>
-            <dl>
-                <dt>
-                    Software dependency management
-                </dt>
-                <dd>
-                    CocoaPods
-                </dd>
-                <dd>
-                    RubyGems
                 </dd>
             </dl>
             <dl>

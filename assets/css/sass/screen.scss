@@ -6,7 +6,121 @@
 @import "compass/reset";
 @import url(http://fonts.googleapis.com/css?family=Average+Sans);
 
+html{
+    width: 100%;
+    height: 100%;
+}
+
 body{
+    width: 100%;
     font-family: 'Average Sans' sans-serif;
+    font-size: 1.0em;
     color: #000;
+    border-top: 30px solid #D0E2D5;
+}
+
+header, section{
+    display: inline;
+    float: left;
+    width: 80%;
+    margin: 0px 0px 0px 10%;
+    padding: 50px 0px 10px 0px;
+    clear: both;
+}
+
+header{
+    border-bottom: 1px solid #cdc9c8;
+    h1{
+        display: inline;
+        float: left;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    a{
+        display: inline;    
+        float: right;
+        text-decoration: underline;
+        font-size: 0.75em;
+        color: #cdc9c8;
+        margin: 0px 0px 0px 5px;
+        &[href*='tel']:before{
+            content: 't:';
+        }
+        &[href*='mailto']:before{
+            content: 'e:';
+        }
+    }
+}
+
+section{
+    h2{
+        display: inline;
+        float: left;
+        font-size: 1.2em;
+        font-weight: bold;
+        clear: both;
+    }
+    h3{
+        display: inline;
+        float: left;
+        font-size: 1.1em;
+        clear: left;
+        margin: 10px 0px 10px 0px;
+    }
+    h4{
+        display: inline;
+        float: right;
+        font-size: 1.1em;
+        margin: 10px 0px 10px 0px;
+    }
+    h5{
+        display: inline;
+        float: left;
+        font-size: 1.1em;
+        clear: both;
+    }
+    p{
+        display: inline;
+        float: left;
+        clear: both;
+    }
+    ol{
+        display: inline;
+        float: left;
+        clear: both;
+        li{
+            display: inline;
+            float: left;
+            clear: both;
+        }
+    }
+}
+
+#technical_skills{
+    h2{
+        width: 100%;
+    }
+    dl{
+        display: inline;
+        float: left;
+        width: 33%;
+        min-height: 220px;
+        line-height: 1.2em;
+
+        dt, dd{
+            display: inline;
+            float: left;
+        }
+        dt{
+            margin: 10px 0px 10px 0px;
+            font-weight: bold;
+        }
+        dd{
+            clear: both;
+            &:before{
+                content: '-';
+            }
+        }
+        
+    }
 }
