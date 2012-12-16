@@ -23,7 +23,10 @@
                 Profile
             </h2>
             <p>
-                Web and mobile application developer with over 7 years of professional industry experience. 
+                I am a web and mobile application developer with over seven years industry experience working on a variety of projects in different settings both at home and abroad. 
+            </p>
+            <p>
+                My passion lies in technology and I enjoy keeping up with and working with the latest technology and practices in the industry. I am self&ndash;taught in a lot of disciplines, a fast learner and produce work of excellent quality. 
             </p>
         </section>
         <section id="professional_experience">
@@ -37,88 +40,95 @@
             <h4>
                 Dublin &ndash; Ireland. <time datetime="2012-01-16">January</time> to <time datetime="<?=date('Y-m-d')?>">Present</time>
             </h4>
-            <!-- Project -->
             <h5 data-languages="java, objective C, javascript, html5">
-                Irish Times iOS/Android app
+                Mobile development
             </h5>
             <p>
-                Worked with a team of three internal developers to build and deploy an <a href="#" title="View Irish Times on Apple App Store">iOS</a> and <a href="#" title="View Irish Times on Google Play Store">Android</a> version of the Irish Times app for phones. 
+                Worked on a variety of mobile apps using both native and cross platform frameworks for major clients such as Three Mobile, NewsWhip and The Irish Times.
             </p>
-            <p>
-                This app was completely re&ndash;designed and rebuilt from scratch natively in Objective C and Java. 
-            </p>
-             <!-- Project -->
-            <h5 data-languages="javascript, html5, java, objective c">
-                NewsWhip iOS/Android app
+            <h5>
+                Technical lead
             </h5>
             <p>
-                This app was developed using Sencha Touch 2 as a cross platform solution and deployed to both Android and iOS devices. Due to performance issues with Sencha Touch 2 and Android, this app is also being written natively.
+                As technical lead, I was responsible for making decisions on the best tools and frameworks to use when working on different projects. I also worked closely with other developers and designers internally and externally to provide advice and support throughout the course of our projects.
             </p>
-             <!-- Project -->
-            <h5 data-languages="javascript, html5, java, objective c">
-                Galway University Hospital &ndash; Antimicrobial Guidelines 
+            <h5>
+                Web applications
             </h5>
             <p>
-                This app, which acts as a guide for doctors in diagnosing and treating infections is being coded using Sencha Touch 2 for iPhone and Android devices. 
-            </p>
-             <!-- Project -->
-            <h5 data-languages="javascript, html5, java, objective c">
-                3Football app
-            </h5>
-            <p>
-                This was the official new app for the Irish Soccer Team released during the Euro 2012 tournament. It featured news updates from the squad, match fixtures and results, and a fun stuff section with fan submitted data.
+                I planned and implemented TV guide and video streaming software for a TV set top box. I also extended this project to work on HLS compliant devices, such as the Google TV box and Safari browser for Mac.
             </p>
             <p>
-                This app was coded using the Javascript based Sencha Touch 2 framework for cross platform compatibility and released for iPhone and Android devices.
+                I also worked on a video storage and retrieval solution for scanning and encoding several hours of recorded video. Both these projects were developed using the Microsoft MVC3 web application framework and deployed to IIS servers.
             </p>
-             <!-- Project -->
-            <h5 data-languages="c#, javascript, html5">
-                iBox TV
-            </h5>
-            <p>
-                This project was a web based interface for TV set top box software designed to run on HLS compatible devcies. In this case, the backend was coded in c# and run on Microsoft Servers. The front end was split into three submodules designed to run in Safari for the Mac, a customised Linux set top box with Opera installed, and GoogleTV boxes.
-            </p>
-             <!-- Company -->
+            <!-- Company -->
             <h3>
                 Paddy Power PLC
             </h3>
             <h4>
                 Dublin &ndash; Ireland. <time datetime="2010-03-08">March 2010</time> to <time datetime="2012-01-16">January 2012</time>
             </h4>
-            <!-- Project -->
             <h5 data-languages="php, javascript, html5">
-                Power Payroll System
+                Payroll System
             </h5>
             <p>
-                Worked with members of the Finance and HR team in developing a payroll web application for deployment to Paddy Power shops across the country.
+                Worked with members of the Finance and HR team in developing a payroll web application for deployment to shops across the country.
             </p>
-            <!-- Project -->
-            <h5 data-languages="php, javascript, html5">
-                Paddy Power Casino
+            <h5>
+                Business channels
             </h5>
             <p>
-                Developed custom CMS and front end from scratch for Paddy Power Casino, one of Paddy Power&#39;s many business channels.
+                Worked on rebuilding the CMS and front end for Paddy Power Casino from scratch and was one of the original developers involved in the project from the beginning. I was also involved with working on the redesign and redevelopment of the Paddy Power Games website.
             </p>
-            <!-- Project -->
-            <h5 data-languages="php, javascript, html5">
-                Paddy Power Poker
+            <h5>
+                Paddy Power Mobile CMS
             </h5>
             <p>
-                Extended Paddy Power Casino CMS to include a landing page for the Irish Winter Festival Poker Tournament in 2011
+                Redeveloped and extended the Paddy Power Mobile Games CMS to include support for games available on multiple platforms.
             </p>
-            <!-- Project -->
+            <!-- Company -->
+            <h3>
+                Self Employed
+            </h3>
+            <h4>
+                Dublin &ndash; Ireland. <time datetime="2008-07-01">July 2008</time> to <time datetime="2010-03-08">March 2010</time>
+            </h4>
             <h5 data-languages="php, javascript, html5">
-                Paddy Power Games
+                Clearweb
             </h5>
             <p>
-                Worked on the CMS and frontend for the redesign and redevelopment from scratch for Paddy Power Games.
+                Founded my own web development and design business and worked with several clients, including a major Dublin based PR firm. For them, I created a content management system to allow them to post competitions to their clients Facebook page.
             </p>
-            <!-- Project -->
-            <h5 data-languages="php, javascript, html5">
-                Paddy Power Mobile Games
+            <h5>
+                DCU Invent Center
             </h5>
             <p>
-                Redevloped and extended the PaddyPower mobile games cms to include data for multi&ndash;platform mobile devices.
+                Designed and built a news and communication tool to allow coaches to easily manage their teams and interact with their supporters. For this, we received support from the FCEB and Invent Center in DCU. 
+            </p>
+            <h5>
+                Web Development
+            </h5>
+            <p>
+                All websites and web applications were hand coded in HTML and CSS to W3C specifications and were designed to match industry standards and best practice in usability and accessibility. 
+            </p>
+             <!-- Company -->
+            <h3>
+                Net&ndash;&Aacute;&ndash;Porter
+            </h3>
+            <h4>
+                London &ndash; UK. <time datetime="2007-07-01">July 2007</time> to <time datetime="2008-07-01">July 2008</time>
+            </h4>
+            <h5 data-languages="php, javascript, html5">
+                Website redesign
+            </h5>
+            <p>
+                Worked as part of a team of designers, developers and UX consultants to completely redesign and redevelop the website to facilitate SEO, content updates and front end usability. 
+            </p>
+            <h5>
+                Web Applications
+            </h5>
+            <p>
+                Designed and developed the comapny&#39;s internal corporate intranet for use by staff members in the UK and US. I also developed a WYSIWYG tool to allow the marketing team to build templated HTML emails.
             </p>
         </section>
         <section id="technical_skills">
