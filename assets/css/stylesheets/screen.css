@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Average+Sans);
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -65,4 +66,10 @@ a img {
 /* line 116, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+body {
+  font-family: 'Average Sans' sans-serif;
+  color: #000;
 }
