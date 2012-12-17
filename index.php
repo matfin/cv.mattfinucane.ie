@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
         <title>Matt Finucane &ndash; Curriculum Vitae</title>
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/screen.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/print.css" media="print" />
@@ -235,6 +236,9 @@
                 <dd>
                     Google Docs
                 </dd>
+                <dd>
+                    Scrum
+                </dd>
             </dl>
             <dl>
                 <dt>
@@ -251,6 +255,9 @@
                 </dd>
                 <dd>
                     Visual Studio 2010
+                </dd>
+                <dd>
+                    IBM WebSphere Studio
                 </dd>
             </dl>
             <dl>
@@ -285,13 +292,13 @@
                 Qualifications
             </h2>
             <h3>
-                University
+                BSc (Hons) in Computer Applications
             </h3>
             <h4>
-                Dublin City University, Dublin &ndash; Ireland. <time datetime="2001-09-26">September 2001</time> to <time datetime="2005-06-10">June 2005</time>
+                Dublin City University. <time datetime="2001-09-26">September 2001</time> to <time datetime="2005-06-10">June 2005</time>
             </h4>
             <p>
-                BSc (Hons) in Computer Applications (Information Systems) and a six month work placement in Alcatel CIT, France.
+                This four year degree course focuses on the fundamentals of computing and business. We learned the basics of programming, the software development life&ndash;cycle and how businesses interact with computers.
             </p>
             <p>
                 My final year project was a 2D scrolling platform video game for mobile phones, developed using J2ME and run on entry level Nokia phones.
@@ -313,8 +320,14 @@
                 Interests
             </h2>
             <p>
-                My main interests are reading, photography, film, web development and technology. I have worked on a pro bono basis developing websites for up and coming bands and music festivals. I am also combining my passion for photography and web development and working on my own website in HTML5 and CSS3 to showcase my images. I am also an avid reader of technology and web related blogs such as engadget.com, contrast.ie and slashdot.org.
+                My main interests lie in technology, the web, game development and how people interact with these. I am a self&ndash; taught iOS and Android developer and am working on a few of my own projects. My code can be seen on <a href="http://github.com/matfin" title="Matt Finucane on GitHub">GitHub</a>.
+            </p>
+            <p>
+                I have also worked on several pro&ndash;bono websites and projects for individuals and organisations starting out. In 2011 I took part in the <a href="http://24theweb.com/about" title="24 The Web Design Challenge">24 The Web Design Challenge</a> and was lead developer in a team of seven people.
             </p>
         </section>
+        <footer>
+            <!-- empty  -->
+        </footer>
     </body>
 </html>

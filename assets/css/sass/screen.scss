@@ -13,6 +13,7 @@ html{
 
 body{
     width: 100%;
+    height: 100%;
     font-family: 'Average Sans' sans-serif;
     font-size: 1.0em;
     color: #000;
@@ -23,9 +24,13 @@ header, section{
     display: inline;
     float: left;
     width: 80%;
+    max-width: 800px;
     margin: 0px 0px 0px 10%;
     padding: 50px 0px 10px 0px;
     clear: both;
+    @media (max-width: 480px){
+        padding: 20px 0px 10px 0px;
+    }
 }
 
 header{
@@ -48,6 +53,15 @@ header{
         }
         &[href*='mailto:']:before{
             content: 'e:';
+        }
+    }
+    @media (max-width: 480px){
+        a{
+            float: left;
+            clear: both;
+            padding: 5px 0px 5px 0px;
+            margin: 0px;
+            text-decoration: none;
         }
     }
 }
@@ -81,6 +95,11 @@ section{
         margin: 10px 0px 10px 0px;
         color: #cdc9c8;
     }
+    @media (max-width: 480px){
+        h4{
+            float: left;
+        }
+    }
     h5{
         display: inline;
         float: left;
@@ -103,11 +122,27 @@ section{
     ol{
         display: inline;
         float: left;
+        margin: 10px 0px 0px 0px;
         clear: both;
         li{
             display: inline;
             float: left;
-            clear: both;
+            margin: 0px 20px 0px 0px;
+            @media (max-width:480px){
+                clear: both;
+                padding: 3px 0px 3px 0px;
+            }
+        }
+    }
+    a{
+        color: #8A8F91;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover{
+            text-decoration: underline;
+        }
+        &:visited{
+            color: #cdc9c8;
         }
     }
 }
@@ -137,6 +172,19 @@ section{
                 content: '-';
             }
         }
-        
     }
+    @media (max-width: 480px){
+        dl{
+            width: 100%;
+            min-height: 100px;   
+        }
+    }
+}
+
+footer{
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: #D0E2D5;
 }
