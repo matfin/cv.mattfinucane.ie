@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
         <title>Matt Finucane &ndash; Curriculum Vitae</title>
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/screen.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/print.css" media="print" />
@@ -13,10 +14,10 @@
                 Matt Finucane &ndash; Curriculum Vitae
             </h1>
             <a href="mailto:matt@mattfinucane.ie" title="Email Matt Fimucane">
-                matt@mattfinucane.ie
+                email: matt@mattfinucane.ie
             </a>
             <a href="tel:+353861945324" title="Phone Matt Finucane">
-                +353 (0)86 1945324
+                tel: +353 (0)86 1945324
             </a>
         </header>
         <section id="profile">

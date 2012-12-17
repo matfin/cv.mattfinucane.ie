@@ -82,9 +82,10 @@ body {
   font-size: 1.0em;
   color: #000;
   border-top: 30px solid #D0E2D5;
+  text-shadow: 1px 1px 1px #eee;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 header, section {
   display: inline;
   float: left;
@@ -95,52 +96,49 @@ header, section {
   clear: both;
 }
 @media (max-width: 480px) {
-  /* line 23, ../sass/screen.scss */
+  /* line 24, ../sass/screen.scss */
   header, section {
     padding: 20px 0px 10px 0px;
   }
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 header {
   border-bottom: 1px solid #000;
 }
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 header h1 {
   display: inline;
   float: left;
   font-size: 1.4em;
   font-weight: bold;
 }
-/* line 44, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 header a {
   display: inline;
   float: right;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 0.75em;
   color: #cdc9c8;
   margin: 0px 0px 0px 5px;
 }
-/* line 51, ../sass/screen.scss */
-header a[href*='tel:']:before {
-  content: 't:';
-}
-/* line 54, ../sass/screen.scss */
-header a[href*='mailto:']:before {
-  content: 'e:';
+/* line 52, ../sass/screen.scss */
+header a:hover {
+  text-decoration: underline;
 }
 @media (max-width: 480px) {
-  /* line 59, ../sass/screen.scss */
+  /* line 57, ../sass/screen.scss */
   header a {
     float: left;
     clear: both;
-    padding: 5px 0px 5px 0px;
+    padding: 7px 0px 5px 0px;
     margin: 0px;
+    font-size: 0.9em;
     text-decoration: none;
   }
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 section h2 {
   display: inline;
   float: left;
@@ -151,11 +149,11 @@ section h2 {
   border-bottom: 1px solid #cdc9c8;
   padding: 0px 0px 5px 0px;
 }
-/* line 80, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 section h2 + h3 {
   margin: 10px 0px 10px 0px;
 }
-/* line 83, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 section h3 {
   display: inline;
   float: left;
@@ -164,7 +162,7 @@ section h3 {
   clear: left;
   margin: 30px 0px 10px 0px;
 }
-/* line 91, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 section h4 {
   display: inline;
   float: right;
@@ -173,12 +171,12 @@ section h4 {
   color: #cdc9c8;
 }
 @media (max-width: 480px) {
-  /* line 99, ../sass/screen.scss */
+  /* line 98, ../sass/screen.scss */
   section h4 {
     float: left;
   }
 }
-/* line 103, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 section h5 {
   display: inline;
   float: left;
@@ -187,57 +185,57 @@ section h5 {
   clear: both;
   margin: 5px 0px 5px 0px;
 }
-/* line 111, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 section p {
   display: inline;
   float: left;
   clear: both;
-  line-height: 1.2em;
+  line-height: 1.4em;
 }
-/* line 118, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 section h2 + p {
   margin: 10px 0px 0px 0px;
 }
-/* line 122, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 section ol {
   display: inline;
   float: left;
   margin: 10px 0px 0px 0px;
   clear: both;
 }
-/* line 127, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 section ol li {
   display: inline;
   float: left;
   margin: 0px 20px 0px 0px;
 }
 @media (max-width: 480px) {
-  /* line 127, ../sass/screen.scss */
+  /* line 126, ../sass/screen.scss */
   section ol li {
     clear: both;
     padding: 3px 0px 3px 0px;
   }
 }
-/* line 137, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 section a {
   color: #8A8F91;
   text-decoration: none;
   font-weight: bold;
 }
-/* line 141, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 section a:hover {
   text-decoration: underline;
 }
-/* line 144, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 section a:visited {
   color: #cdc9c8;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #technical_skills h2 {
   width: 100%;
 }
-/* line 154, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 #technical_skills dl {
   display: inline;
   float: left;
@@ -245,33 +243,33 @@ section a:visited {
   min-height: 220px;
   line-height: 1.2em;
 }
-/* line 161, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 #technical_skills dl dt, #technical_skills dl dd {
   display: inline;
   float: left;
 }
-/* line 165, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 #technical_skills dl dt {
   margin: 10px 0px 10px 0px;
   font-weight: bold;
 }
-/* line 169, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #technical_skills dl dd {
   clear: both;
 }
-/* line 171, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 #technical_skills dl dd:before {
   content: '-';
 }
 @media (max-width: 480px) {
-  /* line 177, ../sass/screen.scss */
+  /* line 176, ../sass/screen.scss */
   #technical_skills dl {
     width: 100%;
     min-height: 100px;
   }
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;
