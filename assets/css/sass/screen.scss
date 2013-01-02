@@ -184,6 +184,53 @@ section{
     }
 }
 
+#portfolio{
+    figure{
+        position: relative;
+        display: none;
+        float: left;
+        margin: 10px 0px 0px 0px;
+        box-shadow: 3px 3px 6px #999;
+        z-index: 2;
+        &:nth-of-type(1){
+            display: inline;
+        }
+        img{
+            position: relative;
+            display: inline;
+            float: left;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: auto;
+            z-index: 1;
+        }
+        figcaption{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 98%;
+            padding: 1%;
+            min-height: 60px;
+            color: #fff;
+            background-image: -webkit-gradient(
+                linear,
+                left bottom,
+                left top,
+                from(rgba(0, 0, 0, 0.8)),
+                to(rgba(0, 0, 0, 0.2))
+            );
+            z-index: 3;
+            h6, p{
+                clear: both;
+            }
+            h6{
+                font-size: 1.1em;
+            }
+        }
+    }
+}
+
 footer{
     display: inline;
     float: left;
