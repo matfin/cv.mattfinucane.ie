@@ -185,6 +185,27 @@ section{
 }
 
 #portfolio{
+    position: relative;
+    button{
+        position: absolute;
+        top: 50%;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: #000;
+        opacity: 0.0;
+        border: 0px;
+        z-index: 4;
+    }
+    .prev{
+        left: 10px;
+    }   
+    .next{
+        right: 10px;
+    }
+    &:hover button{
+        opacity: 0.8;
+    }
     figure{
         position: relative;
         display: none;

@@ -274,7 +274,35 @@ section a:visited {
   }
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
+#portfolio {
+  position: relative;
+}
+/* line 189, ../sass/screen.scss */
+#portfolio button {
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #000;
+  opacity: 0.0;
+  border: 0px;
+  z-index: 4;
+}
+/* line 200, ../sass/screen.scss */
+#portfolio .prev {
+  left: 10px;
+}
+/* line 203, ../sass/screen.scss */
+#portfolio .next {
+  right: 10px;
+}
+/* line 206, ../sass/screen.scss */
+#portfolio:hover button {
+  opacity: 0.8;
+}
+/* line 209, ../sass/screen.scss */
 #portfolio figure {
   position: relative;
   display: none;
@@ -283,11 +311,11 @@ section a:visited {
   box-shadow: 3px 3px 6px #999;
   z-index: 2;
 }
-/* line 195, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 #portfolio figure:nth-of-type(1) {
   display: inline;
 }
-/* line 198, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 #portfolio figure img {
   position: relative;
   display: inline;
@@ -298,7 +326,7 @@ section a:visited {
   height: auto;
   z-index: 1;
 }
-/* line 208, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 #portfolio figure figcaption {
   position: absolute;
   bottom: 0px;
@@ -310,16 +338,16 @@ section a:visited {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.2)));
   z-index: 3;
 }
-/* line 224, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #portfolio figure figcaption h6, #portfolio figure figcaption p {
   clear: both;
 }
-/* line 227, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 #portfolio figure figcaption h6 {
   font-size: 1.1em;
 }
 
-/* line 234, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

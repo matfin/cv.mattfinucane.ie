@@ -297,6 +297,8 @@
             <h2>
                 Portfolio
             </h2>
+            <button class="next">Back</button>
+            <button class="prev">Next</button>
             <?php include_once('includes/portfolio.php'); ?>
         </section>             
         <section id="qualifications">
