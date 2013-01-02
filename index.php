@@ -1,3 +1,4 @@
+<?php include_once('classes/portfolioitem.php'); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -288,6 +289,12 @@
                 </dd>
             </dl>
         </section>
+        <section id="portfolio">
+            <h2>
+                Portfolio
+            </h2>
+            <?php include_once('includes/portfolio.php'); ?>
+        </section>             
         <section id="qualifications">
             <h2>
                 Qualifications
