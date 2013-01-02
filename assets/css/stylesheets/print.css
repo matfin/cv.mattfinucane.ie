@@ -76,12 +76,6 @@ html {
 }
 
 /* line 15, ../sass/print.scss */
-a {
-  text-decoration: underline;
-  color: #000;
-}
-
-/* line 20, ../sass/print.scss */
 body {
   width: 100%;
   height: 100%;
@@ -90,41 +84,42 @@ body {
   color: #000;
 }
 
-/* line 28, ../sass/print.scss */
+/* line 23, ../sass/print.scss */
 header, section {
-  display: inline;
-  float: left;
+  display: block;
   width: 80%;
-  max-width: 800px;
   margin: 0px 0px 0px 10%;
   padding: 10px 0px 10px 0px;
   clear: both;
 }
 
-/* line 38, ../sass/print.scss */
+/* line 31, ../sass/print.scss */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 36, ../sass/print.scss */
 header {
   border-bottom: 1px solid #000;
 }
-/* line 40, ../sass/print.scss */
+/* line 38, ../sass/print.scss */
 header h1 {
-  display: inline;
-  float: left;
+  display: block;
   font-size: 1.4em;
   font-weight: bold;
 }
-/* line 46, ../sass/print.scss */
+/* line 43, ../sass/print.scss */
 header a {
-  display: inline;
-  float: left;
+  display: block;
   clear: both;
   text-decoration: none;
-  font-size: 0.75em;
+  font-size: 1.0em;
 }
 
-/* line 56, ../sass/print.scss */
+/* line 52, ../sass/print.scss */
 section h2 {
-  display: inline;
-  float: left;
+  display: block;
   width: 100%;
   font-size: 1.2em;
   font-weight: bold;
@@ -132,95 +127,74 @@ section h2 {
   border-bottom: 1px solid #cdc9c8;
   padding: 0px 0px 5px 0px;
 }
-/* line 66, ../sass/print.scss */
+/* line 61, ../sass/print.scss */
 section h2 + h3 {
   margin: 10px 0px 10px 0px;
 }
-/* line 69, ../sass/print.scss */
+/* line 64, ../sass/print.scss */
 section h2 + h3 + h4 {
   margin: 10px 0px 10px 0px;
 }
-/* line 72, ../sass/print.scss */
+/* line 67, ../sass/print.scss */
 section h3 {
-  display: inline;
-  float: left;
+  display: block;
   font-size: 1.1em;
   font-weight: bold;
   clear: left;
   margin: 30px 0px 10px 0px;
 }
-/* line 80, ../sass/print.scss */
+/* line 74, ../sass/print.scss */
 section h3:nth-of-type(3) {
+  display: block;
   page-break-before: always;
 }
-/* line 83, ../sass/print.scss */
+/* line 78, ../sass/print.scss */
 section h4 {
-  display: inline;
-  float: right;
+  display: block;
   font-size: 1.0em;
-  margin: 30px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
   color: #cdc9c8;
 }
-/* line 90, ../sass/print.scss */
+/* line 84, ../sass/print.scss */
 section h5 {
-  display: inline;
-  float: left;
+  display: block;
   font-size: 1.0em;
   font-weight: bold;
   clear: both;
   margin: 5px 0px 5px 0px;
 }
-/* line 98, ../sass/print.scss */
+/* line 91, ../sass/print.scss */
 section p {
-  display: inline;
-  float: left;
+  display: block;
   clear: both;
   line-height: 1.4em;
 }
-/* line 105, ../sass/print.scss */
+/* line 97, ../sass/print.scss */
 section h2 + p {
   margin: 10px 0px 0px 0px;
 }
-/* line 109, ../sass/print.scss */
+/* line 101, ../sass/print.scss */
 section ol {
-  display: inline;
-  float: left;
+  display: block;
   margin: 10px 0px 0px 0px;
   clear: both;
 }
-/* line 114, ../sass/print.scss */
+/* line 105, ../sass/print.scss */
 section ol li {
-  display: inline;
-  float: left;
-  margin: 0px 20px 0px 0px;
+  display: block;
+  line-height: 1.3;
 }
-@media (max-width: 480px) {
-  /* line 114, ../sass/print.scss */
-  section ol li {
-    clear: both;
-    padding: 3px 0px 3px 0px;
-  }
-}
-/* line 124, ../sass/print.scss */
-section a {
-  color: #8A8F91;
-  text-decoration: none;
-  font-weight: bold;
-}
-/* line 128, ../sass/print.scss */
-section a:hover {
-  text-decoration: underline;
-}
-/* line 131, ../sass/print.scss */
-section a:visited {
+/* line 110, ../sass/print.scss */
+section a:after {
+  content: " - (" attr(href) ")";
   color: #cdc9c8;
 }
 
-/* line 138, ../sass/print.scss */
+/* line 117, ../sass/print.scss */
 #technical_skills h2 {
   width: 100%;
 }
-/* line 141, ../sass/print.scss */
+/* line 120, ../sass/print.scss */
 #technical_skills dl {
   display: inline;
   float: left;
@@ -228,33 +202,26 @@ section a:visited {
   min-height: 220px;
   line-height: 1.2em;
 }
-/* line 148, ../sass/print.scss */
+/* line 127, ../sass/print.scss */
 #technical_skills dl dt, #technical_skills dl dd {
   display: inline;
   float: left;
 }
-/* line 152, ../sass/print.scss */
+/* line 131, ../sass/print.scss */
 #technical_skills dl dt {
   margin: 10px 0px 10px 0px;
   font-weight: bold;
 }
-/* line 156, ../sass/print.scss */
+/* line 135, ../sass/print.scss */
 #technical_skills dl dd {
   clear: both;
 }
-/* line 158, ../sass/print.scss */
+/* line 137, ../sass/print.scss */
 #technical_skills dl dd:before {
   content: '-';
 }
-@media (max-width: 480px) {
-  /* line 164, ../sass/print.scss */
-  #technical_skills dl {
-    width: 100%;
-    min-height: 100px;
-  }
-}
 
-/* line 171, ../sass/print.scss */
+/* line 144, ../sass/print.scss */
 footer {
   display: none;
 }

@@ -13,8 +13,8 @@
             <h1>
                 Matt Finucane &ndash; Curriculum Vitae
             </h1>
-            <a href="mailto:matt@mattfinucane.ie" title="Email Matt Fimucane">
-                email: matt@mattfinucane.ie
+            <a href="mailto:matfin@gmail.com" title="Email Matt Fimucane">
+                email: matfin@gmail.com
             </a>
             <a href="tel:+353861945324" title="Phone Matt Finucane">
                 tel: +353 (0)86 1945324
@@ -46,7 +46,7 @@
                 Mobile development
             </h5>
             <p>
-                Worked on a variety of mobile apps using both native and cross platform frameworks for major clients such as Three Mobile, NewsWhip and The Irish Times.
+                Worked on a variety of mobile apps using both native and cross platform frameworks for major clients such as Hutchison 3G Ireland, NewsWhip and The Irish Times.
             </p>
             <h5>
                 Technical lead
