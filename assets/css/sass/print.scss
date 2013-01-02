@@ -1,3 +1,173 @@
-/* Welcome to Compass. Use this file to define print styles.
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import url(http://fonts.googleapis.com/css?family=Average+Sans);
+
+html{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+a{
+    text-decoration: underline;
+    color: #000;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font: 10pt Georgia, "Times New Roman", Times, serif;
+    line-height: 1.1;
+    color: #000;
+}
+
+header, section{
+    display: inline;
+    float: left;
+    width: 80%;
+    max-width: 800px;
+    margin: 0px 0px 0px 10%;
+    padding: 10px 0px 10px 0px;
+    clear: both;
+}
+
+header{
+    border-bottom: 1px solid #000;
+    h1{
+        display: inline;
+        float: left;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    a{
+        display: inline;    
+        float: left;
+        clear: both;
+        text-decoration: none;
+        font-size: 0.75em;
+    }
+}
+
+section{
+    h2{
+        display: inline;
+        float: left;
+        width: 100%;
+        font-size: 1.2em;
+        font-weight: bold;
+        clear: both;
+        border-bottom: 1px solid #cdc9c8;
+        padding: 0px 0px 5px 0px;
+    }
+    h2+h3{
+        margin: 10px 0px 10px 0px;
+    }
+    h2+h3+h4{
+        margin: 10px 0px 10px 0px;
+    }
+    h3{
+        display: inline;
+        float: left;
+        font-size: 1.1em;
+        font-weight: bold;
+        clear: left;
+        margin: 30px 0px 10px 0px;
+    }
+    h3:nth-of-type(3){
+        page-break-before: always;
+    }
+    h4{
+        display: inline;
+        float: right;
+        font-size: 1.0em;
+        margin: 30px 0px 10px 0px;
+        color: #cdc9c8;
+    }
+    h5{
+        display: inline;
+        float: left;
+        font-size: 1.0em;
+        font-weight: bold;
+        clear: both;
+        margin: 5px 0px 5px 0px;
+    }
+    p{
+        display: inline;
+        float: left;
+        clear: both;
+        line-height: 1.4em;
+    }
+    
+    h2+p{
+        margin: 10px 0px 0px 0px;
+    }
+
+    ol{
+        display: inline;
+        float: left;
+        margin: 10px 0px 0px 0px;
+        clear: both;
+        li{
+            display: inline;
+            float: left;
+            margin: 0px 20px 0px 0px;
+            @media (max-width:480px){
+                clear: both;
+                padding: 3px 0px 3px 0px;
+            }
+        }
+    }
+    a{
+        color: #8A8F91;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover{
+            text-decoration: underline;
+        }
+        &:visited{
+            color: #cdc9c8;
+        }
+    }
+}
+
+#technical_skills{
+    h2{
+        width: 100%;
+    }
+    dl{
+        display: inline;
+        float: left;
+        width: 33%;
+        min-height: 220px;
+        line-height: 1.2em;
+
+        dt, dd{
+            display: inline;
+            float: left;
+        }
+        dt{
+            margin: 10px 0px 10px 0px;
+            font-weight: bold;
+        }
+        dd{
+            clear: both;
+            &:before{
+                content: '-';
+            }
+        }
+    }
+    @media (max-width: 480px){
+        dl{
+            width: 100%;
+            min-height: 100px;   
+        }
+    }
+}
+
+footer{
+    display: none;
+}
