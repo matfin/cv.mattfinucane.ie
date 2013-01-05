@@ -282,27 +282,37 @@ section a:visited {
 #portfolio button {
   position: absolute;
   top: 50%;
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
   background-color: #000;
   opacity: 0.0;
   border: 0px;
   z-index: 4;
+  color: #fff;
+  font-size: 1.0em;
 }
-/* line 200, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 #portfolio .prev {
-  left: 10px;
+  left: -40px;
 }
-/* line 203, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
+#portfolio .prev:before {
+  content: '< ';
+}
+/* line 208, ../sass/screen.scss */
 #portfolio .next {
-  right: 10px;
+  right: -40px;
 }
-/* line 206, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
+#portfolio .next:after {
+  content: ' >';
+}
+/* line 214, ../sass/screen.scss */
 #portfolio:hover button {
   opacity: 0.8;
 }
-/* line 209, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #portfolio figure {
   position: relative;
   display: none;
@@ -311,11 +321,11 @@ section a:visited {
   box-shadow: 3px 3px 6px #999;
   z-index: 2;
 }
-/* line 216, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 #portfolio figure:nth-of-type(1) {
   display: inline;
 }
-/* line 219, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 #portfolio figure img {
   position: relative;
   display: inline;
@@ -326,7 +336,7 @@ section a:visited {
   height: auto;
   z-index: 1;
 }
-/* line 229, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 #portfolio figure figcaption {
   position: absolute;
   bottom: 0px;
@@ -338,16 +348,16 @@ section a:visited {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.2)));
   z-index: 3;
 }
-/* line 245, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 #portfolio figure figcaption h6, #portfolio figure figcaption p {
   clear: both;
 }
-/* line 248, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 #portfolio figure figcaption h6 {
   font-size: 1.1em;
 }
 
-/* line 255, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

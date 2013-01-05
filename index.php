@@ -12,6 +12,8 @@
         <title>Matt Finucane &ndash; Curriculum Vitae</title>
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/screen.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/print.css" media="print" />
+        <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
     </head>
     <body>
         <header>
@@ -297,8 +299,8 @@
             <h2>
                 Portfolio
             </h2>
-            <button class="next">Back</button>
-            <button class="prev">Next</button>
+            <button class="prev">Back</button>
+            <button class="next">Next</button>
             <?php include_once('includes/portfolio.php'); ?>
         </section>             
         <section id="qualifications">
