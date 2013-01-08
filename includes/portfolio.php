@@ -1,5 +1,4 @@
-<?php
-    
+<?php 
     $portfolio_items = array(
         /*
          * Web work
@@ -13,21 +12,24 @@
         new portfolioitem('Rhendy Chartered Accountants', 'rhendy.jpg', 'Content managed with Perch CMS and uses Facebook Connect and Twitter API for social sharing.'),
         new portfolioitem('Vantastival', 'vantastival.jpg', 'Content managed using wordpress with integrated Facebook and Twitter social plugins for sharing content.')
     );
-    
-    foreach($portfolio_items as $index => $portfolio_item)
-    {
 ?>
-<figure data-index="<?=$index?>">
-    <img src="<?=$base . '/assets/portfolio/' . $portfolio_item->get_image_path(); ?>" width="800" height="600" alt="<?=$portfolio_item->get_title(); ?>" />
-    <figcaption>
-        <h6>
-            <?=$portfolio_item->get_title();?>
-        </h6>
-        <p>
-            <?=$portfolio_item->get_caption(); ?>
-        </p>
-    </figcaption>
-</figure>
-<?      
-    }
-?>
+<div style="width: <?= (count($portfolio_items) + 1) * 800; ?>px">
+    <?php
+        foreach($portfolio_items as $index => $portfolio_item)
+        {
+    ?>
+    <figure data-index="<?=$index?>">
+        <img src="<?=$base . '/assets/portfolio/' . $portfolio_item->get_image_path(); ?>" width="800" height="600" alt="<?=$portfolio_item->get_title(); ?>" />
+        <figcaption>
+            <h6>
+                <?=$portfolio_item->get_title();?>
+            </h6>
+            <p>
+                <?=$portfolio_item->get_caption(); ?>
+            </p>
+        </figcaption>
+    </figure>
+    <?      
+        }
+    ?>
+</div>
