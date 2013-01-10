@@ -294,7 +294,7 @@ section a:visited {
   border: 0px;
   z-index: 4;
   color: #fff;
-  font-size: 1.0em;
+  font-size: 1.5em;
 }
 /* line 205, ../sass/screen.scss */
 #portfolio .prev {
@@ -313,7 +313,7 @@ section a:visited {
   content: ' >';
 }
 /* line 217, ../sass/screen.scss */
-#portfolio:hover button {
+#portfolio:hover button, #portfolio:hover figcaption {
   opacity: 0.9;
 }
 /* line 220, ../sass/screen.scss */
@@ -351,26 +351,29 @@ section a:visited {
 }
 /* line 245, ../sass/screen.scss */
 #portfolio div figure figcaption {
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  opacity: 0.0;
   position: absolute;
   bottom: 0px;
   left: 0px;
   width: 98%;
   padding: 1%;
-  min-height: 60px;
+  min-height: 10%;
   color: #fff;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.2)));
-  z-index: 3;
+  background-color: #000;
+  z-index: 5;
 }
-/* line 261, ../sass/screen.scss */
-#portfolio div figure figcaption h6, #portfolio div figure figcaption p {
-  clear: both;
-}
-/* line 264, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 #portfolio div figure figcaption h6 {
   font-size: 1.1em;
+  line-height: 60px;
+  text-shadow: none;
+  margin: 0px 0px 0px 80px;
 }
 
-/* line 272, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

@@ -200,7 +200,7 @@ section{
         border: 0px;
         z-index: 4;
         color: #fff;
-        font-size: 1.0em;
+        font-size: 1.5em;
     }
     .prev{
         left: -40px;
@@ -214,7 +214,7 @@ section{
             content: ' >';
         }
     }
-    &:hover button{
+    &:hover button, &:hover figcaption{
         opacity: 0.9;
     }
     div{
@@ -243,26 +243,22 @@ section{
                 z-index: 1;
             }
             figcaption{
+                @include animated(0.3s);
+                opacity: 0.0;
                 position: absolute;
                 bottom: 0px;
                 left: 0px;
                 width: 98%;
                 padding: 1%;
-                min-height: 60px;
+                min-height: 10%;
                 color: #fff;
-                background-image: -webkit-gradient(
-                    linear,
-                    left bottom,
-                    left top,
-                    from(rgba(0, 0, 0, 0.8)),
-                    to(rgba(0, 0, 0, 0.2))
-                );
-                z-index: 3;
-                h6, p{
-                    clear: both;
-                }
+                background-color: #000;
+                z-index: 5;
                 h6{
                     font-size: 1.1em;
+                    line-height: 60px;
+                    text-shadow: none;
+                    margin: 0px 0px 0px 80px;
                 }
             }
         }
