@@ -71,14 +71,7 @@ function toggleFullFigCaption(show){
            });
            $('button', '#portfolio').css({
                'background-color':'#fff',
-               'color':'#000',
-               'width':'100px'
-           });
-           $('.prev').css({
-               'padding-left':'40px'
-           });
-            $('.next').css({
-               'padding-right':'40px'
+               'color':'#000'
            });
            $('figcaption').data('showing', true);
            break;
@@ -89,14 +82,7 @@ function toggleFullFigCaption(show){
            });
            $('button', '#portfolio').css({
                'background-color':'#000',
-               'color':'#fff',
-               'width':'140px'
-           });
-           $('.prev').css({
-               'padding-left':'0px'
-           });
-            $('.next').css({
-               'padding-right':'0px'
+               'color':'#fff'
            });
            $('figcaption').data('showing', false);
            break;

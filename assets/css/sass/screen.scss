@@ -178,7 +178,7 @@ section{
         @include animated(0.3s);
         position: absolute;
         top: 50%;
-        width: 140px;
+        width: 100px;
         height: 80px;
         @include roundcorner(40px);
         background-color: #000;
@@ -190,12 +190,14 @@ section{
     }
     .prev{
         left: -40px;
+        padding-left: 30px;
         &:before{
             content: '< ';
         }
     }   
     .next{
         right: -40px;
+        padding-right: 30px;
         &:after{
             content: ' >';
         }
@@ -212,7 +214,6 @@ section{
             position: relative;
             float: left;
             margin: 10px 0px 0px 0px;
-            box-shadow: 3px 3px 6px #999;
             z-index: 2;
             &:nth-of-type(1){
                 display: inline;
@@ -223,7 +224,8 @@ section{
                 float: left;
                 top: 0px;
                 left: 0px;
-                width: 100%;
+                width: 75%;
+                margin: 0px 0px 0px 12.5%;
                 height: auto;
                 z-index: 1;
             }
@@ -241,9 +243,8 @@ section{
                 z-index: 5;
                 h6{
                     font-size: 1.1em;
-                    line-height: 60px;
                     text-shadow: none;
-                    margin: 0px 0px 0px 80px;
+                    margin: 10px 0px 0px 80px;
                 }
             }
         }

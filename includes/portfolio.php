@@ -56,7 +56,7 @@
         {
     ?>
     <figure data-index="<?=$index?>">
-        <img src="<?=$base . '/assets/portfolio/' . $portfolio_item->get_image_path(); ?>" width="800" height="600" alt="<?=$portfolio_item->get_title(); ?>" />
+        <img src="<?=$base . '/assets/portfolio/web/' . $portfolio_item->get_image_path(); ?>" width="800" height="600" alt="<?=$portfolio_item->get_title(); ?>" />
         <figcaption data-showing=false>
             <h6>
                 <?=$portfolio_item->get_title();?>
