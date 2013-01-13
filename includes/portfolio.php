@@ -5,43 +5,67 @@
          */
         new portfolioitem(
             'Angels Beacons of Hope', 
-            'angels-beacons-of-hope.jpg', 
-            'This site was created pro&ndash;bono as part of a collaborative team effort in late 2009.'
+            'web/angels-beacons-of-hope.jpg', 
+            'This site was created pro&ndash;bono as part of a collaborative team effort in late 2009.',
+            array(
+                
+            )
         ),
         new portfolioitem(
             'Dress For Success Dublin', 
-            'dress-for-success-dublin.jpg', 
-            'One of the entries for 24 The Web, a 24 hour design challenge for charities. Site uses Perch as a cms and CodeIgniter for storing and retrieving contact information.'
+            'web/dress-for-success-dublin.jpg', 
+            'One of the entries for 24 The Web, a 24 hour design challenge for charities. Site uses Perch as a cms and CodeIgniter for storing and retrieving contact information.',
+            array(
+                
+            )
         ),
         new portfolioitem(
             'iBox streaming TV', 
-            'ibox.jpg', 
-            'Web based TV guide interface for a subscription based TV streaming service in Ireland.'
+            'web/ibox.jpg', 
+            'Web based TV guide interface for a subscription based TV streaming service in Ireland.',
+            array(
+                
+            )
         ),
         new portfolioitem(
             'LittleGreen', 
-            'littlegreen.jpg', 
-            'Wordpress based site for managing content. Integrated Facebook Connect for social sharing and Google Analytics for tracking.'
+            'web/littlegreen.jpg', 
+            'Wordpress based site for managing content. Integrated Facebook Connect for social sharing and Google Analytics for tracking.',
+            array(
+                
+            )
         ),
         new portfolioitem(
             'PaddyPower Casino', 
-            'paddypower-casino.jpg', 
-            'Created with custom built CMS using CodeIgniter for front end and back end.'
+            'web/paddypower-casino.jpg', 
+            'Created with custom built CMS using CodeIgniter for front end and back end.',
+             array(
+                
+            )
         ),
         new portfolioitem(
             'PaddyPower Games', 
-            'paddypower-games.jpg', 
-            'Redesigned and integrated custom cms using CodeIgniter framework.'
+            'web/paddypower-games.jpg', 
+            'Redesigned and integrated custom cms using CodeIgniter framework.',
+            array(
+                
+            )
         ),
         new portfolioitem(
             'Rhendy Chartered Accountants', 
-            'rhendy.jpg', 
-            'Content managed with Perch CMS and uses Facebook Connect and Twitter API for social sharing.'
+            'web/rhendy.jpg', 
+            'Content managed with Perch CMS and uses Facebook Connect and Twitter API for social sharing.',
+            array(
+                
+            )
         ),
         new portfolioitem(
             'Vantastival', 
-            'vantastival.jpg', 
-            'Content managed using wordpress with integrated Facebook and Twitter social plugins for sharing content.'
+            'web/vantastival.jpg', 
+            'Content managed using wordpress with integrated Facebook and Twitter social plugins for sharing content.',
+            array(
+                
+            )
         )
     );
 ?>
@@ -56,10 +80,10 @@
         {
     ?>
     <figure data-index="<?=$index?>">
-        <img src="<?=$base . '/assets/portfolio/web/' . $portfolio_item->get_image_path(); ?>" width="800" height="600" alt="<?=$portfolio_item->get_title(); ?>" />
+        <img src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('image_path'); ?>" width="800" height="600" alt="<?=$portfolio_item->get('title'); ?>" />
         <figcaption data-showing=false>
             <h6>
-                <?=$portfolio_item->get_title();?>
+                <?=$portfolio_item->get('title');?>
             </h6>
         </figcaption>
     </figure>

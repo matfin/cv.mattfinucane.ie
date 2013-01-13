@@ -348,21 +348,20 @@ section a:visited {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  width: 98%;
-  padding: 1%;
+  width: 100%;
   min-height: 10%;
   color: #fff;
   background-color: #000;
   z-index: 5;
 }
-/* line 244, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 #portfolio div figure figcaption h6 {
   font-size: 1.1em;
   text-shadow: none;
   margin: 10px 0px 0px 80px;
 }
 
-/* line 254, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

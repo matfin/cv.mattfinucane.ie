@@ -67,7 +67,7 @@ function toggleFullFigCaption(show){
     switch(show){
         case false:{
            $('figcaption', 'figure').css({
-              'height':'98%'
+              'height':'100%'
            });
            $('button', '#portfolio').css({
                'background-color':'#fff',
