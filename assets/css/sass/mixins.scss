@@ -1,0 +1,12 @@
+@mixin animated($duration){
+    -webkit-transition: $duration ease-in-out;
+    -moz-transition: all $duration ease-in-out 0s;
+    -o-transition: $duration ease-in-out;
+}
+
+@mixin roundcorner($px){
+    border-radius: $px;
+    -webkit-border-radius: $px;
+    -moz-border-radius: $px;
+    -o-border-radius: $px;
+}

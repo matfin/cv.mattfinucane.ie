@@ -282,13 +282,16 @@ section a:visited {
 /* line 191, ../sass/screen.scss */
 #portfolio button {
   -webkit-transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out 0s;
   -o-transition: 0.3s ease-in-out;
   position: absolute;
   top: 50%;
   width: 140px;
   height: 80px;
   border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
   background-color: #000;
   opacity: 0.0;
   border: 0px;
@@ -322,23 +325,22 @@ section a:visited {
   float: left;
   position: relative;
   -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out 0s;
   -o-transition: 0.5s ease-in-out;
 }
 /* line 225, ../sass/screen.scss */
 #portfolio div figure {
   position: relative;
-  /*display: none;*/
   float: left;
   margin: 10px 0px 0px 0px;
   box-shadow: 3px 3px 6px #999;
   z-index: 2;
 }
-/* line 232, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 #portfolio div figure:nth-of-type(1) {
   display: inline;
 }
-/* line 235, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #portfolio div figure img {
   position: relative;
   display: inline;
@@ -349,10 +351,10 @@ section a:visited {
   height: auto;
   z-index: 1;
 }
-/* line 245, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 #portfolio div figure figcaption {
   -webkit-transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out 0s;
   -o-transition: 0.3s ease-in-out;
   opacity: 0.0;
   position: absolute;
@@ -365,7 +367,7 @@ section a:visited {
   background-color: #000;
   z-index: 5;
 }
-/* line 257, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 #portfolio div figure figcaption h6 {
   font-size: 1.1em;
   line-height: 60px;
@@ -373,7 +375,7 @@ section a:visited {
   margin: 0px 0px 0px 80px;
 }
 
-/* line 268, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

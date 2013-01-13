@@ -35,7 +35,32 @@ function move(direction){
         }
     }
     var move_by = (current_index * (-800));
-    $('#portfolio div').css('-webkit-transform','translateX(' + move_by + 'px)');
+    //$('#portfolio div').css('-webkit-transform','translateX(' + move_by + 'px)');
+    cssTransform('#portfolio div', move_by);
+}
+
+function cssTransform(node, move_by){
+    if($.browser.webkit){
+        console.log('Webkit based browser');
+        $(node).css('-webkit-transform','translateX(' + move_by + 'px)');
+    }
+    else if($.browser.mozilla){
+        console.log('Gecko based browser');
+        $(node).css('-moz-transform','translateX(' + move_by + 'px)');
+    }
+    else if($.browser.opera){
+        console.log('Opera browser');
+        $(node).css('-o-transform','translateX(' + move_by + 'px)');
+    }
+    else if($.browser.msie){
+        console.log('Internet Explorer browser');
+        $(node).css('-ms-transform','translateX(' + move_by + 'px)');
+    } 
+    else{
+        console.log('Unknown browser - use positioning instead');
+        $(node).css('left', move_by + 'px)');
+    }
+    
 }
 
 function toggleFullFigCaption(show){

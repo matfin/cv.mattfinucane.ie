@@ -1,5 +1,0 @@
-@mixin animated($duration){
-    -webkit-transition: $duration ease-in-out;
-    -moz-transition: $duration ease-in-out;
-    -o-transition: $duration ease-in-out;
-}
