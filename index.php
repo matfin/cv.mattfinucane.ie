@@ -2,6 +2,7 @@
     $protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
     $base = $protocol . '://' . $_SERVER['HTTP_HOST'];
     include_once('classes/portfolioitem.php'); 
+    include_once('classes/job.php'); 
 ?>
 <!DOCTYPE html>
 <html>
@@ -9,7 +10,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <title>Matt Finucane &ndash; Curriculum Vitae</title>
+        <title>Matthew Finucane &ndash; Curriculum Vitae</title>
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/screen.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/print.css" media="print" />
         <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
@@ -18,7 +19,7 @@
     <body>
         <header>
             <h1>
-                Matt Finucane &ndash; Curriculum Vitae
+                Matthew Finucane &ndash; Curriculum Vitae
             </h1>
             <a href="mailto:matfin@gmail.com" title="Email Matt Fimucane">
                 email: matfin@gmail.com

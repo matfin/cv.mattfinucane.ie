@@ -1,85 +1,114 @@
+<?php
+    $jobs = array(
+        new job(
+            'Maith&uacute; IT Solutions',
+            'Lead Developer',
+            'Dublin, Ireland',
+            new DateTime('2012-01-16'),
+            new DateTime(),
+            array(
+                'Worked on a variety of native and cross platform mobile apps.',
+                'Created TV Guide software to run on an STB, Google TV and the web.',
+                'Coordinated project workload and tasks with internal and external developers.',
+                'Researched and used a wide variety of tools and platforms.',
+                'Provided support to internal developers and front end designers as technical lead.'
+            ) 
+        ),
+        new job(
+            'Paddy Power PLC',
+            'Senior PHP Developer',
+            'Dublin, Ireland',
+            new DateTime('2010-03-08'),
+            new DateTime('2012-01-11'),
+            array(
+                'Worked as a PHP and front end developer creating robust cross browser compatible code.',
+                'Developed a web based payroll application for use in the shops across the country.',
+                'Developed the CMS and front end for Paddy Power Games and Casino.',
+                'Redeveloped the Paddy Power mobile games CMS to include support for multiple platforms.',
+                'Configured web services to deliver optimal performance for large numbers of visitors.'
+            )
+        ),
+        new job(
+            'Clearweb',
+            'Owner (self employed)',
+            'Dublin, Ireland',
+            new DateTime('2008-07-01'),
+            new DateTime('2010-03-08'),
+            array(
+                'Founded my own business working freelance on web sites and web applications.',
+                'Created a webapp to create and manage competitions on Facebook for a PR firm.',
+                'Created a web based sport social media platform in the DCU Invent Center.',
+                'Hand coded websites to adhere to industry standards in design and accessibility.'
+            )
+        ),
+        new job(
+            'Net a Porter',
+            'Java Web Developer',
+            'London, UK',
+            new DateTime('2007-07-01'),
+            new DateTime('2008-06-28'),
+            array(
+                'Worked as a font and back end developer on a complete design overhaul of the site.',
+                'Created an internal WYSIWYG tool to create promotional emails and newsletter templates.',
+                'Created the front and back end for the internal employee web portal.'
+            )
+        ),
+        new job(
+            'AOL Technologies Ltd',
+            'Associate Software Engineer',
+            'Dublin, Ireland',
+            new DateTime('2005-07-01'),
+            new DateTime('2006-06-15'),
+            array(
+                'Worked on an XSLT framework to store formatted news RSS feeds to a common database schema.',
+                'Created a web application to store and monitor information on incoming news RSS feeds.',
+                'Created and installed an issue tracking and ticketing system for internal developers.',
+                'Ported feed processing infrastructure from HPUX to Red Hat Linux.' 
+            )
+        )
+    );
+?>
+
 <h2>
-    Professional Work Experience
+    Work Experience
 </h2>
-<!-- Company -->
+<?php
+     /*
+     * company, 
+     * position,
+     * location,
+     * start_date,
+     * end_date,
+     * roles
+     */
+    foreach($jobs as $job){
+?>
 <h3>
-    Maith&uacute; IT Solutions
+    <?= $job->get('company') . ' &ndash; ' . $job->get('position'); ?>
 </h3>
 <h4>
-    Dublin &ndash; Ireland. <time datetime="2012-01-16">January</time> to <time datetime="<?=date('Y-m-d')?>">Present</time>
+    <?= $job->get('location'); ?>. <time datetime="<?= date_format($job->get('start_date'), 'Y-m-d'); ?>"><?= date_format($job->get('start_date'), 'F Y'); ?></time> to <time datetime="<?= date_format($job->get('end_date'), 'Y-m-d'); ?>"><?= date_format($job->get('end_date'), 'F Y'); ?></time>
 </h4>
-<h5 data-languages="java, objective C, javascript, html5">
-    Mobile development
-</h5>
-<p>
-    Worked on a variety of mobile apps using both native and cross platform frameworks for major clients such as Hutchison 3G Ireland, NewsWhip and The Irish Times.
-</p>
-<h5>
-    Technical lead
-</h5>
-<p>
-    As technical lead, I was responsible for making decisions on the best tools and frameworks to use when working on different projects. I also worked closely with other developers and designers internally and externally to provide advice and support throughout the course of our projects.
-</p>
-<h5>
-    Web applications
-</h5>
-<p>
-    I planned and implemented TV guide and video streaming software for a TV set top box. I also extended this project to work on HLS compliant devices, such as the Google TV box and Safari browser for Mac.
-</p>
-<p>
-    I also worked on a video storage and retrieval solution for scanning and encoding several hours of recorded video. Both these projects were developed using the Microsoft MVC3 web application framework and deployed to IIS servers.
-</p>
+<ol>
+<?php
+    foreach($job->get('roles') as $role){
+?>
+<li>
+    <?= $role; ?>
+</li>
+<?php
+    }
+?>
+</ol>
+<?php
+    }
+?>
+
+
 <!-- Company -->
-<h3>
-    Paddy Power PLC
-</h3>
-<h4>
-    Dublin &ndash; Ireland. <time datetime="2010-03-08">March 2010</time> to <time datetime="2012-01-16">January 2012</time>
-</h4>
-<h5 data-languages="php, javascript, html5">
-    Payroll System
-</h5>
-<p>
-    Worked with members of the Finance and HR team in developing a payroll web application for deployment to shops across the country.
-</p>
-<h5>
-    Business channels
-</h5>
-<p>
-    Worked on rebuilding the CMS and front end for Paddy Power Casino from scratch and was one of the original developers involved in the project from the beginning. I was also involved with working on the redesign and redevelopment of the Paddy Power Games website.
-</p>
-<h5>
-    Paddy Power Mobile CMS
-</h5>
-<p>
-    Redeveloped and extended the Paddy Power Mobile Games CMS to include support for games available on multiple platforms.
-</p>
-<!-- Company -->
-<h3>
-    Self Employed
-</h3>
-<h4>
-    Dublin &ndash; Ireland. <time datetime="2008-07-01">July 2008</time> to <time datetime="2010-03-08">March 2010</time>
-</h4>
-<h5 data-languages="php, javascript, html5">
-    Clearweb
-</h5>
-<p>
-    Founded my own web development and design business and worked with several clients, including a major Dublin based PR firm. For them, I created a content management system to allow them to post competitions to their clients Facebook page.
-</p>
-<h5>
-    DCU Invent Center
-</h5>
-<p>
-    Designed and built a news and communication tool to allow coaches to easily manage their teams and interact with their supporters. For this, we received support from the FCEB and Invent Center in DCU. 
-</p>
-<h5>
-    Web Development
-</h5>
-<p>
-    All websites and web applications were hand coded in HTML and CSS to W3C specifications and were designed to match industry standards and best practice in usability and accessibility. 
-</p>
- <!-- Company -->
+
+<? /* ?>
+
 <h3>
     Net&ndash;&Aacute;&ndash;Porter
 </h3>
@@ -98,3 +127,6 @@
 <p>
     Designed and developed the comapny&#39;s internal corporate intranet for use by staff members in the UK and US. I also developed a WYSIWYG tool to allow the marketing team to build templated HTML emails.
 </p>
+  
+<? */ ?>
+ 
