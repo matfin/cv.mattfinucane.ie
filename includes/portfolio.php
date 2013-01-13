@@ -13,6 +13,11 @@
         new portfolioitem('Vantastival', 'vantastival.jpg', 'Content managed using wordpress with integrated Facebook and Twitter social plugins for sharing content.')
     );
 ?>
+<h2>
+    Portfolio
+</h2>
+<button class="prev"></button>
+<button class="next"></button>
 <div style="width: <?= (count($portfolio_items) + 1) * 800; ?>px">
     <?php
         foreach($portfolio_items as $index => $portfolio_item)
