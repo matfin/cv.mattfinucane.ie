@@ -1,9 +1,17 @@
  <h2>
     Interests
 </h2>
-<p>
-    My main interests lie in technology, the web, game development and how people interact with these. I am a self&ndash; taught iOS and Android developer and am working on a few of my own projects. My code can be seen on <a href="http://github.com/matfin" title="Matt Finucane on GitHub">GitHub</a>.
-</p>
-<p>
-    I have also worked on several pro&ndash;bono websites and projects for individuals and organisations starting out. In 2011 I took part in the <a href="http://24theweb.com/about" title="24 The Web Design Challenge">24 The Web Design Challenge</a> and was lead developer in a team of seven people.
-</p>
+<ol>
+    <li>
+        Combined my interest in web development and photography to create my own photography website showcasing photos.
+    </li>
+    <li>
+        Self taught iOS and Android developer working on my own projects.
+    </li>
+    <li>
+        Have worked on several small pro bono projects for charities and small organisations.
+    </li>
+    <li>
+        Took part in the 24 The Web design challenge in 2011 to create a site for a charity. 
+    </li>
+</ol>
