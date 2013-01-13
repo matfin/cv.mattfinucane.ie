@@ -2,16 +2,15 @@
     $jobs = array(
         new job(
             'Maith&uacute; IT Solutions',
-            'Lead Developer',
+            'Technical lead',
             'Dublin, Ireland',
             new DateTime('2012-01-16'),
             new DateTime(),
             array(
-                'Worked on a variety of native and cross platform mobile apps.',
-                'Created TV Guide software to run on an STB, Google TV and the web.',
-                'Coordinated project workload and tasks with internal and external developers.',
-                'Researched and used a wide variety of tools and platforms.',
-                'Provided support to internal developers and front end designers as technical lead.'
+                'Technical lead responsibilities included coordinating work between internal and external developers, also providing them with support and direction.',
+                'Advised the team on most appropriate tools and framewoks to use for projects based on in-depth research and prior experience.',
+                'Worked on a variety of native and cross platform mobile apps for clients including The Irish Times, Three Mobile and NewsWhip.',
+                'Created TV Guide software to run on a digital set tob box, Google TV and the web.'
             ) 
         ),
         new job(
@@ -21,7 +20,7 @@
             new DateTime('2010-03-08'),
             new DateTime('2012-01-11'),
             array(
-                'Worked as a PHP and front end developer creating robust cross browser compatible code.',
+                'Involved in long-term projects from planning to completion and them maintenance.',
                 'Developed a web based payroll application for use in the shops across the country.',
                 'Developed the CMS and front end for Paddy Power Games and Casino.',
                 'Redeveloped the Paddy Power mobile games CMS to include support for multiple platforms.',
@@ -35,10 +34,9 @@
             new DateTime('2008-07-01'),
             new DateTime('2010-03-08'),
             array(
-                'Founded my own business working freelance on web sites and web applications.',
-                'Created a webapp to create and manage competitions on Facebook for a PR firm.',
-                'Created a web based sport social media platform in the DCU Invent Center.',
-                'Hand coded websites to adhere to industry standards in design and accessibility.'
+                'Founded a web consultancy, working on websites and web applications which were hand coded to adhere to industry standards in design and accessibility.',
+                'Consulted with clients to deliver cost effective and practical solutions for their needs.',
+                'Projects included several websites for small businesses, a sport social media platform and a CMS to update content on Facebook for a PR firm.'
             )
         ),
         new job(
@@ -49,8 +47,21 @@
             new DateTime('2008-06-28'),
             array(
                 'Worked as a font and back end developer on a complete design overhaul of the site.',
-                'Created an internal WYSIWYG tool to create promotional emails and newsletter templates.',
+                'Created an internal WYSIWYG tool to author promotional emails and newsletter templates.',
                 'Created the front and back end for the internal employee web portal.'
+            )
+        ),
+        new job(
+            'Find My Past',
+            'Front end Web Developer',
+            'London, UK',
+            new DateTime('2006-09-12'),
+            new DateTime('2007-06-30'),
+            array(
+                'Refactored website html for improved performance, usability and accessibility.',
+                'Created html based templates for newsletter and promotional emails.',
+                'Hand coded microsites including Ancestors On Board.',
+                'Provided ongoing support and maintenance for the main website.'
             )
         ),
         new job(
@@ -60,7 +71,7 @@
             new DateTime('2005-07-01'),
             new DateTime('2006-06-15'),
             array(
-                'Worked on an XSLT framework to store formatted news RSS feeds to a common database schema.',
+                'Worked on an XSLT framework to store formatted XML feeds to a common database schema.',
                 'Created a web application to store and monitor information on incoming news RSS feeds.',
                 'Created and installed an issue tracking and ticketing system for internal developers.',
                 'Ported feed processing infrastructure from HPUX to Red Hat Linux.' 
@@ -73,14 +84,6 @@
     Work Experience
 </h2>
 <?php
-     /*
-     * company, 
-     * position,
-     * location,
-     * start_date,
-     * end_date,
-     * roles
-     */
     foreach($jobs as $job){
 ?>
 <h3>
@@ -103,30 +106,3 @@
 <?php
     }
 ?>
-
-
-<!-- Company -->
-
-<? /* ?>
-
-<h3>
-    Net&ndash;&Aacute;&ndash;Porter
-</h3>
-<h4>
-    London &ndash; UK. <time datetime="2007-07-01">July 2007</time> to <time datetime="2008-07-01">July 2008</time>
-</h4>
-<h5 data-languages="php, javascript, html5">
-    Website redesign
-</h5>
-<p>
-    Worked as part of a team of designers, developers and UX consultants to completely redesign and redevelop the website to facilitate SEO, content updates and front end usability. 
-</p>
-<h5>
-    Web Applications
-</h5>
-<p>
-    Designed and developed the comapny&#39;s internal corporate intranet for use by staff members in the UK and US. I also developed a WYSIWYG tool to allow the marketing team to build templated HTML emails.
-</p>
-  
-<? */ ?>
- 

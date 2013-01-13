@@ -6,7 +6,7 @@
         Web and mobile applications developer (both native and cross platform).
     </li>
     <li>
-        Over 7 years industry experience working at home and abroad.
+        Over 7 years industry experience working in Ireland, the UK and France.
     </li>
     <li>
         Passionate about technology and keeping up with the latest industry practices.
