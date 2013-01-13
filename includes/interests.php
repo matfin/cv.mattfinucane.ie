@@ -3,7 +3,7 @@
 </h2>
 <ol>
     <li>
-        Combined my interest in web development and photography to create my own photography website showcasing photos.
+        Combined interest in photography and the web to create my own website.
     </li>
     <li>
         Self taught iOS and Android developer working on my own projects.

@@ -80,8 +80,8 @@ section{
     h2+h3{
         margin: 10px 0px 10px 0px;
     }
-    h2+h3+h4{
-        margin: 10px 0px 10px 0px;
+    h2+ol{
+        margin: 10px 0px 0px 0px;
     }
     h3{
         display: inline;
@@ -93,9 +93,10 @@ section{
     }
     h4{
         display: inline;
-        float: right;
+        float: left;
+        clear: both;
         font-size: 1.0em;
-        margin: 30px 0px 10px 0px;
+        margin: 0px 0px 10px 0px;
         color: #cdc9c8;
     }
     @media (max-width: 480px){
@@ -104,34 +105,19 @@ section{
             margin: 10px 0px 10px 0px;
         }
     }
-    h5{
-        display: inline;
-        float: left;
-        font-size: 1.0em;
-        font-weight: bold;
-        clear: both;
-        margin: 5px 0px 5px 0px;
-    }
-    p{
-        display: inline;
-        float: left;
-        clear: both;
-        line-height: 1.4em;
-    }
-    
-    h2+p{
-        margin: 10px 0px 0px 0px;
-    }
-
     ol{
         display: inline;
         float: left;
-        margin: 10px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
         clear: both;
         li{
             display: inline;
             float: left;
             margin: 0px 20px 0px 0px;
+            line-height: 1.5em;
+            &:before{
+                 content: '-';
+            }
             @media (max-width:480px){
                 clear: both;
                 padding: 3px 0px 3px 0px;

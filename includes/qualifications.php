@@ -18,22 +18,9 @@
         Worked in Alcatel CIT in France for six months as part of third year work placement.
     </li>
     <li>
-        Created a java based scrolling platform game for mobile devices for final year project (75%) marks.
+        Created a java based scrolling platform game for mobile devices for final year project (75% marks).
     </li>
     <li>
         Graduated with second class honours (2.2).
-    </li>
-    <li>
-        <ol>
-            <li>
-                <a href="http://www.mattfinucane.ie/docs/Ero-Technical-Manual.pdf" title="Project Technical Manual">Technical Manual</a>
-            </li>
-            <li>
-                <a href="http://www.mattfinucane.ie/docs/Ero-User-Manual.pdf" title="Project User Manual">User Manual</a>
-            </li>
-            <li>
-                <a href="http://www.mattfinucane.ie/docs/animation_example.java" title="Project Source Manual">Source code</a>
-            </li>
-        </ol>
     </li>
 </ol>
