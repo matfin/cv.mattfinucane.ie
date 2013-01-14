@@ -213,6 +213,7 @@ section{
         @include animated(0.5s);
         figure{
             position: relative;
+            width: 800px;
             float: left;
             margin: 10px 0px 0px 0px;
             z-index: 2;

@@ -320,15 +320,16 @@ section a:visited {
 /* line 214, ../sass/screen.scss */
 #portfolio div figure {
   position: relative;
+  width: 800px;
   float: left;
   margin: 10px 0px 0px 0px;
   z-index: 2;
 }
-/* line 219, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 #portfolio div figure:nth-of-type(1) {
   display: inline;
 }
-/* line 222, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 #portfolio div figure img {
   position: relative;
   display: inline;
@@ -340,7 +341,7 @@ section a:visited {
   height: auto;
   z-index: 1;
 }
-/* line 233, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #portfolio div figure figcaption {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -355,14 +356,14 @@ section a:visited {
   background-color: #000;
   z-index: 5;
 }
-/* line 244, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #portfolio div figure figcaption h6 {
   font-size: 1.1em;
   text-shadow: none;
   margin: 10px 0px 0px 12.5%;
 }
 
-/* line 254, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

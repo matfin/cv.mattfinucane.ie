@@ -3,7 +3,50 @@
         /*
          *  Mobile work
          */
-        
+        new portfolioitem(
+            'The Irish Times', 
+            'http://tinyurl.com/bfg42q9',
+            'mobile/irishtimes.jpg', 
+            'iPhone and Android version of the Irish Times news app',
+            'solution',
+            'mobile',
+            array(
+                
+            )
+        ),
+        new portfolioitem(
+            'NewsWhip', 
+            'http://tinyurl.com/aoqs6ps',
+            'mobile/newswhip.jpg', 
+            'Cross platform HTML5 app for NewsWhip',
+            'solution',
+            'mobile',
+            array(
+                
+            )
+        ),
+        new portfolioitem(
+            'Three Football', 
+            'http://tinyurl.com/apkyk34',
+            'mobile/threefootball.jpg', 
+            'Cross platform HTML5 app for Three Football',
+            'solution',
+            'mobile',
+            array(
+                
+            )
+        ),
+        new portfolioitem(
+            'Photography', 
+            false,
+            'mobile/photography.jpg', 
+            'Native app pulling my photos from flickr',
+            'solution',
+            'mobile',
+            array(
+                
+            )
+        ),
         
         /*
          *  Web work
@@ -109,7 +152,7 @@
         {
     ?>
     <figure data-index="<?=$index?>">
-        <img src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('image_path'); ?>" width="800" height="600" alt="<?=$portfolio_item->get('title'); ?>" />
+        <img src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('image_path'); ?>" width="600" height="450" alt="<?=$portfolio_item->get('title'); ?>" />
         <figcaption data-showing=false>
             <h6>
                 <?=$portfolio_item->get('title');?>
