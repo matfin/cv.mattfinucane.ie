@@ -9,7 +9,7 @@
             array(
                 'Technical lead responsibilities included coordinating work between internal and external developers, also providing them with support and direction.',
                 'Advised the team on most appropriate tools and framewoks to use for projects based on in-depth research and prior experience.',
-                'Worked on a variety of native and cross platform mobile apps for clients including The Irish Times, Three Mobile and NewsWhip.',
+                'Lead a team of developers working on a variety of native and cross platform mobile apps for clients including The Irish Times, Three Mobile and NewsWhip.',
                 'Created TV Guide software to run on a digital set tob box, Google TV and the web.'
             ) 
         ),
