@@ -81,7 +81,7 @@ section{
         margin: 10px 0px 10px 0px;
     }
     h2+ol{
-        margin: 10px 0px 0px 0px;
+        margin: 10px 0px 0px 10px;
     }
     h3{
         display: inline;
@@ -108,7 +108,8 @@ section{
     ol{
         display: inline;
         float: left;
-        margin: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 10px;
+        text-indent: -10px;
         clear: both;
         li{
             display: inline;
@@ -116,7 +117,7 @@ section{
             margin: 0px 20px 0px 0px;
             line-height: 1.5em;
             &:before{
-                 content: '-';
+                content: '-';
             }            
             @media (max-width:480px){
                 clear: both;
@@ -159,7 +160,7 @@ section{
         dd{
             clear: both;
             &:before{
-                content: '-';
+                content: "-";
             }
         }
     }
