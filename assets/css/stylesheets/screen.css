@@ -357,13 +357,26 @@ section a:visited {
   z-index: 5;
 }
 /* line 245, ../sass/screen.scss */
-#portfolio div figure figcaption h6 {
-  font-size: 1.1em;
-  text-shadow: none;
+#portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption h4 {
+  display: inline;
+  position: relative;
+  opacity: 0.0;
+  float: left;
+  clear: both;
   margin: 10px 0px 0px 12.5%;
+  text-shadow: none;
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out 0s;
+  -o-transition: 0.6s ease-in-out;
+}
+/* line 255, ../sass/screen.scss */
+#portfolio div figure figcaption h3 {
+  font-size: 1.1em;
+  opacity: 1.0;
+  height: 100%;
 }
 
-/* line 255, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

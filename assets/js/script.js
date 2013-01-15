@@ -35,7 +35,6 @@ function move(direction){
         }
     }
     var move_by = (current_index * (-800));
-    //$('#portfolio div').css('-webkit-transform','translateX(' + move_by + 'px)');
     cssTransform('#portfolio div', move_by);
 }
 
@@ -63,22 +62,28 @@ function cssTransform(node, move_by){
     
 }
 
-function toggleFullFigCaption(show){
-    switch(show){
+function toggleFullFigCaption(showing){
+    switch(showing){
         case false:{
            $('figcaption', 'figure').css({
-              'height':'100%'
+              'min-height':'100%'
            });
            $('button', '#portfolio').css({
                'background-color':'#fff',
                'color':'#000'
            });
+           $('h4, p, dd', '#portfolio').css({
+              'opacity':'1.0' 
+           });
            $('figcaption').data('showing', true);
            break;
         }
         case true:{
+           $('h4, p, dd', '#portfolio').css({
+              'opacity':'0.0' 
+           });
            $('figcaption', 'figure').css({
-              'height':'10%'
+              'min-height':'10%'
            });
            $('button', '#portfolio').css({
                'background-color':'#000',
