@@ -199,7 +199,7 @@ section ol li {
 }
 /* line 119, ../sass/screen.scss */
 section ol li:before {
-  content: '-';
+  content: '\00BB';
 }
 @media (max-width: 480px) {
   /* line 114, ../sass/screen.scss */
@@ -251,7 +251,7 @@ section a:visited {
 }
 /* line 162, ../sass/screen.scss */
 #technical_skills dl dd:before {
-  content: "-";
+  content: '\00BB';
 }
 @media (max-width: 480px) {
   /* line 168, ../sass/screen.scss */
@@ -357,7 +357,7 @@ section a:visited {
   z-index: 5;
 }
 /* line 245, ../sass/screen.scss */
-#portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption h4, #portfolio div figure figcaption ol {
+#portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol {
   display: none;
   position: relative;
   opacity: 0.0;
@@ -376,8 +376,21 @@ section a:visited {
   display: inline;
   height: 100%;
 }
-
+/* line 261, ../sass/screen.scss */
+#portfolio div figure figcaption ol {
+  margin: 40px 0px 0px 12.5%;
+}
+/* line 263, ../sass/screen.scss */
+#portfolio div figure figcaption ol li {
+  padding: 0px 0px 0px 5px;
+  line-height: 1.2em;
+}
 /* line 266, ../sass/screen.scss */
+#portfolio div figure figcaption ol li:before {
+  content: '\2714';
+}
+
+/* line 276, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

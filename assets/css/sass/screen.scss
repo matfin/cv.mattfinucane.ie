@@ -117,7 +117,7 @@ section{
             margin: 0px 20px 0px 0px;
             line-height: 1.5em;
             &:before{
-                content: '-';
+                content: '\00BB';
             }            
             @media (max-width:480px){
                 clear: both;
@@ -160,7 +160,7 @@ section{
         dd{
             clear: both;
             &:before{
-                content: "-";
+                content: '\00BB';
             }
         }
     }
@@ -242,7 +242,7 @@ section{
                 color: #fff;
                 background-color: #000;
                 z-index: 5;
-                h3, p, dd, h4, ol{
+                h3, p, dd, ol{
                     display: none;
                     position: relative;
                     opacity: 0.0;
@@ -257,6 +257,16 @@ section{
                     opacity: 1.0;
                     display: inline;
                     height: 100%;
+                }
+                ol{
+                    margin: 40px 0px 0px 12.5%;
+                    li{
+                        padding: 0px 0px 0px 5px;
+                        line-height: 1.2em;
+                        &:before{
+                            content: '\2714';
+                        } 
+                    }
                 }
             }
         }

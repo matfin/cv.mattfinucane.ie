@@ -74,10 +74,13 @@ function toggleFullFigCaption(showing){
                 'color':'#000'
            });
            t = setTimeout(function(){
-                $('h4, p, dd, ol', '#portfolio').css({
-                    'opacity':'1.0',
-                    'display':'inline'
-                });
+               $('h3', '#portfolio').css({
+                  'margin':'100px 0px 20px 12.5%'
+               });
+               $('p, dd, ol', '#portfolio').css({
+                   'opacity':'1.0',
+                   'display':'inline'
+               });
            }, 100);
           
            $('figcaption').data('showing', true);
@@ -85,7 +88,10 @@ function toggleFullFigCaption(showing){
            break
         }
         case true:{
-           $('h4, p, dd, ol', '#portfolio').css({
+           $('h3', '#portfolio').css({
+               'margin':'10px 0px 0px 12.5%'
+           });
+           $('p, dd, ol', '#portfolio').css({
               'opacity':'0.0',
               'display':'none'
            });

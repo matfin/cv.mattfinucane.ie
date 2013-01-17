@@ -102,9 +102,6 @@
             <p>
                 <?= $portfolio_item->get('solution'); ?>
             </p>
-            <h4>
-                Features
-            </h4>
             <ol>
                 <?php
                     $features = $portfolio_item->get('i_did');
