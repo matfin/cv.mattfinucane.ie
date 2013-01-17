@@ -357,8 +357,8 @@ section a:visited {
   z-index: 5;
 }
 /* line 245, ../sass/screen.scss */
-#portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption h4 {
-  display: inline;
+#portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption h4, #portfolio div figure figcaption ol {
+  display: none;
   position: relative;
   opacity: 0.0;
   float: left;
@@ -373,10 +373,11 @@ section a:visited {
 #portfolio div figure figcaption h3 {
   font-size: 1.1em;
   opacity: 1.0;
+  display: inline;
   height: 100%;
 }
 
-/* line 265, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

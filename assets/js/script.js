@@ -63,24 +63,31 @@ function cssTransform(node, move_by){
 }
 
 function toggleFullFigCaption(showing){
+    var t;
     switch(showing){
         case false:{
            $('figcaption', 'figure').css({
-              'min-height':'100%'
+                'min-height':'100%'
            });
            $('button', '#portfolio').css({
-               'background-color':'#fff',
-               'color':'#000'
+                'background-color':'#fff',
+                'color':'#000'
            });
-           $('h4, p, dd', '#portfolio').css({
-              'opacity':'1.0' 
-           });
+           t = setTimeout(function(){
+                $('h4, p, dd, ol', '#portfolio').css({
+                    'opacity':'1.0',
+                    'display':'inline'
+                });
+           }, 100);
+          
            $('figcaption').data('showing', true);
-           break;
+           
+           break
         }
         case true:{
-           $('h4, p, dd', '#portfolio').css({
-              'opacity':'0.0' 
+           $('h4, p, dd, ol', '#portfolio').css({
+              'opacity':'0.0',
+              'display':'none'
            });
            $('figcaption', 'figure').css({
               'min-height':'10%'

@@ -7,9 +7,8 @@ class portfolioitem
     private $brief;
     private $solution;
     private $i_did;
-    private $type;
     
-    public function portfolioitem($the_title, $the_url, $the_image_path, $the_brief, $the_solution, $the_i_did, $the_type)
+    public function portfolioitem($the_title, $the_url, $the_image_path, $the_brief, $the_solution, $the_i_did)
     {
         $this->title = $the_title;
         $this->url = $the_url;
@@ -17,7 +16,6 @@ class portfolioitem
         $this->brief = $the_brief;
         $this->solution = $the_solution;
         $this->i_did = $the_i_did;
-        $this->type = $the_type;
     }
     
     public function get($attr){

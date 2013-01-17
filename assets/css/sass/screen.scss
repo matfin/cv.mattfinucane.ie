@@ -242,8 +242,8 @@ section{
                 color: #fff;
                 background-color: #000;
                 z-index: 5;
-                h3, p, dd, h4{
-                    display: inline;
+                h3, p, dd, h4, ol{
+                    display: none;
                     position: relative;
                     opacity: 0.0;
                     float: left;
@@ -255,6 +255,7 @@ section{
                 h3{
                     font-size: 1.1em;
                     opacity: 1.0;
+                    display: inline;
                     height: 100%;
                 }
             }
