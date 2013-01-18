@@ -34,6 +34,26 @@ function move(direction){
             break;
         }
     }
+    if(current_index > 0){
+        $('.prev', '#portfolio').css({
+            'left':'-40px'
+        });
+    }
+    else{
+        $('.prev', '#portfolio').css({
+            'left':'-100px'
+        });
+    }
+    if(current_index == portfolio_count){
+        $('.next', '#portfolio').css({
+            'right':'-100px'
+        });
+    }
+    else{
+        $('.next', '#portfolio').css({
+            'right':'-40px'
+        });
+    }
     var move_by = (current_index * (-800));
     cssTransform('#portfolio div', move_by);
 }
