@@ -10,3 +10,27 @@
     -moz-border-radius: $px;
     -o-border-radius: $px;
 }
+
+@mixin rotated($deg){
+    -webkit-transform: rotate($deg);
+    -moz-transform: rotate($deg);
+    -o-transform: rotate($deg);
+}
+
+@mixin toparrow($px){
+    &:after{
+        bottom: 100%;
+        border: solid transparent;
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+    &:after{
+        border-color: rgba(0, 0, 0, 0);
+        border-bottom-color: #000000;
+        border-width: $px;
+        left: 50%;
+        margin-left: -$px;
+    }
+}

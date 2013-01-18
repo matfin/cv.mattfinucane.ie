@@ -15,7 +15,7 @@ html{
 body{
     width: 100%;
     height: 100%;
-    font-family: 'Average Sans' sans-serif;
+    font-family: 'Average Sans', sans-serif;
     font-size: 1.0em;
     color: #000;
     border-top: 30px solid #D0E2D5;
@@ -193,14 +193,14 @@ section{
         left: -40px;
         padding-left: 30px;
         &:before{
-            content: '< ';
+            content: '\00AB';
         }
     }   
     .next{
         right: -40px;
         padding-right: 30px;
         &:after{
-            content: ' >';
+            content: '\00BB';
         }
     }
     &:hover button, &:hover figcaption{
@@ -238,7 +238,7 @@ section{
                 bottom: 0px;
                 left: 0px;
                 width: 100%;
-                min-height: 10%;
+                min-height: 15%;
                 color: #fff;
                 background-color: #000;
                 z-index: 5;
@@ -249,6 +249,7 @@ section{
                     float: left;
                     clear: both;
                     margin: 10px 0px 0px 12.5%;
+                    width: 75%;
                     text-shadow: none;
                     @include animated(0.6s);
                 }
@@ -261,7 +262,8 @@ section{
                 ol{
                     margin: 40px 0px 0px 12.5%;
                     li{
-                        padding: 0px 0px 0px 5px;
+                        text-indent: -15px;
+                        margin: 0px 0px 0px 15px;
                         line-height: 1.2em;
                         &:before{
                             content: '\2714';

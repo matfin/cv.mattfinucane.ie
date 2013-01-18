@@ -96,7 +96,7 @@ function toggleFullFigCaption(showing){
               'display':'none'
            });
            $('figcaption', 'figure').css({
-              'min-height':'10%'
+              'min-height':'15%'
            });
            $('button', '#portfolio').css({
                'background-color':'#000',
