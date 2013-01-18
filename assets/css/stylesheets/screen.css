@@ -342,7 +342,7 @@ section a:visited {
   z-index: 1;
 }
 /* line 234, ../sass/screen.scss */
-#portfolio div figure img.img-print {
+#portfolio div figure img.img-print, #portfolio div figure img.img-qrcode {
   display: none;
 }
 /* line 237, ../sass/screen.scss */
@@ -360,7 +360,7 @@ section a:visited {
   z-index: 5;
 }
 /* line 247, ../sass/screen.scss */
-#portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol {
+#portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
   display: none;
   position: relative;
   opacity: 0.0;
@@ -394,8 +394,16 @@ section a:visited {
 #portfolio div figure figcaption ol li:before {
   content: '\2714';
 }
-
+/* line 276, ../sass/screen.scss */
+#portfolio div figure figcaption a.link-full:before {
+  content: '\00BB';
+}
 /* line 280, ../sass/screen.scss */
+#portfolio div figure figcaption a.link-short {
+  display: none;
+}
+
+/* line 288, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

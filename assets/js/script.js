@@ -21,6 +21,9 @@ function primePortfolioScroll(){
     $('div', '#portfolio').click(function(){
         toggleFullFigCaption($('figcaption', this).data('showing')); 
     });
+    $('a[rel="external"]').each(function(){
+        $(this).attr('target', '_blank');
+    });
 }
 
 function move(direction){
@@ -97,7 +100,7 @@ function toggleFullFigCaption(showing){
                $('h3', '#portfolio').css({
                   'margin':'100px 0px 20px 12.5%'
                });
-               $('p, dd, ol', '#portfolio').css({
+               $('p, dd, ol, a.link-full', '#portfolio').css({
                    'opacity':'1.0',
                    'display':'inline'
                });
@@ -111,7 +114,7 @@ function toggleFullFigCaption(showing){
            $('h3', '#portfolio').css({
                'margin':'10px 0px 0px 12.5%'
            });
-           $('p, dd, ol', '#portfolio').css({
+           $('p, dd, ol, a.link-full', '#portfolio').css({
               'opacity':'0.0',
               'display':'none'
            });
