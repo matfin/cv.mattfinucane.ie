@@ -18,8 +18,8 @@ function primePortfolioScroll(){
     $('button.prev').click(function(){
         move('prev'); 
     });
-    $('figcaption').click(function(){
-        toggleFullFigCaption($(this).data('showing')); 
+    $('div', '#portfolio').click(function(){
+        toggleFullFigCaption($('figcaption', this).data('showing')); 
     });
 }
 
