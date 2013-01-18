@@ -68,14 +68,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 9, ../sass/print.scss */
+/* line 10, ../sass/print.scss */
 html {
   width: 100%;
   height: 100%;
   background: transparent;
 }
 
-/* line 15, ../sass/print.scss */
+/* line 16, ../sass/print.scss */
 body {
   width: 100%;
   height: 100%;
@@ -84,7 +84,7 @@ body {
   color: #000;
 }
 
-/* line 23, ../sass/print.scss */
+/* line 24, ../sass/print.scss */
 header, section {
   display: block;
   width: 80%;
@@ -93,23 +93,23 @@ header, section {
   clear: both;
 }
 
-/* line 31, ../sass/print.scss */
+/* line 32, ../sass/print.scss */
 a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 36, ../sass/print.scss */
+/* line 37, ../sass/print.scss */
 header {
   border-bottom: 1px solid #000;
 }
-/* line 38, ../sass/print.scss */
+/* line 39, ../sass/print.scss */
 header h1 {
   display: block;
   font-size: 1.4em;
   font-weight: bold;
 }
-/* line 43, ../sass/print.scss */
+/* line 44, ../sass/print.scss */
 header a {
   display: block;
   clear: both;
@@ -117,7 +117,7 @@ header a {
   font-size: 1.0em;
 }
 
-/* line 52, ../sass/print.scss */
+/* line 53, ../sass/print.scss */
 section h2 {
   display: block;
   width: 100%;
@@ -127,15 +127,15 @@ section h2 {
   border-bottom: 1px solid #cdc9c8;
   padding: 0px 0px 5px 0px;
 }
-/* line 61, ../sass/print.scss */
+/* line 62, ../sass/print.scss */
 section h2 + h3 {
   margin: 10px 0px 10px 0px;
 }
-/* line 64, ../sass/print.scss */
+/* line 65, ../sass/print.scss */
 section h2 + h3 + h4 {
   margin: 10px 0px 10px 0px;
 }
-/* line 67, ../sass/print.scss */
+/* line 68, ../sass/print.scss */
 section h3 {
   display: block;
   font-size: 1.1em;
@@ -143,19 +143,19 @@ section h3 {
   clear: left;
   margin: 30px 0px 10px 0px;
 }
-/* line 74, ../sass/print.scss */
+/* line 75, ../sass/print.scss */
 section h3:nth-of-type(7) {
   display: block;
   page-break-before: always;
 }
-/* line 78, ../sass/print.scss */
+/* line 79, ../sass/print.scss */
 section h4 {
   display: block;
   font-size: 1.0em;
   margin: 10px 0px 10px 0px;
   color: #cdc9c8;
 }
-/* line 84, ../sass/print.scss */
+/* line 85, ../sass/print.scss */
 section h5 {
   display: block;
   font-size: 1.0em;
@@ -163,70 +163,123 @@ section h5 {
   clear: both;
   margin: 5px 0px 5px 0px;
 }
-/* line 91, ../sass/print.scss */
+/* line 92, ../sass/print.scss */
 section p {
   display: block;
   clear: both;
   line-height: 1.4em;
 }
-/* line 97, ../sass/print.scss */
+/* line 98, ../sass/print.scss */
 section h2 + p {
   margin: 10px 0px 0px 0px;
 }
-/* line 101, ../sass/print.scss */
+/* line 102, ../sass/print.scss */
 section ol {
   display: block;
   margin: 10px 0px 0px 0px;
   clear: both;
 }
-/* line 105, ../sass/print.scss */
+/* line 106, ../sass/print.scss */
 section ol li {
   display: block;
   line-height: 1.3;
 }
-/* line 110, ../sass/print.scss */
-section a:after {
-  content: " - (" attr(href) ")";
-  color: #cdc9c8;
-}
 
-/* line 117, ../sass/print.scss */
+/* line 114, ../sass/print.scss */
 #portfolio button {
   display: none;
 }
+/* line 117, ../sass/print.scss */
+#portfolio div {
+  display: inline;
+  float: left;
+}
+/* line 120, ../sass/print.scss */
+#portfolio div figure {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 260px;
+  min-height: 200px;
+  margin: 10px 5px 10px 0px;
+  border-right: 1px solid #cdc9c8;
+  border-bottom: 1px solid #000;
+}
+/* line 129, ../sass/print.scss */
+#portfolio div figure img.img-screen {
+  display: none;
+}
+/* line 132, ../sass/print.scss */
+#portfolio div figure img.img-print {
+  display: inline;
+  float: left;
+}
+/* line 136, ../sass/print.scss */
+#portfolio div figure img.img-qrcode {
+  display: inline;
+  float: right;
+}
+/* line 140, ../sass/print.scss */
+#portfolio div figure figcaption {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 250px;
+}
+/* line 145, ../sass/print.scss */
+#portfolio div figure figcaption h3, #portfolio div figure figcaption a.link-short {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 20px 0px 0px 15px;
+  font-size: 100%;
+  clear: both;
+}
+/* line 153, ../sass/print.scss */
+#portfolio div figure figcaption p, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
+  display: none;
+}
+/* line 157, ../sass/print.scss */
+#portfolio div figure:nth-child(3n) {
+  border-right: 0px;
+}
+/* line 160, ../sass/print.scss */
+#portfolio div figure:nth-of-type(4) {
+  clear: left;
+}
 
-/* line 123, ../sass/print.scss */
+/* line 168, ../sass/print.scss */
 #technical_skills h2 {
   width: 100%;
 }
-/* line 126, ../sass/print.scss */
+/* line 171, ../sass/print.scss */
 #technical_skills dl {
   display: inline;
   float: left;
   width: 33%;
-  min-height: 220px;
+  min-height: 180px;
   line-height: 1.2em;
 }
-/* line 133, ../sass/print.scss */
+/* line 178, ../sass/print.scss */
 #technical_skills dl dt, #technical_skills dl dd {
   display: inline;
   float: left;
 }
-/* line 137, ../sass/print.scss */
+/* line 182, ../sass/print.scss */
 #technical_skills dl dt {
   margin: 10px 0px 10px 0px;
   font-weight: bold;
 }
-/* line 141, ../sass/print.scss */
+/* line 186, ../sass/print.scss */
 #technical_skills dl dd {
   clear: both;
 }
-/* line 143, ../sass/print.scss */
+/* line 188, ../sass/print.scss */
 #technical_skills dl dd:before {
   content: '-';
 }
 
-/* line 150, ../sass/print.scss */
+/* line 195, ../sass/print.scss */
 footer {
   display: none;
 }

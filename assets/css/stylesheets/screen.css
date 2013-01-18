@@ -330,7 +330,7 @@ section a:visited {
   display: inline;
 }
 /* line 223, ../sass/screen.scss */
-#portfolio div figure img {
+#portfolio div figure img.img-screen {
   position: relative;
   display: inline;
   float: left;
@@ -342,6 +342,10 @@ section a:visited {
   z-index: 1;
 }
 /* line 234, ../sass/screen.scss */
+#portfolio div figure img.img-print {
+  display: none;
+}
+/* line 237, ../sass/screen.scss */
 #portfolio div figure figcaption {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -355,7 +359,7 @@ section a:visited {
   background-color: #000;
   z-index: 5;
 }
-/* line 244, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 #portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol {
   display: none;
   position: relative;
@@ -369,29 +373,29 @@ section a:visited {
   -moz-transition: all 0.6s ease-in-out 0s;
   -o-transition: 0.6s ease-in-out;
 }
-/* line 255, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 #portfolio div figure figcaption h3 {
   font-size: 1.1em;
   opacity: 1.0;
   display: inline;
   height: 100%;
 }
-/* line 261, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 #portfolio div figure figcaption ol {
   margin: 40px 0px 0px 12.5%;
 }
-/* line 263, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 #portfolio div figure figcaption ol li {
   text-indent: -15px;
   margin: 0px 0px 0px 15px;
   line-height: 1.2em;
 }
-/* line 267, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 #portfolio div figure figcaption ol li:before {
   content: '\2714';
 }
 
-/* line 277, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

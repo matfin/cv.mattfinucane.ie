@@ -220,7 +220,7 @@ section{
             &:nth-of-type(1){
                 display: inline;
             }
-            img{
+            img.img-screen{
                 position: relative;
                 display: inline;
                 float: left;
@@ -230,6 +230,9 @@ section{
                 margin: 0px 0px 0px 12.5%;
                 height: auto;
                 z-index: 1;
+            }
+            img.img-print{
+                display: none;
             }
             figcaption{
                 @include animated(0.3s);

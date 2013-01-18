@@ -5,6 +5,7 @@
 
 @import "compass/reset";
 @import url(http://fonts.googleapis.com/css?family=Average+Sans);
+@import "mixins.scss";
 
 html{
     width: 100%;
@@ -107,15 +108,59 @@ section{
             line-height: 1.3;
         }
     }
-    a:after{
-        content: " - ("attr(href)")";
-        color: #cdc9c8;
-    }
 }
 
 #portfolio{
     button{
         display: none;
+    }
+    div{
+        display: inline;
+        float: left;
+        figure{
+            position: relative;
+            display: inline;
+            float: left;
+            width: 260px;
+            min-height: 200px;
+            margin: 10px 5px 10px 0px;
+            border-right: 1px solid #cdc9c8;
+            border-bottom: 1px solid #000;
+            img.img-screen{
+                display: none;
+            }
+            img.img-print{
+                display: inline;
+                float: left;
+            }
+            img.img-qrcode{
+                display: inline;
+                float: right;
+            }
+            figcaption{
+                position: relative;
+                display: inline;
+                float: left;
+                width: 250px;
+                h3, a.link-short{
+                    display: inline;
+                    float: left;
+                    width: 100%;
+                    margin: 20px 0px 0px 15px;
+                    font-size: 100%;
+                    clear: both;
+                }
+                p, ol, a.link-full{
+                    display: none;
+                }
+            }
+            &:nth-child(3n){
+                border-right: 0px;
+            }
+            &:nth-of-type(4){
+                clear: left;
+            }
+        }
     }
 }
 
@@ -127,7 +172,7 @@ section{
         display: inline;
         float: left;
         width: 33%;
-        min-height: 220px;
+        min-height: 180px;
         line-height: 1.2em;
 
         dt, dd{
