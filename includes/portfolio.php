@@ -103,7 +103,7 @@
 </h2>
 <button class="prev"></button>
 <button class="next"></button>
-<div style="width: <?= (count($portfolio_items) + 1) * 800; ?>px">
+<div>
     <?php
         foreach($portfolio_items as $index => $portfolio_item)
         {

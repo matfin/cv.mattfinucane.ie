@@ -175,6 +175,7 @@ section{
 #portfolio{
     position: relative;
     overflow-x: hidden;
+    display: none;
     button{
         @include animated(0.3s);
         position: absolute;
@@ -213,7 +214,6 @@ section{
         @include animated(0.5s);
         figure{
             position: relative;
-            width: 800px;
             float: left;
             margin: 10px 0px 0px 0px;
             z-index: 2;

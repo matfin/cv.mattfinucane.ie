@@ -265,8 +265,9 @@ section a:visited {
 #portfolio {
   position: relative;
   overflow-x: hidden;
+  display: none;
 }
-/* line 178, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 #portfolio button {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -286,29 +287,29 @@ section a:visited {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 192, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #portfolio .prev {
   left: -100px;
   padding-left: 30px;
 }
-/* line 195, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 #portfolio .prev:before {
   content: '\00AB';
 }
-/* line 199, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 #portfolio .next {
   right: -40px;
   padding-right: 30px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 #portfolio .next:after {
   content: '\00BB';
 }
-/* line 206, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 #portfolio:hover button, #portfolio:hover figcaption {
   opacity: 0.9;
 }
-/* line 209, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 #portfolio div {
   display: inline;
   float: left;
@@ -317,10 +318,9 @@ section a:visited {
   -moz-transition: all 0.5s ease-in-out 0s;
   -o-transition: 0.5s ease-in-out;
 }
-/* line 214, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 #portfolio div figure {
   position: relative;
-  width: 800px;
   float: left;
   margin: 10px 0px 0px 0px;
   z-index: 2;

@@ -12,6 +12,16 @@ $(document).ready(function(){
 
 function primePortfolioScroll(){
     portfolio_count = $('figure', '#portfolio').length - 1;
+    $('#portfolio').css({
+       'display':'inline' 
+    });
+    $('div', '#portfolio').css({
+       'width': (portfolio_count + 2) * 100 + '%'
+    });
+    $('div figure', '#portfolio').css({
+        'width': parseFloat(100 / (portfolio_count + 2)) + '%'
+    });
+    
     $('button.next').click(function(){
         move('next');
     });
@@ -57,32 +67,32 @@ function move(direction){
             'right':'-40px'
         });
     }
-    var move_by = (current_index * (-800));
-    cssTransform('#portfolio div', move_by);
+    //var move_by = (current_index * (-800));
+    cssTransform('#portfolio div', current_index);
 }
 
-function cssTransform(node, move_by){
+function cssTransform(node, current_index){
+    var percentage_move = parseFloat(current_index * (-100 / (portfolio_count + 2)));
     if($.browser.webkit){
         console.log('Webkit based browser');
-        $(node).css('-webkit-transform','translateX(' + move_by + 'px)');
+        $(node).css('-webkit-transform','translateX(' + percentage_move + '%)');
     }
     else if($.browser.mozilla){
         console.log('Gecko based browser');
-        $(node).css('-moz-transform','translateX(' + move_by + 'px)');
+        $(node).css('-moz-transform','translateX(' + percentage_move + '%)');
     }
     else if($.browser.opera){
         console.log('Opera browser');
-        $(node).css('-o-transform','translateX(' + move_by + 'px)');
+        $(node).css('-o-transform','translateX(' + percentage_move + '%)');
     }
     else if($.browser.msie){
         console.log('Internet Explorer browser');
-        $(node).css('-ms-transform','translateX(' + move_by + 'px)');
+        $(node).css('-ms-transform','translateX(' + percentage_move + '%)');
     } 
     else{
         console.log('Unknown browser - use positioning instead');
-        $(node).css('left', move_by + 'px)');
+        $(node).css('left', percentage_move + '%)');
     }
-    
 }
 
 function toggleFullFigCaption(showing){
