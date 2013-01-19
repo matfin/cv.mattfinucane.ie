@@ -4,11 +4,11 @@
     -o-transition: $duration ease-in-out;
 }
 
-@mixin roundcorner($px){
-    border-radius: $px;
-    -webkit-border-radius: $px;
-    -moz-border-radius: $px;
-    -o-border-radius: $px;
+@mixin roundcorner($px, $px, $px $px){
+    border-radius: $px, $px, $px $px;
+    -webkit-border-radius: $px, $px, $px $px;
+    -moz-border-radius: $px, $px, $px $px;
+    -o-border-radius: $px, $px, $px $px;
 }
 
 @mixin rotated($deg){
