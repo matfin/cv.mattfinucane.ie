@@ -1,88 +1,431 @@
-/*
-Syntax error: Invalid CSS after "...($px, $px, $px ": expected ")", was "$px){"
-        on line 7 of /Users/matfin/NetBeansProjects/cv.mattfinucane.ie/assets/css/sass/mixins.scss
-        from line 8 of /Users/matfin/NetBeansProjects/cv.mattfinucane.ie/assets/css/sass/screen.scss
+@import url(http://fonts.googleapis.com/css?family=Average+Sans);
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-Backtrace:
-/Users/matfin/NetBeansProjects/cv.mattfinucane.ie/assets/css/sass/mixins.scss:7
-/Users/matfin/NetBeansProjects/cv.mattfinucane.ie/assets/css/sass/screen.scss:8
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:1134:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/script/lexer.rb:199:in `expected!'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/script/parser.rb:476:in `assert_tok'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/script/parser.rb:365:in `defn_arglist!'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/script/parser.rb:104:in `parse_mixin_definition_arglist'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:1008:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:1008:in `sass_script'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:173:in `mixin_directive'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:163:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:163:in `special_directive'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:135:in `directive'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:539:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:532:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:70:in `stylesheet'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/scss/parser.rb:27:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/engine.rb:342:in `_to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/engine.rb:274:in `to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:223:in `visit_import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:126:in `visit_root'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.3/lib/sass/../sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Library/Ruby/Site/1.8/rubygems/custom_require.rb:36:in `to_proc'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:30
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44:in `call'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44
-/usr/bin/compass:19:in `load'
-/usr/bin/compass:19
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...($px, $px, $px \": expected \")\", was \"$px){\"\A         on line 7 of /Users/matfin/NetBeansProjects/cv.mattfinucane.ie/assets/css/sass/mixins.scss\A         from line 8 of /Users/matfin/NetBeansProjects/cv.mattfinucane.ie/assets/css/sass/screen.scss"; }
+/* line 22, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../sass/screen.scss */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 15, ../sass/screen.scss */
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Average Sans', sans-serif;
+  font-size: 1.0em;
+  color: #000;
+  border-top: 30px solid #D0E2D5;
+  text-shadow: 1px 1px 1px #eee;
+}
+
+/* line 25, ../sass/screen.scss */
+header, section {
+  display: inline;
+  float: left;
+  width: 80%;
+  max-width: 800px;
+  margin: 0px 0px 0px 10%;
+  padding: 50px 0px 10px 0px;
+  clear: both;
+}
+@media (max-width: 480px) {
+  /* line 25, ../sass/screen.scss */
+  header, section {
+    padding: 20px 0px 10px 0px;
+  }
+}
+
+/* line 38, ../sass/screen.scss */
+header {
+  border-bottom: 1px solid #000;
+}
+/* line 40, ../sass/screen.scss */
+header h1 {
+  display: inline;
+  float: left;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+/* line 46, ../sass/screen.scss */
+header a {
+  display: inline;
+  float: right;
+  text-decoration: none;
+  font-size: 0.75em;
+  color: #cdc9c8;
+  margin: 0px 0px 0px 5px;
+}
+/* line 53, ../sass/screen.scss */
+header a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 480px) {
+  /* line 58, ../sass/screen.scss */
+  header a {
+    float: left;
+    clear: both;
+    padding: 7px 0px 5px 0px;
+    margin: 0px;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+}
+
+/* line 70, ../sass/screen.scss */
+section h2 {
+  display: inline;
+  float: left;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  clear: both;
+  border-bottom: 1px solid #cdc9c8;
+  padding: 0px 0px 5px 0px;
+}
+/* line 80, ../sass/screen.scss */
+section h2 + h3 {
+  margin: 10px 0px 10px 0px;
+}
+/* line 83, ../sass/screen.scss */
+section h2 + ol {
+  margin: 10px 0px 0px 10px;
+}
+/* line 86, ../sass/screen.scss */
+section h3 {
+  display: inline;
+  float: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  clear: left;
+  margin: 30px 0px 10px 0px;
+}
+/* line 94, ../sass/screen.scss */
+section h4 {
+  display: inline;
+  float: left;
+  clear: both;
+  font-size: 1.0em;
+  margin: 0px 0px 10px 0px;
+  color: #cdc9c8;
+}
+@media (max-width: 480px) {
+  /* line 103, ../sass/screen.scss */
+  section h4 {
+    float: left;
+    margin: 10px 0px 10px 0px;
+  }
+}
+/* line 108, ../sass/screen.scss */
+section ol {
+  display: inline;
+  float: left;
+  margin: 0px 0px 0px 10px;
+  text-indent: -10px;
+  clear: both;
+}
+/* line 114, ../sass/screen.scss */
+section ol li {
+  display: inline;
+  float: left;
+  margin: 0px 20px 0px 0px;
+  line-height: 1.5em;
+}
+/* line 119, ../sass/screen.scss */
+section ol li:before {
+  content: '\00BB';
+}
+@media (max-width: 480px) {
+  /* line 114, ../sass/screen.scss */
+  section ol li {
+    clear: both;
+    padding: 3px 0px 3px 0px;
+  }
+}
+/* line 128, ../sass/screen.scss */
+section a {
+  color: #8A8F91;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 132, ../sass/screen.scss */
+section a:hover {
+  text-decoration: underline;
+}
+/* line 135, ../sass/screen.scss */
+section a:visited {
+  color: #cdc9c8;
+}
+
+/* line 142, ../sass/screen.scss */
+#technical_skills h2 {
+  width: 100%;
+}
+/* line 145, ../sass/screen.scss */
+#technical_skills dl {
+  display: inline;
+  float: left;
+  width: 33%;
+  min-height: 220px;
+  line-height: 1.2em;
+}
+/* line 152, ../sass/screen.scss */
+#technical_skills dl dt, #technical_skills dl dd {
+  display: inline;
+  float: left;
+}
+/* line 156, ../sass/screen.scss */
+#technical_skills dl dt {
+  margin: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+/* line 160, ../sass/screen.scss */
+#technical_skills dl dd {
+  clear: both;
+}
+/* line 162, ../sass/screen.scss */
+#technical_skills dl dd:before {
+  content: '\00BB';
+}
+@media (max-width: 480px) {
+  /* line 168, ../sass/screen.scss */
+  #technical_skills dl {
+    width: 100%;
+    min-height: 100px;
+  }
+}
+
+/* line 175, ../sass/screen.scss */
+#portfolio {
+  position: relative;
+  overflow-x: hidden;
+  display: none;
+}
+/* line 179, ../sass/screen.scss */
+#portfolio button {
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: 0.3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  width: 7.5%;
+  height: 80px;
+  background-color: #000;
+  opacity: 0.0;
+  border: 0px;
+  z-index: 4;
+  color: #fff;
+  font-size: 1.5em;
+}
+/* line 192, ../sass/screen.scss */
+#portfolio .prev {
+  left: -7.5%;
+  border-radius: 0px 40px 40px 0px;
+  -webkit-border-radius: 0px 40px 40px 0px;
+  -moz-border-radius: 0px 40px 40px 0px;
+  -o-border-radius: 0px 40px 40px 0px;
+}
+/* line 195, ../sass/screen.scss */
+#portfolio .prev:before {
+  content: '\00AB';
+}
+/* line 199, ../sass/screen.scss */
+#portfolio .next {
+  right: 0%;
+  border-radius: 40px 0px 0px 40px;
+  -webkit-border-radius: 40px 0px 0px 40px;
+  -moz-border-radius: 40px 0px 0px 40px;
+  -o-border-radius: 40px 0px 0px 40px;
+}
+/* line 202, ../sass/screen.scss */
+#portfolio .next:after {
+  content: '\00BB';
+}
+/* line 206, ../sass/screen.scss */
+#portfolio:hover button, #portfolio:hover figcaption {
+  opacity: 0.9;
+}
+/* line 209, ../sass/screen.scss */
+#portfolio div {
+  display: inline;
+  float: left;
+  position: relative;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: 0.5s ease-in-out;
+}
+/* line 214, ../sass/screen.scss */
+#portfolio div figure {
+  position: relative;
+  float: left;
+  margin: 10px 0px 0px 0px;
+  z-index: 2;
+}
+/* line 219, ../sass/screen.scss */
+#portfolio div figure:nth-of-type(1) {
+  display: inline;
+}
+/* line 222, ../sass/screen.scss */
+#portfolio div figure img.img-screen {
+  position: relative;
+  display: inline;
+  float: left;
+  top: 0px;
+  left: 0px;
+  width: 75%;
+  margin: 0px 0px 0px 12.5%;
+  height: auto;
+  z-index: 1;
+}
+/* line 233, ../sass/screen.scss */
+#portfolio div figure img.img-print, #portfolio div figure img.img-qrcode {
+  display: none;
+}
+/* line 236, ../sass/screen.scss */
+#portfolio div figure figcaption {
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: 0.3s ease-in-out;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 15%;
+  color: #fff;
+  background-color: #000;
+  z-index: 5;
+}
+/* line 246, ../sass/screen.scss */
+#portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
+  display: none;
+  position: relative;
+  opacity: 0.0;
+  float: left;
+  clear: both;
+  margin: 10px 0px 0px 12.5%;
+  width: 75%;
+  text-shadow: none;
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out 0s;
+  -o-transition: 0.6s ease-in-out;
+}
+/* line 257, ../sass/screen.scss */
+#portfolio div figure figcaption h3 {
+  font-size: 1.1em;
+  opacity: 1.0;
+  display: inline;
+  height: 100%;
+}
+/* line 263, ../sass/screen.scss */
+#portfolio div figure figcaption ol {
+  margin: 40px 0px 0px 12.5%;
+}
+/* line 265, ../sass/screen.scss */
+#portfolio div figure figcaption ol li {
+  text-indent: -15px;
+  margin: 0px 0px 0px 15px;
+  line-height: 1.2em;
+}
+/* line 269, ../sass/screen.scss */
+#portfolio div figure figcaption ol li:before {
+  content: '\2714';
+}
+@media (max-width: 800px) {
+  /* line 275, ../sass/screen.scss */
+  #portfolio div figure figcaption p {
+    display: none !important;
+  }
+  /* line 278, ../sass/screen.scss */
+  #portfolio div figure figcaption ol {
+    margin: 10px 0px 0px 12.5%;
+  }
+}
+/* line 283, ../sass/screen.scss */
+#portfolio div figure figcaption a.link-full:before {
+  content: '\00BB';
+}
+/* line 287, ../sass/screen.scss */
+#portfolio div figure figcaption a.link-short {
+  display: none;
+}
+@media (max-width: 480px) {
+  /* line 292, ../sass/screen.scss */
+  #portfolio div figure figcaption {
+    display: none !important;
+  }
+}
+
+/* line 300, ../sass/screen.scss */
+footer {
+  display: inline;
+  float: left;
+  width: 100%;
+  height: 100px;
+  background-color: #D0E2D5;
+}
