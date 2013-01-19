@@ -49,22 +49,22 @@ function move(direction){
     }
     if(current_index > 0){
         $('.prev', '#portfolio').css({
-            'left':'-40px'
+            'left':'-7.5%'
         });
     }
     else{
         $('.prev', '#portfolio').css({
-            'left':'-100px'
+            'left':'-15%'
         });
     }
     if(current_index == portfolio_count){
         $('.next', '#portfolio').css({
-            'right':'-100px'
+            'right':'-15%'
         });
     }
     else{
         $('.next', '#portfolio').css({
-            'right':'-40px'
+            'right':'-7.5%'
         });
     }
     //var move_by = (current_index * (-800));
@@ -108,7 +108,7 @@ function toggleFullFigCaption(showing){
            });
            t = setTimeout(function(){
                $('h3', '#portfolio').css({
-                  'margin':'100px 0px 20px 12.5%'
+                  'margin':'5% 0px 20px 12.5%'
                });
                $('p, dd, ol, a.link-full', '#portfolio').css({
                    'opacity':'1.0',

@@ -180,7 +180,8 @@ section{
         @include animated(0.3s);
         position: absolute;
         top: 50%;
-        width: 100px;
+        width: 15%;
+        min-width: 75px;
         height: 80px;
         @include roundcorner(40px);
         background-color: #000;
@@ -191,15 +192,15 @@ section{
         font-size: 1.5em;
     }
     .prev{
-        left: -100px;
-        padding-left: 30px;
+        left: -15%;
+        padding-left: 7.5%;
         &:before{
             content: '\00AB';
         }
     }   
     .next{
-        right: -40px;
-        padding-right: 30px;
+        right: -7.5%;
+        padding-right: 7.5%;
         &:after{
             content: '\00BB';
         }
@@ -270,6 +271,14 @@ section{
                         &:before{
                             content: '\2714';
                         } 
+                    }
+                }
+                @media (max-width:1200px){
+                    p{
+                        display: none !important;
+                    }
+                    ol{
+                        margin: 10px 0px 0px 12.5%;
                     }
                 }
                 a.link-full{

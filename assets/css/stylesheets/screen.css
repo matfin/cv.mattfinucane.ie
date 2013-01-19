@@ -274,7 +274,8 @@ section a:visited {
   -o-transition: 0.3s ease-in-out;
   position: absolute;
   top: 50%;
-  width: 100px;
+  width: 15%;
+  min-width: 75px;
   height: 80px;
   border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -287,29 +288,29 @@ section a:visited {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 193, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 #portfolio .prev {
-  left: -100px;
-  padding-left: 30px;
+  left: -15%;
+  padding-left: 7.5%;
 }
-/* line 196, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 #portfolio .prev:before {
   content: '\00AB';
 }
-/* line 200, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 #portfolio .next {
-  right: -40px;
-  padding-right: 30px;
+  right: -7.5%;
+  padding-right: 7.5%;
 }
-/* line 203, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 #portfolio .next:after {
   content: '\00BB';
 }
-/* line 207, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 #portfolio:hover button, #portfolio:hover figcaption {
   opacity: 0.9;
 }
-/* line 210, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 #portfolio div {
   display: inline;
   float: left;
@@ -318,18 +319,18 @@ section a:visited {
   -moz-transition: all 0.5s ease-in-out 0s;
   -o-transition: 0.5s ease-in-out;
 }
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 #portfolio div figure {
   position: relative;
   float: left;
   margin: 10px 0px 0px 0px;
   z-index: 2;
 }
-/* line 220, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 #portfolio div figure:nth-of-type(1) {
   display: inline;
 }
-/* line 223, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 #portfolio div figure img.img-screen {
   position: relative;
   display: inline;
@@ -341,11 +342,11 @@ section a:visited {
   height: auto;
   z-index: 1;
 }
-/* line 234, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 #portfolio div figure img.img-print, #portfolio div figure img.img-qrcode {
   display: none;
 }
-/* line 237, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 #portfolio div figure figcaption {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -359,7 +360,7 @@ section a:visited {
   background-color: #000;
   z-index: 5;
 }
-/* line 247, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 #portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
   display: none;
   position: relative;
@@ -373,37 +374,47 @@ section a:visited {
   -moz-transition: all 0.6s ease-in-out 0s;
   -o-transition: 0.6s ease-in-out;
 }
-/* line 258, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 #portfolio div figure figcaption h3 {
   font-size: 1.1em;
   opacity: 1.0;
   display: inline;
   height: 100%;
 }
-/* line 264, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 #portfolio div figure figcaption ol {
   margin: 40px 0px 0px 12.5%;
 }
-/* line 266, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 #portfolio div figure figcaption ol li {
   text-indent: -15px;
   margin: 0px 0px 0px 15px;
   line-height: 1.2em;
 }
-/* line 270, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 #portfolio div figure figcaption ol li:before {
   content: '\2714';
 }
-/* line 276, ../sass/screen.scss */
+@media (max-width: 1200px) {
+  /* line 277, ../sass/screen.scss */
+  #portfolio div figure figcaption p {
+    display: none !important;
+  }
+  /* line 280, ../sass/screen.scss */
+  #portfolio div figure figcaption ol {
+    margin: 10px 0px 0px 12.5%;
+  }
+}
+/* line 285, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-full:before {
   content: '\00BB';
 }
-/* line 280, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-short {
   display: none;
 }
 
-/* line 288, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;
