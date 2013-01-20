@@ -188,6 +188,9 @@ section{
         z-index: 4;
         color: #fff;
         font-size: 1.5em;
+        @media (max-width: 480px){
+            display: none;
+        }
     }
     .prev{
         left: -7.5%;

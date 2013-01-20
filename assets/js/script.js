@@ -7,11 +7,35 @@ var portfolio_count = 0;
 var current_index = 0;
 
 $(document).ready(function(){
-    primePortfolioScroll();
+    if(isTouchDevice()){
+        console.log('This is a touch device');
+        primePortfolioToSwipe();
+    }
+    else{
+        console.log('This is not a touch device');
+        primePortfolioScroll();
+    }
 });
 
-function documentIsInPrint(){
-    return document.URL.indexOf('/print/') != -1;
+function isTouchDevice(){
+    return !!('ontouchstart' in window);
+}
+
+function primePortfolioToSwipe(){
+    portfolio_count = $('figure', '#portfolio').length - 1;
+    $('#portfolio').css({
+        'display':'inline' 
+    });
+    
+    $('div', '#portfolio').css({
+       'width': (portfolio_count + 2) * 100 + '%'
+    });
+    $('div figure', '#portfolio').css({
+        'width': parseFloat(100 / (portfolio_count + 2)) + '%'
+    });
+    $('a[rel="external"]').each(function(){
+        $(this).attr('target', '_blank');
+    });
 }
 
 function primePortfolioScroll(){
