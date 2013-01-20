@@ -7,11 +7,7 @@ var portfolio_count = 0;
 var current_index = 0;
 
 $(document).ready(function(){
-    if($('#portfolio').css('display') === 'none')
-    {
-        console.log('Primed to scroll');
-        primePortfolioScroll();
-    }
+    primePortfolioScroll();
 });
 
 function documentIsInPrint(){

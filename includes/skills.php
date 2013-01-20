@@ -15,16 +15,7 @@
         Objective C
     </dd>
     <dd>
-        Javascript
-    </dd>
-    <dd>
-        HTML5
-    </dd>
-    <dd>
         C#
-    </dd>
-    <dd>
-        C++
     </dd>
 </dl>
 <dl>
@@ -38,19 +29,13 @@
         Cocoa UIKit (iOS)
     </dd>
     <dd>
-        Sencha Touch 2
-    </dd>
-    <dd>
-        PhoneGap
+        Sencha Touch 2 &amp; PhoneGap
     </dd>
     <dd>
         Compass SASS (CSS)
     </dd>
     <dd>
-        Razr
-    </dd>
-    <dd>
-        C# MVC3
+        C# MVC3 &amp; Razr
     </dd>
     <dd>
         jQuery
@@ -65,9 +50,6 @@
     </dt>
     <dd>
         Git
-    </dd>
-    <dd>
-        Gitosis
     </dd>
     <dd>
         Mercurial

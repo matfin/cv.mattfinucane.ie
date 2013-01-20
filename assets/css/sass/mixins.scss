@@ -17,6 +17,13 @@
     -o-transform: rotate($deg);
 }
 
+@mixin transform($px){
+    -webkit-transform: translate3d($px) !important;
+    -moz-transform: translate3d($px) !important;
+    -o-transform: translate3d($px) !important;
+    -ms-transform: translate3d($px) !important;
+}
+
 @mixin toparrow($px){
     &:after{
         bottom: 100%;

@@ -79,7 +79,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  font: 10pt Georgia, "Times New Roman", Times, serif;
+  font: 11pt Georgia, "Times New Roman", Times, serif;
   line-height: 1.1;
   color: #000;
 }
@@ -144,7 +144,7 @@ section h3 {
   margin: 10px 0px 10px 0px;
 }
 /* line 75, ../sass/print.scss */
-section h3:nth-of-type(6) {
+section h3:nth-of-type(4) {
   display: block;
   page-break-before: always;
 }
@@ -191,57 +191,65 @@ section ol li:before {
   content: '\00BB';
 }
 /* line 116, ../sass/print.scss */
-section:nth-of-type(5) {
+section:nth-of-type(4) {
   page-break-before: always;
 }
 
-/* line 122, ../sass/print.scss */
+/* line 121, ../sass/print.scss */
+#portfolio {
+  display: block !important;
+}
+/* line 123, ../sass/print.scss */
 #portfolio button {
   display: none;
 }
-/* line 125, ../sass/print.scss */
+/* line 126, ../sass/print.scss */
 #portfolio div {
-  display: inline;
+  display: block !important;
   float: left;
-  width: 100%;
+  width: 100% !important;
+  -webkit-transform: translate3d(0px) !important;
+  -moz-transform: translate3d(0px) !important;
+  -o-transform: translate3d(0px) !important;
+  -ms-transform: translate3d(0px) !important;
 }
-/* line 129, ../sass/print.scss */
+/* line 131, ../sass/print.scss */
 #portfolio div figure {
   position: relative;
-  display: inline;
+  display: block !important;
   float: left;
-  width: 170px;
+  width: 170px !important;
   min-height: 150px;
   margin: 10px 5px 10px 0px;
   border-right: 1px solid #cdc9c8;
   border-bottom: 1px solid #000;
 }
-/* line 138, ../sass/print.scss */
+/* line 140, ../sass/print.scss */
 #portfolio div figure img.img-screen {
   display: none;
 }
-/* line 141, ../sass/print.scss */
+/* line 143, ../sass/print.scss */
 #portfolio div figure img.img-print {
   display: inline;
   float: left;
   width: 100px;
   height: auto;
 }
-/* line 147, ../sass/print.scss */
+/* line 149, ../sass/print.scss */
 #portfolio div figure img.img-qrcode {
   display: inline;
   float: right;
   width: 67px;
   height: auto;
 }
-/* line 153, ../sass/print.scss */
+/* line 155, ../sass/print.scss */
 #portfolio div figure figcaption {
   position: relative;
   display: inline;
   float: left;
   width: 250px;
 }
-/* line 158, ../sass/print.scss */
+/* line 160, ../sass/print.scss */
 #portfolio div figure figcaption h3, #portfolio div figure figcaption a.link-short {
   display: inline;
   float: left;
@@ -250,20 +258,20 @@ section:nth-of-type(5) {
   font-size: 100%;
   clear: both;
 }
-/* line 166, ../sass/print.scss */
+/* line 168, ../sass/print.scss */
 #portfolio div figure figcaption p, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
-  display: none;
+  display: none !important;
 }
-/* line 170, ../sass/print.scss */
+/* line 172, ../sass/print.scss */
 #portfolio div figure:nth-child(3n) {
   border-right: 0px;
 }
 
-/* line 178, ../sass/print.scss */
+/* line 180, ../sass/print.scss */
 #technical_skills h2 {
   width: 100%;
 }
-/* line 181, ../sass/print.scss */
+/* line 183, ../sass/print.scss */
 #technical_skills dl {
   display: inline;
   float: left;
@@ -271,26 +279,26 @@ section:nth-of-type(5) {
   min-height: 180px;
   line-height: 1.2em;
 }
-/* line 188, ../sass/print.scss */
+/* line 190, ../sass/print.scss */
 #technical_skills dl dt, #technical_skills dl dd {
   display: inline;
   float: left;
 }
-/* line 192, ../sass/print.scss */
+/* line 194, ../sass/print.scss */
 #technical_skills dl dt {
   margin: 10px 0px 10px 0px;
   font-weight: bold;
 }
-/* line 196, ../sass/print.scss */
+/* line 198, ../sass/print.scss */
 #technical_skills dl dd {
   clear: both;
 }
-/* line 198, ../sass/print.scss */
+/* line 200, ../sass/print.scss */
 #technical_skills dl dd:before {
   content: '\00BB';
 }
 
-/* line 205, ../sass/print.scss */
+/* line 207, ../sass/print.scss */
 footer {
   display: none;
 }
