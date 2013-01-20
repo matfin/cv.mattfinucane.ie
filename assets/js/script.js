@@ -7,14 +7,24 @@ var portfolio_count = 0;
 var current_index = 0;
 
 $(document).ready(function(){
-   primePortfolioScroll();
+    if($('#portfolio').css('display') === 'none')
+    {
+        console.log('Primed to scroll');
+        primePortfolioScroll();
+    }
 });
+
+function documentIsInPrint(){
+    return document.URL.indexOf('/print/') != -1;
+}
 
 function primePortfolioScroll(){
     portfolio_count = $('figure', '#portfolio').length - 1;
+    
     $('#portfolio').css({
-       'display':'inline' 
+        'display':'inline' 
     });
+    
     $('div', '#portfolio').css({
        'width': (portfolio_count + 2) * 100 + '%'
     });

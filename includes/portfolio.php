@@ -4,7 +4,7 @@
          *  Mobile work
          */
         new portfolioitem(
-            'The Irish Times iOS/Android', 
+            'The Irish Times', 
             'https://itunes.apple.com/ie/app/id365544593?mt=8&affId=1736887',
             'http://is.gd/ZrU6cB',
             'web/irishtimes.jpg', 
@@ -53,7 +53,7 @@
          *  Web work
          */
         new portfolioitem(
-            'Dress For Success Dublin', 
+            'Dress For Success', 
             'http://www.dressforsuccessdublin.org',
             'http://is.gd/RgLjdm',
             'web/dress-for-success-dublin.jpg', 
@@ -110,7 +110,7 @@
     ?>
     <figure data-index="<?=$index?>">
         <img class="img-screen" src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('image_path'); ?>" width="600" height="450" alt="<?=$portfolio_item->get('title'); ?>" />
-        <img class="img-print" src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('logo_path'); ?>" width="150" height="100" alt="<?=$portfolio_item->get('title');?>" />
+        <img class="img-print" src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('logo_path'); ?>" width="225" height="150" alt="<?=$portfolio_item->get('title');?>" />
         <img class="img-qrcode" src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('qr_code'); ?>" width="100" height="100" alt="<?=$portfolio_item->get('title');?>" />
         <figcaption data-showing=false>
             <h3>
