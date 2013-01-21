@@ -284,12 +284,15 @@ section a:visited {
   font-size: 1.5em;
 }
 @media (max-width: 480px) {
-  /* line 179, ../sass/screen.scss */
+  /* line 193, ../sass/screen.scss */
   #portfolio button {
-    display: none;
+    background-color: transparent;
+    border-radius: 0px;
+    opacity: 1.0;
+    color: #000;
   }
 }
-/* line 195, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 #portfolio .prev {
   left: -7.5%;
   border-radius: 0px 40px 40px 0px;
@@ -297,11 +300,11 @@ section a:visited {
   -moz-border-radius: 0px 40px 40px 0px;
   -o-border-radius: 0px 40px 40px 0px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 #portfolio .prev:before {
   content: '\00AB';
 }
-/* line 202, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 #portfolio .next {
   right: 0%;
   border-radius: 40px 0px 0px 40px;
@@ -309,15 +312,15 @@ section a:visited {
   -moz-border-radius: 40px 0px 0px 40px;
   -o-border-radius: 40px 0px 0px 40px;
 }
-/* line 205, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 #portfolio .next:after {
   content: '\00BB';
 }
-/* line 209, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 #portfolio:hover button, #portfolio:hover figcaption {
   opacity: 0.9;
 }
-/* line 212, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #portfolio div {
   display: inline;
   float: left;
@@ -326,18 +329,18 @@ section a:visited {
   -moz-transition: all 0.5s ease-in-out 0s;
   -o-transition: 0.5s ease-in-out;
 }
-/* line 217, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 #portfolio div figure {
   position: relative;
   float: left;
   margin: 10px 0px 0px 0px;
   z-index: 2;
 }
-/* line 222, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 #portfolio div figure:nth-of-type(1) {
   display: inline;
 }
-/* line 225, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 #portfolio div figure img.img-screen {
   position: relative;
   display: inline;
@@ -349,11 +352,11 @@ section a:visited {
   height: auto;
   z-index: 1;
 }
-/* line 236, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 #portfolio div figure img.img-print, #portfolio div figure img.img-qrcode {
   display: none;
 }
-/* line 239, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 #portfolio div figure figcaption {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -367,7 +370,7 @@ section a:visited {
   background-color: #000;
   z-index: 5;
 }
-/* line 249, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 #portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
   display: none;
   position: relative;
@@ -381,53 +384,53 @@ section a:visited {
   -moz-transition: all 0.6s ease-in-out 0s;
   -o-transition: 0.6s ease-in-out;
 }
-/* line 260, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 #portfolio div figure figcaption h3 {
   font-size: 1.1em;
   opacity: 1.0;
   display: inline;
   height: 100%;
 }
-/* line 266, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 #portfolio div figure figcaption ol {
   margin: 40px 0px 0px 12.5%;
 }
-/* line 268, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 #portfolio div figure figcaption ol li {
   text-indent: -15px;
   margin: 0px 0px 0px 15px;
   line-height: 1.2em;
 }
-/* line 272, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 #portfolio div figure figcaption ol li:before {
   content: '\2714';
 }
 @media (max-width: 800px) {
-  /* line 278, ../sass/screen.scss */
+  /* line 283, ../sass/screen.scss */
   #portfolio div figure figcaption p {
     display: none !important;
   }
-  /* line 281, ../sass/screen.scss */
+  /* line 286, ../sass/screen.scss */
   #portfolio div figure figcaption ol {
     margin: 10px 0px 0px 12.5%;
   }
 }
-/* line 286, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-full:before {
   content: '\00BB';
 }
-/* line 290, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-short {
   display: none;
 }
 @media (max-width: 480px) {
-  /* line 295, ../sass/screen.scss */
+  /* line 300, ../sass/screen.scss */
   #portfolio div figure figcaption {
     display: none !important;
   }
 }
 
-/* line 303, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

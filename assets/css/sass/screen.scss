@@ -188,8 +188,13 @@ section{
         z-index: 4;
         color: #fff;
         font-size: 1.5em;
-        @media (max-width: 480px){
-            display: none;
+    }
+    @media (max-width:480px){
+        button{
+            background-color: transparent;
+            border-radius: 0px;
+            opacity: 1.0;
+            color: #000;
         }
     }
     .prev{
