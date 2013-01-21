@@ -29,6 +29,9 @@ function primePortfolioToSwipe(){
     document.getElementById('portfolio_container').addEventListener('touchend', function(event){
         swipePortfolio(event);
     });
+    document.getElementById('portfolio_container').addEventListener('touchmove', function(event){
+        event.preventDefault();
+    });
     
     portfolio_count = $('figure', '#portfolio').length - 1;
     $('#portfolio').css({
