@@ -5,6 +5,7 @@
 
 var portfolio_count = 0;
 var current_index = 0;
+var touch_start_x;
 
 $(document).ready(function(){
     if(isTouchDevice()){
@@ -22,6 +23,13 @@ function isTouchDevice(){
 }
 
 function primePortfolioToSwipe(){
+    document.getElementById('portfolio_container').addEventListener('touchstart', function(event){
+        touch_start_x = event.changedTouches[0].pageX; 
+    });
+    document.getElementById('portfolio_container').addEventListener('touchend', function(event){
+        swipePortfolio(event);
+    });
+    
     portfolio_count = $('figure', '#portfolio').length - 1;
     $('#portfolio').css({
         'display':'inline' 
@@ -36,6 +44,21 @@ function primePortfolioToSwipe(){
     $('a[rel="external"]').each(function(){
         $(this).attr('target', '_blank');
     });
+    $('button', '#portfolio').css({
+        'display':'none'
+    });
+}
+
+function swipePortfolio(event){
+    var end_x = event.changedTouches[0].pageX;
+    if(end_x >= (touch_start_x + 50)){
+        console.log('You swiped left to right');
+        move('prev');
+    }
+    else if(end_x <= (touch_start_x - 50)){
+        console.log('You swiped right to left');
+        move('next');
+    }
 }
 
 function primePortfolioScroll(){

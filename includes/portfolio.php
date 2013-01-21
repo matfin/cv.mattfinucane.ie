@@ -103,7 +103,7 @@
 </h2>
 <button class="prev"></button>
 <button class="next"></button>
-<div>
+<div id="portfolio_container">
     <?php
         foreach($portfolio_items as $index => $portfolio_item)
         {

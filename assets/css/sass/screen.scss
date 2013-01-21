@@ -191,10 +191,10 @@ section{
     }
     @media (max-width:480px){
         button{
-            background-color: transparent;
-            border-radius: 0px;
-            opacity: 1.0;
-            color: #000;
+            background-color: transparent !important;
+            border-radius: 0px !important;
+            opacity: 1.0 !important;
+            color: #000 !important;
         }
     }
     .prev{
