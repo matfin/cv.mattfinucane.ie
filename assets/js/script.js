@@ -50,6 +50,9 @@ function primePortfolioToSwipe(){
     $('button', '#portfolio').css({
         'display':'none'
     });
+    $('div', '#portfolio').click(function(){
+        toggleFullFigCaption($('figcaption', this).data('showing')); 
+    });
 }
 
 function swipePortfolio(event){

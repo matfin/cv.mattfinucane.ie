@@ -73,8 +73,8 @@
             'web/ibox.jpg', 
             'printlogos/ibox.png',
             'qrcodes/ibox.png',
-            'iBox are a new internet based subscription TV streaming service launched in 2012 in Ireland. My task was to develop their TV guide interface for deployment across multiple devices.',
-            'I designed and created the server infrastructure needed to load channel and video data. I also created the front end TV guide interface.',
+            'iBox are a new streaming internet TV service launched in 2012 and they needed a html5 based cross platform TV guide for deployment to multiple devices.',
+            'I created a solution that would work on a multitude of TV set top boxes and smart televesions.',
             array(
                 'High performing web based interface optimised to work on devices with limited capacity.',
                 'Fresh TV channel data downloads in the background and is unobtrusive to the user.',

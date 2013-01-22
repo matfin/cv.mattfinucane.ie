@@ -237,6 +237,7 @@ section{
                 margin: 0px 0px 0px 12.5%;
                 height: auto;
                 z-index: 1;
+                -webkit-backface-visibility: hidden;
             }
             img.img-print, img.img-qrcode{
                 display: none;
@@ -272,7 +273,7 @@ section{
                     height: 100%;
                 }
                 ol{
-                    margin: 40px 0px 0px 12.5%;
+                    margin: 10px 0px 0px 12.5%;
                     li{
                         text-indent: -15px;
                         margin: 0px 0px 0px 15px;
@@ -282,12 +283,9 @@ section{
                         } 
                     }
                 }
-                @media (max-width:800px){
+                @media (max-width:767px){
                     p{
                         display: none !important;
-                    }
-                    ol{
-                        margin: 10px 0px 0px 12.5%;
                     }
                 }
                 a.link-full{

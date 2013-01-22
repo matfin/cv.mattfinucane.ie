@@ -351,12 +351,13 @@ section a:visited {
   margin: 0px 0px 0px 12.5%;
   height: auto;
   z-index: 1;
+  -webkit-backface-visibility: hidden;
 }
-/* line 241, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 #portfolio div figure img.img-print, #portfolio div figure img.img-qrcode {
   display: none;
 }
-/* line 244, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #portfolio div figure figcaption {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -373,7 +374,7 @@ section a:visited {
   background-color: #000;
   z-index: 5;
 }
-/* line 257, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 #portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
   display: none;
   position: relative;
@@ -387,53 +388,49 @@ section a:visited {
   -moz-transition: all 0.6s ease-in-out 0s;
   -o-transition: 0.6s ease-in-out;
 }
-/* line 268, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 #portfolio div figure figcaption h3 {
   font-size: 1.1em;
   opacity: 1.0;
   display: inline;
   height: 100%;
 }
-/* line 274, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 #portfolio div figure figcaption ol {
-  margin: 40px 0px 0px 12.5%;
+  margin: 10px 0px 0px 12.5%;
 }
-/* line 276, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 #portfolio div figure figcaption ol li {
   text-indent: -15px;
   margin: 0px 0px 0px 15px;
   line-height: 1.2em;
 }
-/* line 280, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 #portfolio div figure figcaption ol li:before {
   content: '\2714';
 }
-@media (max-width: 800px) {
-  /* line 286, ../sass/screen.scss */
+@media (max-width: 767px) {
+  /* line 287, ../sass/screen.scss */
   #portfolio div figure figcaption p {
     display: none !important;
   }
-  /* line 289, ../sass/screen.scss */
-  #portfolio div figure figcaption ol {
-    margin: 10px 0px 0px 12.5%;
-  }
 }
-/* line 294, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-full:before {
   content: '\00BB';
 }
-/* line 298, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-short {
   display: none;
 }
 @media (max-width: 480px) {
-  /* line 303, ../sass/screen.scss */
+  /* line 301, ../sass/screen.scss */
   #portfolio div figure figcaption {
     display: none !important;
   }
 }
 
-/* line 311, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;
