@@ -55,11 +55,9 @@ function primePortfolioToSwipe(){
 function swipePortfolio(event){
     var end_x = event.changedTouches[0].pageX;
     if(end_x >= (touch_start_x + 50)){
-        console.log('You swiped left to right');
         move('prev');
     }
     else if(end_x <= (touch_start_x - 50)){
-        console.log('You swiped right to left');
         move('next');
     }
 }

@@ -361,6 +361,9 @@ section a:visited {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
   -o-transition: 0.3s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  /*  Prevent flicker of figcaption on tablet devices */
+  -webkit-backface-visibility: hidden;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -370,7 +373,7 @@ section a:visited {
   background-color: #000;
   z-index: 5;
 }
-/* line 254, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 #portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
   display: none;
   position: relative;
@@ -384,53 +387,53 @@ section a:visited {
   -moz-transition: all 0.6s ease-in-out 0s;
   -o-transition: 0.6s ease-in-out;
 }
-/* line 265, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 #portfolio div figure figcaption h3 {
   font-size: 1.1em;
   opacity: 1.0;
   display: inline;
   height: 100%;
 }
-/* line 271, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 #portfolio div figure figcaption ol {
   margin: 40px 0px 0px 12.5%;
 }
-/* line 273, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 #portfolio div figure figcaption ol li {
   text-indent: -15px;
   margin: 0px 0px 0px 15px;
   line-height: 1.2em;
 }
-/* line 277, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 #portfolio div figure figcaption ol li:before {
   content: '\2714';
 }
 @media (max-width: 800px) {
-  /* line 283, ../sass/screen.scss */
+  /* line 286, ../sass/screen.scss */
   #portfolio div figure figcaption p {
     display: none !important;
   }
-  /* line 286, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #portfolio div figure figcaption ol {
     margin: 10px 0px 0px 12.5%;
   }
 }
-/* line 291, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-full:before {
   content: '\00BB';
 }
-/* line 295, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-short {
   display: none;
 }
 @media (max-width: 480px) {
-  /* line 300, ../sass/screen.scss */
+  /* line 303, ../sass/screen.scss */
   #portfolio div figure figcaption {
     display: none !important;
   }
 }
 
-/* line 308, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

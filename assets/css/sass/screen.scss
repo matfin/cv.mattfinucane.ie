@@ -243,6 +243,9 @@ section{
             }
             figcaption{
                 @include animated(0.3s);
+                -webkit-transform-style: preserve-3d;
+                /*  Prevent flicker of figcaption on tablet devices */
+                -webkit-backface-visibility: hidden;
                 position: absolute;
                 bottom: 0px;
                 left: 0px;
