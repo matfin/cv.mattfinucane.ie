@@ -20,7 +20,4 @@
     <li>
         Created a java based scrolling platform game for mobile devices for final year project (75% marks).
     </li>
-    <li>
-        Graduated with second class honours (2.2).
-    </li>
 </ol>

@@ -1,6 +1,26 @@
- <h2>
-    Technical Skills
+<h2>
+    My Skills
 </h2>
+<ol>
+    <li>
+        Excellent communication and project management skills
+    </li>
+    <li>
+        Can develop applications for the web, mobile platforms and TV set top boxes
+    </li>
+    <li>
+        Extensive knowledge and understanding of client and server side web development
+    </li>
+    <li>
+        Can create both native and cross platform mobile applications
+    </li>
+    <li>
+        Leverage and integrate existing technologies and platforms into new projects smoothly
+    </li>
+    <li>
+        Quality focus on work to write neat, lean and robust code.
+    </li>
+</ol>
 <dl>
     <dt>
         Programming languages
@@ -55,10 +75,7 @@
         Mercurial
     </dd>
     <dd>
-        SVN
-    </dd>
-    <dd>
-        SVK
+        SVN &amp; SVK
     </dd>
     <dd>
         CVS
@@ -98,13 +115,13 @@
         Eclipse
     </dd>
     <dd>
+        Aptana Studio
+    </dd>
+    <dd>
         Netbeans
     </dd>
     <dd>
-        Visual Studio 2010
-    </dd>
-    <dd>
-        IBM WebSphere Studio
+        Visual Studio
     </dd>
 </dl>
 <dl>
@@ -112,10 +129,7 @@
         Databases &amp; Infrastructure
     </dt>
     <dd>
-        Unix/Linux 
-    </dd>
-    <dd>
-        OSX
+        Unix/Linux &amp; OSX
     </dd>
     <dd>
         Apache

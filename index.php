@@ -19,7 +19,7 @@
     <body>
         <header>
             <h1>
-                Matthew Finucane &ndash; Curriculum Vitae
+                Matthew Finucane &ndash; CV
             </h1>
             <a href="mailto:matfin@gmail.com" title="Email Matt Fimucane">
                 email: matfin@gmail.com
@@ -31,11 +31,11 @@
         <section id="profile">
             <?php include_once('includes/profile.php'); ?>
         </section>
-        <section id="professional_experience">
-            <?php include_once('includes/experience.php'); ?>
-        </section>
         <section id="technical_skills">
             <?php include_once('includes/skills.php'); ?>
+        </section>
+        <section id="professional_experience">
+            <?php include_once('includes/experience.php'); ?>
         </section>
         <section id="portfolio">
             <?php include_once('includes/portfolio.php'); ?>

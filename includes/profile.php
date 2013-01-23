@@ -1,17 +1,6 @@
 <h2>
-    Profile
+     About me
 </h2>
-<ol>
-    <li>
-        Web and mobile applications developer (both native and cross platform).
-    </li>
-    <li>
-        Over 7 years industry experience working in Ireland, the UK and France.
-    </li>
-    <li>
-        Passionate about technology and keeping up with the latest industry practices.
-    </li>
-    <li>
-        Fast learner, self taught and produce work of excellent quality.
-    </li>
-</ol>
+<p>
+    I am a highly experienced web and mobile app developer with over seven years of commercial experience. My passion is in technology both inside and outside the workplace. I'm a fast learner, self-taught and always strive to produce work of excellent quality.
+</p>
