@@ -90,19 +90,10 @@
     <?=date_format($job->get('end_date'), 'F Y'); ?> 
 </h3>
 <h4>
-    |
     <?=$job->get('company');?>
     as 
     <?=$job->get('position');?>
 </h4>
-<!--
-<h3>
-    <?= $job->get('company') . ' &ndash; ' . $job->get('position'); ?>
-</h3>
-<h4>
-    <?= $job->get('location'); ?>. <time datetime="<?= date_format($job->get('start_date'), 'Y-m-d'); ?>"><?= date_format($job->get('start_date'), 'F Y'); ?></time> to <time datetime="<?= date_format($job->get('end_date'), 'Y-m-d'); ?>"><?= date_format($job->get('end_date'), 'F Y'); ?></time>
-</h4>
--->
 <ol>
 <?php
     foreach($job->get('roles') as $role){

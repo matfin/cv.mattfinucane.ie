@@ -18,7 +18,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.0em;
     color: #000;
-    border-top: 30px solid #D0E2D5;
+    border-top: 30px solid #397aa7;
     text-shadow: 1px 1px 1px #eee;
 }
 
@@ -43,6 +43,13 @@ header{
         clear: both;
         font-size: 3.0em;
         font-weight: bold;
+        color: #397aa7;
+        text-shadow: #96d9f7;
+    }
+    @media (max-width: 480px){
+        h1{
+            font-size: 1.6em;
+        }
     }
     a{
         display: inline;    
@@ -77,20 +84,26 @@ section{
         clear: both;
         padding: 0px 0px 5px 0px;
         letter-spacing: 0.1em;
+        color: #397aa7;
+        text-shadow: #96d9f7;
+    }
+    h2+h3{
+        margin: 10px 0px 10px 0px;
     }
     h3{
         display: inline;
         float: left;
-        font-size: 1.1em;
+        font-size: 1.0em;
         font-weight: bold;
-        clear: left;
+        clear: both;
         margin: 30px 0px 10px 0px;
     }
     h4{
         display: inline;
         float: left;
-        font-size: 1.1em;
-        margin: 30px 0px 10px 10px;
+        clear: both;
+        font-size: 1.0em;
+        margin: 0px 0px 10px 0px;
     }
     h2+p{
         display: inline;
@@ -118,6 +131,7 @@ section{
                 content: '\00BB';
             }            
             @media (max-width:480px){
+                width: 100%;
                 clear: both;
                 padding: 3px 0px 3px 0px;
             }
@@ -150,14 +164,13 @@ section{
         dt{
             font-weight: bold;
             clear: both;
-            margin: 0px 0px 10px 0px;
-            height: 60px;
-            width: 30%;
-            padding: 0px 5% 0px 0px;
+            width: 100%;
+            margin: 0px 0px 5px 0px;
+            color: #397aa7;
         }
         dd{
             line-height: 1.2em;
-            margin: 0px 10px 0px 0px;
+            margin: 0px 10px 5px 0px;
             &:after{
                 content: ',';
             }
@@ -165,6 +178,18 @@ section{
                 &:after{
                     content: '';
                 }
+            }
+        }
+        @media (max-width:480px){
+            dd{
+                width: 100%;
+                clear: both;
+                &:after{
+                     content: '';
+                }
+                &:before{
+                    content: '\00BB';
+                }    
             }
         }
     }
@@ -222,6 +247,8 @@ section{
             float: left;
             margin: 10px 0px 0px 0px;
             z-index: 2;
+            cursor: hand;
+            cursor: pointer;
             &:nth-of-type(1){
                 display: inline;
             }
@@ -309,5 +336,5 @@ footer{
     float: left;
     width: 100%;
     height: 100px;
-    background-color: #D0E2D5;
+    background-color: #397aa7;
 }

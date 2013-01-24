@@ -3,19 +3,19 @@
 </h2>
 <ol>
     <li>
-        Excellent communication and project management skills
+        Excellent communication and project management skills.
     </li>
     <li>
-        Can develop applications for the web, mobile platforms and TV set top boxes
+        Can develop applications for the web, mobile platforms and TV set top boxes.
     </li>
     <li>
-        Extensive knowledge and understanding of client and server side web development
+        Extensive knowledge and understanding of client and server side web development.
     </li>
     <li>
-        Can create both native and cross platform mobile applications
+        Can create both native and cross platform mobile applications.
     </li>
     <li>
-        Leverage and integrate existing technologies and platforms into new projects smoothly
+        Leverage and integrate existing technologies and platforms into new projects smoothly.
     </li>
     <li>
         Quality focus on work to write neat, lean and robust code.
