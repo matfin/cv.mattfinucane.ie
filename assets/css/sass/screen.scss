@@ -28,7 +28,7 @@ header, section{
     width: 80%;
     max-width: 800px;
     margin: 0px 0px 0px 10%;
-    padding: 50px 0px 10px 0px;
+    padding: 25px 0px 10px 0px;
     clear: both;
     @media (max-width: 480px){
         padding: 20px 0px 10px 0px;
@@ -36,20 +36,21 @@ header, section{
 }
 
 header{
-    border-bottom: 1px solid #000;
     h1{
         display: inline;
         float: left;
-        font-size: 1.4em;
+        width: 100%;
+        clear: both;
+        font-size: 3.0em;
         font-weight: bold;
     }
     a{
         display: inline;    
-        float: right;
+        float: left;
         text-decoration: none;
-        font-size: 0.75em;
-        color: #cdc9c8;
-        margin: 0px 0px 0px 5px;
+        font-size: 1.0em;
+        color: #000;
+        margin: 5px 10px 0px 0px;
         &:hover{
             text-decoration: underline;
         }
@@ -74,17 +75,8 @@ section{
         font-size: 1.2em;
         font-weight: bold;
         clear: both;
-        border-bottom: 1px solid #cdc9c8;
         padding: 0px 0px 5px 0px;
-    }
-    h2+h3, h2+h3+h4{
-        margin: 10px 0px 10px 0px;
-    }
-    h3+h4{
-        margin: 10px 0px 10px 10px;
-    }
-    h2+ol{
-        margin: 10px 0px 0px 10px;
+        letter-spacing: 0.1em;
     }
     h3{
         display: inline;
@@ -99,6 +91,11 @@ section{
         float: left;
         font-size: 1.1em;
         margin: 30px 0px 10px 10px;
+    }
+    h2+p{
+        display: inline;
+        float: left;
+        line-height: 1.3em;   
     }
     @media (max-width: 480px){
         h4{
@@ -140,35 +137,35 @@ section{
 }
 
 #technical_skills{
-    h2{
-        width: 100%;
-    }
     dl{
         display: inline;
         float: left;
-        width: 33%;
-        min-height: 220px;
-        line-height: 1.2em;
-
+        clear: both;
+        width: 100%;
+        margin: 10px 0px 0px;
         dt, dd{
             display: inline;
             float: left;
         }
         dt{
-            margin: 10px 0px 10px 0px;
             font-weight: bold;
+            clear: both;
+            margin: 0px 0px 10px 0px;
+            height: 60px;
+            width: 30%;
+            padding: 0px 5% 0px 0px;
         }
         dd{
-            clear: both;
-            &:before{
-                content: '\00BB';
+            line-height: 1.2em;
+            margin: 0px 10px 0px 0px;
+            &:after{
+                content: ',';
             }
-        }
-    }
-    @media (max-width: 480px){
-        dl{
-            width: 100%;
-            min-height: 100px;   
+            &:last-child{
+                &:after{
+                    content: '';
+                }
+            }
         }
     }
 }

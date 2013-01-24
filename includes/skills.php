@@ -46,19 +46,19 @@
         Android
     </dd>
     <dd>
-        Cocoa UIKit (iOS)
+        Cocoa UIKit
     </dd>
     <dd>
         Sencha Touch 2 &amp; PhoneGap
     </dd>
     <dd>
-        Compass SASS (CSS)
+        Compass SCSS
     </dd>
     <dd>
         C# MVC3 &amp; Razr
     </dd>
     <dd>
-        jQuery
+        Javascript &amp; jQuery
     </dd>
     <dd>
         CodeIgniter PHP

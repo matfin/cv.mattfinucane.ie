@@ -22,10 +22,10 @@
                 Matthew Finucane &ndash; CV
             </h1>
             <a href="mailto:matfin@gmail.com" title="Email Matt Fimucane">
-                email: matfin@gmail.com
+                Email: matfin@gmail.com
             </a>
             <a href="tel:+353861945324" title="Phone Matt Finucane">
-                tel: +353 (0)86 1945324
+                Tel: +353 (0)86 1945324
             </a>
         </header>
         <section id="profile">
