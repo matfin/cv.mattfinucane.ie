@@ -10,111 +10,172 @@
 html{
     width: 100%;
     height: 100%;
-    background: transparent;
 }
 
 body{
     width: 100%;
     height: 100%;
-    font: 11pt Georgia, "Times New Roman", Times, serif;
-    line-height: 1.1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
     color: #000;
 }
 
 header, section{
-    display: block;
+    display: inline;
+    float: left;
     width: 80%;
+    max-width: 900px;
     margin: 0px 0px 0px 10%;
-    padding: 10px 0px 10px 0px;
+    padding: 25px 0px 10px 0px;
     clear: both;
 }
 
-a{
-    text-decoration: none;
-    color: #000;
-}
-
 header{
-    border-bottom: 1px solid #000;
     h1{
-        display: block;
-        font-size: 1.4em;
+        display: inline;
+        float: left;
+        width: 100%;
+        clear: both;
+        font-size: 1.3em;
         font-weight: bold;
     }
     a{
-        display: block;    
-        clear: both;
+        display: inline;    
+        float: left;
         text-decoration: none;
         font-size: 1.0em;
+        color: #000;
+        margin: 5px 10px 0px 0px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    @media (max-width: 480px){
+        a{
+            float: left;
+            clear: both;
+            padding: 7px 0px 5px 0px;
+            margin: 0px;
+            font-size: 0.9em;
+            text-decoration: none;
+        }
     }
 }
 
 section{
     h2{
-        display: block;
+        display: inline;
+        float: left;
         width: 100%;
         font-size: 1.2em;
         font-weight: bold;
         clear: both;
-        border-bottom: 1px solid #cdc9c8;
         padding: 0px 0px 5px 0px;
+        letter-spacing: 0.1em;
     }
     h2+h3{
         margin: 10px 0px 10px 0px;
     }
-    h2+h3+h4{
-        margin: 10px 0px 10px 0px;
-    }
     h3{
-        display: block;
-        font-size: 1.1em;
+        display: inline;
+        float: left;
+        font-size: 1.0em;
         font-weight: bold;
-        clear: left;
-        margin: 10px 0px 10px 0px;
-    }
-    h3:nth-of-type(4){
-        display: block;
-        page-break-before: always;
+        clear: both;
+        margin: 30px 0px 10px 0px;
     }
     h4{
-        display: block;
-        font-size: 1.0em;
-        margin: 10px 0px 10px 0px;
-        color: #000;
-    }
-    h5{
-        display: block;
-        font-size: 1.0em;
-        font-weight: bold;
+        display: inline;
+        float: left;
         clear: both;
-        margin: 5px 0px 5px 0px;
+        font-size: 1.0em;
+        margin: 0px 0px 10px 0px;
     }
-    p{
-        display: block;
-        clear: both;
-        line-height: 1.4em;
-    }
-    
     h2+p{
-        margin: 10px 0px 0px 0px;
+        display: inline;
+        float: left;
+        line-height: 1.3em;   
     }
-
-    ol{
-        display: block;
-        margin: 10px 0px 0px 0px;
-        clear: both;
-        li{
-            display: block;
-            line-height: 1.3;
-            text-indent: -10px;
-            margin: 0px 0px 0px 10px;
-            &:before{
-                content: '\00BB';
-            } 
+    @media (max-width: 480px){
+        h4{
+            float: left;
+            margin: 10px 0px 10px 0px;
         }
     }
-    &:nth-of-type(4){
-        page-break-before: always;
+    ol{
+        display: inline;
+        float: left;
+        margin: 0px 0px 0px 10px;
+        text-indent: -10px;
+        clear: both;
+        li{
+            display: inline;
+            float: left;
+            margin: 0px 20px 0px 0px;
+            line-height: 1.5em;
+            &:before{
+                content: '\00BB';
+            }            
+            @media (max-width:480px){
+                width: 100%;
+                clear: both;
+                padding: 3px 0px 3px 0px;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        &:hover{
+            text-decoration: underline;
+        }
+        &:visited{
+            color: #cdc9c8;
+        }
+    }
+}
+
+#technical_skills{
+    dl{
+        display: inline;
+        float: left;
+        clear: both;
+        width: 100%;
+        margin: 10px 0px 0px;
+        dt, dd{
+            display: inline;
+            float: left;
+        }
+        dt{
+            font-weight: bold;
+            clear: both;
+            width: 100%;
+            margin: 0px 0px 5px 0px;
+        }
+        dd{
+            line-height: 1.2em;
+            margin: 0px 10px 5px 0px;
+            &:after{
+                content: ',';
+            }
+            &:last-child{
+                &:after{
+                    content: '';
+                }
+            }
+        }
+        @media (max-width:480px){
+            dd{
+                width: 100%;
+                clear: both;
+                &:after{
+                     content: '';
+                }
+                &:before{
+                    content: '\00BB';
+                }    
+            }
+        }
     }
 }
 
