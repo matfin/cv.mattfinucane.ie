@@ -37,7 +37,13 @@ function primePortfolioToSwipe(){
     $('#portfolio').css({
         'display':'inline' 
     });
-    
+    $('figcaption', '#portfolio').css({
+        '-webkit-transform-style': 'preserve-3d',
+        '-webkit-backface-visibility': 'hidden'
+    });
+    $('.imgscreen').css({
+         '-webkit-backface-visibility': 'hidden'
+    });
     $('div', '#portfolio').css({
        'width': (portfolio_count + 2) * 100 + '%'
     });
@@ -173,6 +179,10 @@ function toggleFullFigCaption(showing){
                    'opacity':'1.0',
                    'display':'inline'
                });
+               $('a[rel="open-prompt"]', '#portfolio').css({
+                   'display':'none',
+                   'opacity':'0.0'
+               });
            }, 100);
           
            $('figcaption').data('showing', true);
@@ -188,12 +198,16 @@ function toggleFullFigCaption(showing){
               'display':'none'
            });
            $('figcaption', 'figure').css({
-              'min-height':'15%'
+              'min-height':'20%'
            });
            $('button', '#portfolio').css({
                'background-color':'#000',
                'color':'#fff'
            });
+            $('a[rel="open-prompt"]', '#portfolio').css({
+                   'display':'inline',
+                   'opacity':'1.0'
+               });
            $('figcaption').data('showing', false);
            break;
         }

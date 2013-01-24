@@ -26,7 +26,7 @@ header, section{
     display: inline;
     float: left;
     width: 80%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0px 0px 0px 10%;
     padding: 25px 0px 10px 0px;
     clear: both;
@@ -262,21 +262,17 @@ section{
                 margin: 0px 0px 0px 12.5%;
                 height: auto;
                 z-index: 1;
-                -webkit-backface-visibility: hidden;
             }
             img.img-print, img.img-qrcode{
                 display: none;
             }
             figcaption{
                 @include animated(0.3s);
-                -webkit-transform-style: preserve-3d;
-                /*  Prevent flicker of figcaption on tablet devices */
-                -webkit-backface-visibility: hidden;
                 position: absolute;
                 bottom: 0px;
                 left: 0px;
                 width: 100%;
-                min-height: 15%;
+                min-height: 20%;
                 color: #fff;
                 background-color: #000;
                 z-index: 5;
@@ -311,6 +307,18 @@ section{
                 @media (max-width:767px){
                     p{
                         display: none !important;
+                    }
+                }
+                a[rel='open-prompt']{
+                    position: relative;
+                    opacity: 1.0;
+                    display: inline;
+                    float: left;
+                    margin: 5px 0px 0px 12.5%;
+                    color: #397aa7;
+                    text-shadow: none;
+                    &:after{
+                        content: '\00BB';
                     }
                 }
                 a.link-full{
