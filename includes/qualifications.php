@@ -5,19 +5,16 @@
     <time datetime="2001-09-26">September 2001</time> to <time datetime="2005-06-10">June 2005</time>
 </h3>
 <h4>
-    BSc (Hons) in Computer Applications &ndash; Dublin City University. 
+    Computer Applications &ndash; Dublin City University
 </h4>
 <ol>
     <li>
-        Four year degree course focusing on computing in business.
+        Modules include Java software development, Business process management, Computer Graphics, Database administration and the Software development life-cycle (waterfall).
     </li>
     <li>
-        Solid grounding in software engineering and the software development lifecycle.
+        Alcatel CIT, France: developed an error logging system for GSM cell towers (INTRA work placement).
     </li>
     <li>
-        Worked in Alcatel CIT in France for six months as part of third year work placement.
-    </li>
-    <li>
-        Created a java based scrolling platform game for mobile devices for final year project (75% marks).
+        Coded a mobile 2D game using J2ME (Final year project).
     </li>
 </ol>

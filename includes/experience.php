@@ -5,12 +5,14 @@
             'Technical lead',
             'Dublin, Ireland',
             new DateTime('2012-01-16'),
-            new DateTime(),
+            //new DateTime(),
+            'Present',
             array(
-                'As technical lead, I am responsible for driving the planning and development efforts on a wide variety of apps.',
-                'Working closely with our design team, the client, and external contractors, I drive development efforts to ensure the product is delivered on time and within budget.',
-                'I am required to provide support and feedback to our internal developers and regularly communicate progress with the client',
-                'I also use a variety of tools and methodologies to ensure fast delivery of a quality product.' 
+                'Drove the development of multiple award winning applications.',
+                'Developed TV guide software in HTML5 for set top boxes, smart TVs and web.',
+                'Overhauled the Irish Times News app (iOS, Android), integrating to their existing web infrastructure.',
+                'Responsible for client satisfaction by delivering quality products on time and within budget.',
+                'Responsible for reviewing CVs, creating recruitment exercises and interviewing candidates for development roles.'
             ) 
         ),
         new job(
@@ -20,10 +22,10 @@
             new DateTime('2010-03-08'),
             new DateTime('2012-01-11'),
             array(
-                'As senior web developer, I was responsible for delivering high performance web applications for the company&#39;s business channels (Games, Casino etc).',
-                'I created standards compliant, cross browser compatible code to ensure maximum reach to users.',
-                'I was responsible for planning and implementing bespoke content management systems for internal company use.',
-                'I wrote a web based application for internal payroll processing which was deployed to all shops in the country.'
+                'Our scrum approach to development ensured timely delivery of product phases and stakeholders were kept up to date with development on large projects.',
+                'Maintained high performance websites under heavy server load.',
+                'Upgraded the in-house CMS for Paddy Power Games and Casino to enable targeted content delivery for different user groups.',
+                'Built a staff rostering and payroll processing system used by shop managers for all Paddy Power retail outlets.'
             )
         ),
         new job(
@@ -33,9 +35,11 @@
             new DateTime('2008-07-01'),
             new DateTime('2010-03-08'),
             array(
-                'Developed hand coded high quality websites and web applications adhering to industry standards in design and accessibility.',
-                'My portfolio of work in Clearweb included several web applications across a variety of sectors, including e-commerce, self service applications and social media.',
-                'Initiated, managed and maintained good client relationships.'
+                'Created several bespoke content managed websites for clients using hand-coded html and php.',
+                'Leveraged Twitter and Facebook APIs, to optimise the clients&#39; online offering.',
+                'Provided web content strategy guidance to clients.',
+                'Practiced excellent standards in web development to ensure organic SEO performance and accessibility.',
+                'Initiated, managed and maintained long-lasting professional client relationships.'
             )
         ),
         new job(
@@ -45,9 +49,10 @@
             new DateTime('2007-07-01'),
             new DateTime('2008-06-28'),
             array(
-                'Worked as a front and back end developer on a full redesign of their site.',
+                'Redeveloped all of the HTML and CSS during a complete overhaul of the company website.',
                 'Created an internal WYSIWYG tool to author promotional emails and newsletter templates.',
-                'Planned and implemented the front and back end for the company&#39s employee web portal.'
+                'Designed and built the in house intranet portal, tying it into existing LDAP servers. This enabled seamless integration with existing user logins.',
+                'Provided ongoing maintenance to website product pages to optimise the eCommerce purchase flows.'
             )
         ),
         new job(
@@ -57,10 +62,10 @@
             new DateTime('2006-09-12'),
             new DateTime('2007-06-30'),
             array(
-                'Refactored the entire website html for improved performance, usability and accessibility.',
-                'Provided regular internal training on web standards to the rest of the development team.',
-                'Created html based templates for newsletter and promotional emails.',
-                'Provided ongoing support and maintenance for the company website.'
+                'Upgraded site standards compliancy in XHTML and CSS.',
+                'Coordinated internal knowledge sharing through regular web standards training.',
+                'Remodeled html email templates for all marketing campaigns.',
+                'Provided ongoing maintenance and enhancements for the company website.'
             )
         ),
         new job(
@@ -70,9 +75,9 @@
             new DateTime('2005-07-01'),
             new DateTime('2006-06-15'),
             array(
-                'Created a web application to store and monitor information on incoming news RSS feeds.',
-                'Worked on an XSLT framework to store formatted XML feeds to a common database schema.',
-                'Ported feed processing infrastructure from HPUX to Red Hat Linux.'
+                'Created a web app to monitor RSS feeds from news providers.',
+                'Built an XSLT processor to populate XML feeds to databases.',
+                'Upgraded servers and software from HPUX to Linux and authored the associated technical documentation.'
             )
         )
     );
@@ -87,7 +92,7 @@
 <h3>
     <?=date_format($job->get('start_date'), 'F Y'); ?>
     &ndash; 
-    <?=date_format($job->get('end_date'), 'F Y'); ?> 
+    <?=$job->get('end_date') === 'Present' ? 'Present':date_format($job->get('end_date'), 'F Y'); ?> 
 </h3>
 <h4>
     <?=$job->get('company');?>

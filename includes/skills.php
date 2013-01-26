@@ -3,23 +3,23 @@
 </h2>
 <ol>
     <li>
-        Excellent communication and project management skills.
+        Development of mobile applications, both cross platform and native. 
     </li>
     <li>
-        Can develop applications for the web, mobile platforms and TV set top boxes.
+        Practice and advocate the highest development standards. 
     </li>
     <li>
-        Extensive knowledge and understanding of client and server side web development.
+        Strong analytical skills.
     </li>
     <li>
-        Can create both native and cross platform mobile applications.
+        In depth understanding of technologies across multiple domains. 
     </li>
     <li>
-        Leverage and integrate existing technologies and platforms into new projects smoothly.
+        Fast learner with strong desire to continuously up-skill.
     </li>
     <li>
-        Quality focus on work to write neat, lean and robust code.
-    </li>
+        Effective communication skills; training, presentations, documentation and delegation.
+    </li> 
 </ol>
 <dl>
     <dt>
@@ -29,13 +29,47 @@
         Java
     </dd>
     <dd>
-        PHP
-    </dd>
-    <dd>
         Objective C
     </dd>
     <dd>
         C#
+    </dd>
+    <dd>
+        C++
+    </dd>
+</dl>
+<dl>
+    <dt>
+        Mobile app development
+    </dt>
+    <dd>
+        UIKit (iOS)
+    </dd>
+    <dd>
+        Android
+    </dd>
+    <dd>
+        Sencha Touch 2
+    </dd>
+    <dd>
+        PhoneGap
+    </dd>
+</dl>
+<dl>
+    <dt>
+        Web Development
+    </dt>
+    <dd>
+        PHP
+    </dd>
+    <dd>
+        XHTML/HTML5
+    </dd>
+    <dd>
+        CSS3
+    </dd>
+    <dd>
+        Javascript
     </dd>
 </dl>
 <dl>
@@ -43,70 +77,21 @@
         Frameworks
     </dt>
     <dd>
-        Android
+        CodeIgniter
     </dd>
     <dd>
-        Cocoa UIKit
-    </dd>
-    <dd>
-        Sencha Touch 2 &amp; PhoneGap
+        jQuery
     </dd>
     <dd>
         Compass SCSS
     </dd>
     <dd>
-        C# MVC3 &amp; Razr
-    </dd>
-    <dd>
-        Javascript &amp; jQuery
-    </dd>
-    <dd>
-        CodeIgniter PHP
+        C# .NET MVC3
     </dd>
 </dl>
 <dl>
     <dt>
-        Version Control
-    </dt>
-    <dd>
-        Git
-    </dd>
-    <dd>
-        Mercurial
-    </dd>
-    <dd>
-        SVN &amp; SVK
-    </dd>
-    <dd>
-        CVS
-    </dd>
-</dl>
-<dl>
-    <dt>
-        Project management
-    </dt>
-    <dd>
-        Jira
-    </dd>
-    <dd>
-        Redmine
-    </dd>
-    <dd>
-        Assembla
-    </dd>
-    <dd>
-        BaseCamp
-    </dd>
-    <dd>
-        Google Docs
-    </dd>
-    <dd>
-        Scrum
-    </dd>
-</dl>
-<dl>
-    <dt>
-        IDEs
+        Development Environments
     </dt>
     <dd>
         Xcode
@@ -115,35 +100,77 @@
         Eclipse
     </dd>
     <dd>
-        Aptana Studio
+        Visual Studio
     </dd>
     <dd>
         Netbeans
     </dd>
+</dl>
+<dl>
+    <dt>
+        Development Tools
+    </dt>
     <dd>
-        Visual Studio
+        qUnit
+    </dd>
+    <dd>
+        Firefox/Chrome debug
+    </dd>
+    <dd>
+        BetaBuilder
+    </dd>
+    <dd>
+        TestFlight
     </dd>
 </dl>
 <dl>
     <dt>
-        Databases &amp; Infrastructure
+        Development skills
     </dt>
     <dd>
-        Unix/Linux &amp; OSX
+        Agile methods
     </dd>
     <dd>
-        Apache
+        Scrum
+    </dd>
+    <dd>
+        Unit Testing
+    </dd>
+    <dd>
+        MVC
+    </dd>
+</dl>
+<dl>
+    <dt>
+        Infrastructure
+    </dt>
+    <dd>
+        Linux
+    </dd>
+    <dd>
+        MySQL
     </dd>
     <dd>
         Microsoft IIS
     </dd>
     <dd>
-        Microsoft SQL Server 
+        Apache
+    </dd>
+</dl>
+<dl>
+    <dt>
+        Project Tools
+    </dt>
+    <dd>
+        Redmine
     </dd>
     <dd>
-        Linq
+        Jira
     </dd>
     <dd>
-        MySQL
+        Google Apps
+    </dd>
+    <dd>
+        BaseCamp
     </dd>
 </dl>
