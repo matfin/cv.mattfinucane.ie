@@ -10,6 +10,7 @@ var touch_start_x;
 $(document).ready(function(){
     if(isTouchDevice()){
         console.log('This is a touch device');
+        addNavSpinner();
         primePortfolioToSwipe();
     }
     else{
@@ -18,11 +19,23 @@ $(document).ready(function(){
     }
 });
 
+function addNavSpinner(){
+    document.getElementsByTagName('form')[0].appendChild(new Select().returnrendered());
+    $('select', 'header form').change(function(event){
+        scrollToY($(this).val());
+    });
+}
+
+function scrollToY(position){
+    console.log(position);
+    $('html, body').animate({scrollTop: position - 50});
+}
+
 function isTouchDevice(){
     return !!('ontouchstart' in window);
 }
 
-function primePortfolioToSwipe(){
+function primePortfolioToSwipe(){   
     document.getElementById('portfolio_container').addEventListener('touchstart', function(event){
         touch_start_x = event.changedTouches[0].pageX; 
     });
@@ -100,7 +113,7 @@ function primePortfolioScroll(){
     $('a[rel="external"]').each(function(){
         $(this).attr('target', '_blank');
     });
-    $('a[rel="open-prompt"]').each(function(){
+    $('a[rel="moreinfo"]').each(function(){
         $(this).text('Click to see more');
     });
 }

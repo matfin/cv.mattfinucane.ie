@@ -116,7 +116,7 @@
             <h3>
                 <?=$portfolio_item->get('title');?>
             </h3>
-            <a rel="open-prompt">
+            <a rel="moreinfo">
                 More info
             </a>
             <p>

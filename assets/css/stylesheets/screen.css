@@ -84,8 +84,15 @@ body {
   border-top: 30px solid #397aa7;
   text-shadow: 1px 1px 1px #eee;
 }
+@media (max-width: 480px) {
+  /* line 15, ../sass/screen.scss */
+  body {
+    border-top: none;
+    padding: 30px 0px 0px 0px;
+  }
+}
 
-/* line 25, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 header, section {
   display: inline;
   float: left;
@@ -95,14 +102,37 @@ header, section {
   padding: 25px 0px 10px 0px;
   clear: both;
 }
+/* line 37, ../sass/screen.scss */
+header form, section form {
+  display: none;
+}
 @media (max-width: 480px) {
-  /* line 25, ../sass/screen.scss */
+  /* line 29, ../sass/screen.scss */
   header, section {
     padding: 20px 0px 10px 0px;
   }
+  /* line 42, ../sass/screen.scss */
+  header form, section form {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    padding: 0px 5% 0px 5%;
+    height: 30px;
+    background-color: #397aa7;
+    z-index: 5;
+  }
+  /* line 52, ../sass/screen.scss */
+  header form select, section form select {
+    display: inline;
+    float: left;
+    width: 100%;
+    margin: 6px 0px 0px 0px;
+  }
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 header h1 {
   display: inline;
   float: left;
@@ -114,12 +144,12 @@ header h1 {
   text-shadow: #96d9f7;
 }
 @media (max-width: 480px) {
-  /* line 50, ../sass/screen.scss */
+  /* line 74, ../sass/screen.scss */
   header h1 {
     font-size: 1.6em;
   }
 }
-/* line 54, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 header a {
   display: inline;
   float: left;
@@ -128,11 +158,11 @@ header a {
   color: #000;
   margin: 5px 10px 0px 0px;
 }
-/* line 61, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 header a:hover {
   text-decoration: underline;
 }
-/* line 65, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 header address {
   display: inline;
   float: left;
@@ -141,7 +171,7 @@ header address {
   margin: 5px 0px 5px 0px;
 }
 @media (max-width: 480px) {
-  /* line 73, ../sass/screen.scss */
+  /* line 97, ../sass/screen.scss */
   header a {
     float: left;
     clear: both;
@@ -152,7 +182,7 @@ header address {
   }
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 section h2 {
   display: inline;
   float: left;
@@ -165,11 +195,11 @@ section h2 {
   color: #397aa7;
   text-shadow: #96d9f7;
 }
-/* line 97, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 section h2 + h3 {
   margin: 10px 0px 10px 0px;
 }
-/* line 100, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 section h3 {
   display: inline;
   float: left;
@@ -178,7 +208,7 @@ section h3 {
   clear: both;
   margin: 30px 0px 10px 0px;
 }
-/* line 108, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 section h4 {
   display: inline;
   float: left;
@@ -186,20 +216,20 @@ section h4 {
   font-size: 1.0em;
   margin: 0px 0px 10px 0px;
 }
-/* line 115, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 section h2 + p {
   display: inline;
   float: left;
   line-height: 1.3em;
 }
 @media (max-width: 480px) {
-  /* line 121, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   section h4 {
     float: left;
     margin: 10px 0px 10px 0px;
   }
 }
-/* line 126, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 section ol {
   display: inline;
   float: left;
@@ -207,7 +237,7 @@ section ol {
   text-indent: -10px;
   clear: both;
 }
-/* line 132, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 section ol li {
   display: inline;
   float: left;
@@ -215,19 +245,19 @@ section ol li {
   margin: 0px 20px 0px 0px;
   line-height: 1.5em;
 }
-/* line 138, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 section ol li:before {
   content: '\00BB';
 }
 @media (max-width: 480px) {
-  /* line 132, ../sass/screen.scss */
+  /* line 156, ../sass/screen.scss */
   section ol li {
     width: 100%;
     clear: both;
     padding: 3px 0px 3px 0px;
   }
 }
-/* line 148, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 section a {
   color: #fff;
   background-color: #397aa7;
@@ -240,7 +270,7 @@ section a {
   padding: 1px 5px 1px 5px;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 #technical_skills dl {
   display: inline;
   float: left;
@@ -248,13 +278,13 @@ section a {
   min-height: 150px;
   margin: 10px 0px 0px 0px;
 }
-/* line 165, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 #technical_skills dl dt, #technical_skills dl dd {
   display: block;
   float: left;
   clear: both;
 }
-/* line 170, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 #technical_skills dl dt {
   font-weight: bold;
   clear: both;
@@ -262,30 +292,30 @@ section a {
   margin: 0px 0px 10px 0px;
   color: #397aa7;
 }
-/* line 177, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 #technical_skills dl dd {
   line-height: 1.2em;
   margin: 0px 0px 5px 0px;
 }
-/* line 180, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 #technical_skills dl dd:before {
   content: '\00BB';
 }
 @media (max-width: 720px) {
-  /* line 186, ../sass/screen.scss */
+  /* line 210, ../sass/screen.scss */
   #technical_skills dl {
     display: block;
     width: 100%;
   }
 }
 
-/* line 193, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #portfolio {
   position: relative;
   overflow-x: hidden;
   display: none;
 }
-/* line 197, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 #portfolio button {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -302,7 +332,7 @@ section a {
   font-size: 1.5em;
 }
 @media (max-width: 480px) {
-  /* line 211, ../sass/screen.scss */
+  /* line 235, ../sass/screen.scss */
   #portfolio button {
     background-color: transparent !important;
     border-radius: 0px !important;
@@ -310,7 +340,7 @@ section a {
     color: #000 !important;
   }
 }
-/* line 218, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 #portfolio .prev {
   left: -7.5%;
   border-radius: 0px 40px 40px 0px;
@@ -318,11 +348,11 @@ section a {
   -moz-border-radius: 0px 40px 40px 0px;
   -o-border-radius: 0px 40px 40px 0px;
 }
-/* line 221, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #portfolio .prev:before {
   content: '\00AB';
 }
-/* line 225, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 #portfolio .next {
   right: 0%;
   border-radius: 40px 0px 0px 40px;
@@ -330,15 +360,15 @@ section a {
   -moz-border-radius: 40px 0px 0px 40px;
   -o-border-radius: 40px 0px 0px 40px;
 }
-/* line 228, ../sass/screen.scss */
+/* line 252, ../sass/screen.scss */
 #portfolio .next:after {
   content: '\00BB';
 }
-/* line 232, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 #portfolio:hover button, #portfolio:hover figcaption {
   opacity: 0.9;
 }
-/* line 235, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 #portfolio div {
   display: inline;
   float: left;
@@ -347,7 +377,7 @@ section a {
   -moz-transition: all 0.5s ease-in-out 0s;
   -o-transition: 0.5s ease-in-out;
 }
-/* line 240, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 #portfolio div figure {
   position: relative;
   float: left;
@@ -356,11 +386,11 @@ section a {
   cursor: hand;
   cursor: pointer;
 }
-/* line 247, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 #portfolio div figure:nth-of-type(1) {
   display: inline;
 }
-/* line 250, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 #portfolio div figure img.img-screen {
   position: relative;
   display: inline;
@@ -372,11 +402,11 @@ section a {
   height: auto;
   z-index: 1;
 }
-/* line 261, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 #portfolio div figure img.img-print, #portfolio div figure img.img-qrcode {
   display: none;
 }
-/* line 264, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 #portfolio div figure figcaption {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -390,7 +420,7 @@ section a {
   background-color: #000;
   z-index: 5;
 }
-/* line 274, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 #portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
   display: none;
   position: relative;
@@ -404,34 +434,34 @@ section a {
   -moz-transition: all 0.6s ease-in-out 0s;
   -o-transition: 0.6s ease-in-out;
 }
-/* line 285, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 #portfolio div figure figcaption h3 {
   font-size: 1.1em;
   opacity: 1.0;
   display: inline;
   height: 100%;
 }
-/* line 291, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 #portfolio div figure figcaption ol {
   margin: 10px 0px 0px 12.5%;
 }
-/* line 293, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 #portfolio div figure figcaption ol li {
   text-indent: -15px;
   margin: 0px 0px 0px 15px;
   line-height: 1.2em;
 }
-/* line 297, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 #portfolio div figure figcaption ol li:before {
   content: '\2714';
 }
 @media (max-width: 767px) {
-  /* line 303, ../sass/screen.scss */
+  /* line 327, ../sass/screen.scss */
   #portfolio div figure figcaption p {
     display: none !important;
   }
 }
-/* line 307, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 #portfolio div figure figcaption a[rel='open-prompt'] {
   position: relative;
   opacity: 1.0;
@@ -443,32 +473,32 @@ section a {
   padding: 0px;
   text-shadow: none;
 }
-/* line 317, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 #portfolio div figure figcaption a[rel='open-prompt']:after {
   content: '\00BB';
 }
-/* line 321, ../sass/screen.scss */
+/* line 345, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-full {
   color: #397aa7;
   background-color: transparent;
   padding: 0px;
 }
-/* line 325, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-full:before {
   content: '\00BB';
 }
-/* line 329, ../sass/screen.scss */
+/* line 353, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-short {
   display: none;
 }
 @media (max-width: 480px) {
-  /* line 334, ../sass/screen.scss */
+  /* line 358, ../sass/screen.scss */
   #portfolio div figure figcaption {
     display: none !important;
   }
 }
 
-/* line 342, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

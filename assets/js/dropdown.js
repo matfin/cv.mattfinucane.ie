@@ -37,6 +37,7 @@ function Select(){
 
 Select.prototype.populate = function(){
     var headings = document.getElementsByTagName('h2');
+    this.options.push(new Option('Jump to...', 0).returnrendered());
     for(i = 0; i < headings.length; i++){
         var heading = new SectionHeading(headings[i]);
         var option_node = new Option(heading.title, heading.position);

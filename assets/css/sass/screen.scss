@@ -20,6 +20,10 @@ body{
     color: #000;
     border-top: 30px solid #397aa7;
     text-shadow: 1px 1px 1px #eee;
+    @media (max-width: 480px){ 
+        border-top: none;
+        padding: 30px 0px 0px 0px;
+    }
 }
 
 header, section{
@@ -30,8 +34,28 @@ header, section{
     margin: 0px 0px 0px 10%;
     padding: 25px 0px 10px 0px;
     clear: both;
+    form{
+        display: none;
+    }
     @media (max-width: 480px){
         padding: 20px 0px 10px 0px;
+        form{
+            display: block;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 90%;
+            padding: 0px 5% 0px 5%;
+            height: 30px;
+            background-color: #397aa7;
+            z-index: 5;
+            select{
+                display: inline;
+                float: left;
+                width: 100%;
+                margin: 6px 0px 0px 0px;
+            }
+        }
     }
 }
 
