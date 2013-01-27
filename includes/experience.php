@@ -5,10 +5,9 @@
             'Technical lead',
             'Dublin, Ireland',
             new DateTime('2012-01-16'),
-            //new DateTime(),
             'Present',
             array(
-                'Drove the development of multiple award winning applications.',
+                'Drove the development of multiple mobile applications.',
                 'Developed TV guide software in HTML5 for set top boxes, smart TVs and web.',
                 'Overhauled the Irish Times News app (iOS, Android), integrating to their existing web infrastructure.',
                 'Responsible for client satisfaction by delivering quality products on time and within budget.',

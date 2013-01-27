@@ -11,9 +11,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <title>Matthew Finucane &ndash; Curriculum Vitae</title>
-        <!--link rel="stylesheet" type="text/css" href="assets/css/stylesheets/screen.css" media="screen" /-->
-        <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/print.css" media="screen,print" />
+        <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/screen.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/print.css" media="print" />
         <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="assets/js/dropdown.js"></script>
         <script type="text/javascript" src="assets/js/script.js"></script>
     </head>
     <body>

@@ -101,11 +101,22 @@ section{
     a{
         text-decoration: none;
         font-weight: bold;
+        &:visited{
+            color: #000;
+        }
     }
 }
 
 #qualifications{
     page-break-before: always;
+}
+
+#interests{
+    a{
+        &:after{
+            content: '('attr(href)')';
+        }
+    }
 }
 
 #technical_skills{
@@ -133,6 +144,7 @@ section{
 
 #portfolio{
     display: block !important;
+    page-break-after: always;
     button{
         display: none;
     }

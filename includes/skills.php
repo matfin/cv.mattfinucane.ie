@@ -1,5 +1,5 @@
 <h2>
-    My Skills
+    Skills
 </h2>
 <ol>
     <li>
@@ -9,7 +9,7 @@
         Practice and advocate the highest development standards. 
     </li>
     <li>
-        Strong analytical skills.
+        Strong analytical thinking.
     </li>
     <li>
         In depth understanding of technologies across multiple domains. 

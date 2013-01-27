@@ -229,20 +229,18 @@ section ol li:before {
 }
 /* line 148, ../sass/screen.scss */
 section a {
-  color: #8A8F91;
+  color: #fff;
+  background-color: #397aa7;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-shadow: none;
   text-decoration: none;
-  font-weight: bold;
-}
-/* line 152, ../sass/screen.scss */
-section a:hover {
-  text-decoration: underline;
-}
-/* line 155, ../sass/screen.scss */
-section a:visited {
-  color: #cdc9c8;
+  padding: 1px 5px 1px 5px;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 #technical_skills dl {
   display: inline;
   float: left;
@@ -250,13 +248,13 @@ section a:visited {
   min-height: 150px;
   margin: 10px 0px 0px 0px;
 }
-/* line 168, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #technical_skills dl dt, #technical_skills dl dd {
   display: block;
   float: left;
   clear: both;
 }
-/* line 173, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 #technical_skills dl dt {
   font-weight: bold;
   clear: both;
@@ -264,30 +262,30 @@ section a:visited {
   margin: 0px 0px 10px 0px;
   color: #397aa7;
 }
-/* line 180, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 #technical_skills dl dd {
   line-height: 1.2em;
   margin: 0px 0px 5px 0px;
 }
-/* line 183, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #technical_skills dl dd:before {
   content: '\00BB';
 }
 @media (max-width: 720px) {
-  /* line 189, ../sass/screen.scss */
+  /* line 186, ../sass/screen.scss */
   #technical_skills dl {
     display: block;
     width: 100%;
   }
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #portfolio {
   position: relative;
   overflow-x: hidden;
   display: none;
 }
-/* line 200, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 #portfolio button {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -304,7 +302,7 @@ section a:visited {
   font-size: 1.5em;
 }
 @media (max-width: 480px) {
-  /* line 214, ../sass/screen.scss */
+  /* line 211, ../sass/screen.scss */
   #portfolio button {
     background-color: transparent !important;
     border-radius: 0px !important;
@@ -312,7 +310,7 @@ section a:visited {
     color: #000 !important;
   }
 }
-/* line 221, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 #portfolio .prev {
   left: -7.5%;
   border-radius: 0px 40px 40px 0px;
@@ -320,11 +318,11 @@ section a:visited {
   -moz-border-radius: 0px 40px 40px 0px;
   -o-border-radius: 0px 40px 40px 0px;
 }
-/* line 224, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 #portfolio .prev:before {
   content: '\00AB';
 }
-/* line 228, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 #portfolio .next {
   right: 0%;
   border-radius: 40px 0px 0px 40px;
@@ -332,15 +330,15 @@ section a:visited {
   -moz-border-radius: 40px 0px 0px 40px;
   -o-border-radius: 40px 0px 0px 40px;
 }
-/* line 231, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 #portfolio .next:after {
   content: '\00BB';
 }
-/* line 235, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 #portfolio:hover button, #portfolio:hover figcaption {
   opacity: 0.9;
 }
-/* line 238, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 #portfolio div {
   display: inline;
   float: left;
@@ -349,7 +347,7 @@ section a:visited {
   -moz-transition: all 0.5s ease-in-out 0s;
   -o-transition: 0.5s ease-in-out;
 }
-/* line 243, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 #portfolio div figure {
   position: relative;
   float: left;
@@ -358,11 +356,11 @@ section a:visited {
   cursor: hand;
   cursor: pointer;
 }
-/* line 250, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 #portfolio div figure:nth-of-type(1) {
   display: inline;
 }
-/* line 253, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 #portfolio div figure img.img-screen {
   position: relative;
   display: inline;
@@ -374,11 +372,11 @@ section a:visited {
   height: auto;
   z-index: 1;
 }
-/* line 264, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 #portfolio div figure img.img-print, #portfolio div figure img.img-qrcode {
   display: none;
 }
-/* line 267, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 #portfolio div figure figcaption {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -392,7 +390,7 @@ section a:visited {
   background-color: #000;
   z-index: 5;
 }
-/* line 277, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 #portfolio div figure figcaption h3, #portfolio div figure figcaption p, #portfolio div figure figcaption dd, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
   display: none;
   position: relative;
@@ -406,34 +404,34 @@ section a:visited {
   -moz-transition: all 0.6s ease-in-out 0s;
   -o-transition: 0.6s ease-in-out;
 }
-/* line 288, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 #portfolio div figure figcaption h3 {
   font-size: 1.1em;
   opacity: 1.0;
   display: inline;
   height: 100%;
 }
-/* line 294, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 #portfolio div figure figcaption ol {
   margin: 10px 0px 0px 12.5%;
 }
-/* line 296, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 #portfolio div figure figcaption ol li {
   text-indent: -15px;
   margin: 0px 0px 0px 15px;
   line-height: 1.2em;
 }
-/* line 300, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 #portfolio div figure figcaption ol li:before {
   content: '\2714';
 }
 @media (max-width: 767px) {
-  /* line 306, ../sass/screen.scss */
+  /* line 303, ../sass/screen.scss */
   #portfolio div figure figcaption p {
     display: none !important;
   }
 }
-/* line 310, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 #portfolio div figure figcaption a[rel='open-prompt'] {
   position: relative;
   opacity: 1.0;
@@ -441,28 +439,36 @@ section a:visited {
   float: left;
   margin: 5px 0px 0px 12.5%;
   color: #397aa7;
+  background-color: transparent;
+  padding: 0px;
   text-shadow: none;
 }
-/* line 318, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 #portfolio div figure figcaption a[rel='open-prompt']:after {
   content: '\00BB';
 }
-/* line 323, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
+#portfolio div figure figcaption a.link-full {
+  color: #397aa7;
+  background-color: transparent;
+  padding: 0px;
+}
+/* line 325, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-full:before {
   content: '\00BB';
 }
-/* line 327, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-short {
   display: none;
 }
 @media (max-width: 480px) {
-  /* line 332, ../sass/screen.scss */
+  /* line 334, ../sass/screen.scss */
   #portfolio div figure figcaption {
     display: none !important;
   }
 }
 
-/* line 340, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;
