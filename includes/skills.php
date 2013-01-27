@@ -125,23 +125,6 @@
 </dl>
 <dl>
     <dt>
-        Development skills
-    </dt>
-    <dd>
-        Agile methods
-    </dd>
-    <dd>
-        Scrum
-    </dd>
-    <dd>
-        Unit Testing
-    </dd>
-    <dd>
-        MVC
-    </dd>
-</dl>
-<dl>
-    <dt>
         Infrastructure
     </dt>
     <dd>
@@ -172,5 +155,19 @@
     </dd>
     <dd>
         BaseCamp
+    </dd>
+</dl>
+<dl>
+    <dt>
+        Development skills
+    </dt>
+    <dd>
+        Agile/Scrum
+    </dd>
+    <dd>
+        Unit Testing
+    </dd>
+    <dd>
+        MVC
     </dd>
 </dl>

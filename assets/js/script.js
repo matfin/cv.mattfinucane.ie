@@ -53,6 +53,9 @@ function primePortfolioToSwipe(){
     $('a[rel="external"]').each(function(){
         $(this).attr('target', '_blank');
     });
+    $('a[rel="open-prompt"]').each(function(){
+        $(this).text('Tap to see more');
+    });
     $('button', '#portfolio').css({
         'display':'none'
     });
@@ -96,6 +99,9 @@ function primePortfolioScroll(){
     });
     $('a[rel="external"]').each(function(){
         $(this).attr('target', '_blank');
+    });
+    $('a[rel="open-prompt"]').each(function(){
+        $(this).text('Click to see more');
     });
 }
 

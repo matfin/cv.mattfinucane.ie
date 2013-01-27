@@ -117,7 +117,7 @@
                 <?=$portfolio_item->get('title');?>
             </h3>
             <a rel="open-prompt">
-                Read the case study
+                More info
             </a>
             <p>
                 <?= $portfolio_item->get('brief'); ?>

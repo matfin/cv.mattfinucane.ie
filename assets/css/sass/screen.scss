@@ -62,6 +62,13 @@ header{
             text-decoration: underline;
         }
     }
+    address{
+        display: inline;
+        float: left;
+        width: 100%;
+        clear: both;
+        margin: 5px 0px 5px 0px;
+    }
     @media (max-width: 480px){
         a{
             float: left;
@@ -125,6 +132,7 @@ section{
         li{
             display: inline;
             float: left;
+            clear: both;
             margin: 0px 20px 0px 0px;
             line-height: 1.5em;
             &:before{
@@ -154,43 +162,33 @@ section{
     dl{
         display: inline;
         float: left;
-        clear: both;
-        width: 100%;
-        margin: 10px 0px 0px;
+        width: 33%;
+        min-height: 150px;
+        margin: 10px 0px 0px 0px;
         dt, dd{
-            display: inline;
+            display: block;
             float: left;
+            clear: both;
         }
         dt{
             font-weight: bold;
             clear: both;
             width: 100%;
-            margin: 0px 0px 5px 0px;
+            margin: 0px 0px 10px 0px;
             color: #397aa7;
         }
         dd{
             line-height: 1.2em;
-            margin: 0px 10px 5px 0px;
-            &:after{
-                content: ',';
-            }
-            &:last-child{
-                &:after{
-                    content: '';
-                }
-            }
+            margin: 0px 0px 5px 0px;
+            &:before{
+                content: '\00BB';
+            } 
         }
-        @media (max-width:480px){
-            dd{
-                width: 100%;
-                clear: both;
-                &:after{
-                     content: '';
-                }
-                &:before{
-                    content: '\00BB';
-                }    
-            }
+    }
+    @media (max-width:720px){
+        dl{
+            display: block;
+            width: 100%;
         }
     }
 }

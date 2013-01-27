@@ -56,7 +56,7 @@
             )
         ),
         new job(
-            'Find My Past',
+            'FindMyPast.com',
             'Front end Web Developer',
             'London, UK',
             new DateTime('2006-09-12'),

@@ -11,8 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <title>Matthew Finucane &ndash; Curriculum Vitae</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/screen.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/print.css" media="print" />
+        <!--link rel="stylesheet" type="text/css" href="assets/css/stylesheets/screen.css" media="screen" /-->
+        <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/print.css" media="screen,print" />
         <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
         <script type="text/javascript" src="assets/js/script.js"></script>
     </head>
@@ -21,6 +21,9 @@
             <h1>
                 Matthew Finucane &ndash; CV
             </h1>
+            <address>
+                85 The Paddocks, Hybreasal, Kilmainham, Dublin 8.
+            </address>
             <a href="mailto:matfin@gmail.com" title="Email Matt Fimucane">
                 Email: matfin@gmail.com
             </a>
