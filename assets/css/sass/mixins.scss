@@ -2,6 +2,7 @@
     -webkit-transition: $duration ease-in-out;
     -moz-transition: all $duration ease-in-out 0s;
     -o-transition: $duration ease-in-out;
+    transition: all $duration ease-in-out;
 }
 
 @mixin roundcorner($px){

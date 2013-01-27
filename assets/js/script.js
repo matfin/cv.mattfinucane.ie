@@ -66,7 +66,7 @@ function primePortfolioToSwipe(){
     $('a[rel="external"]').each(function(){
         $(this).attr('target', '_blank');
     });
-    $('a[rel="open-prompt"]').each(function(){
+    $('a.moreinfo').each(function(){
         $(this).text('Tap to see more');
     });
     $('button', '#portfolio').css({
@@ -113,7 +113,7 @@ function primePortfolioScroll(){
     $('a[rel="external"]').each(function(){
         $(this).attr('target', '_blank');
     });
-    $('a[rel="moreinfo"]').each(function(){
+    $('a.moreinfo').each(function(){
         $(this).text('Click to see more');
     });
 }
@@ -198,7 +198,7 @@ function toggleFullFigCaption(showing){
                    'opacity':'1.0',
                    'display':'inline'
                });
-               $('a[rel="open-prompt"]', '#portfolio').css({
+               $('a.moreinfo', '#portfolio').css({
                    'display':'none',
                    'opacity':'0.0'
                });
@@ -223,7 +223,7 @@ function toggleFullFigCaption(showing){
                'background-color':'#000',
                'color':'#fff'
            });
-            $('a[rel="open-prompt"]', '#portfolio').css({
+            $('a.moreinfo', '#portfolio').css({
                    'display':'inline',
                    'opacity':'1.0'
                });

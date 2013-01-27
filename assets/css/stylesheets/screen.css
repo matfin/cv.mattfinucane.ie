@@ -320,6 +320,7 @@ section a {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
   -o-transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   position: absolute;
   top: 50%;
   width: 7.5%;
@@ -376,6 +377,7 @@ section a {
   -webkit-transition: 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out 0s;
   -o-transition: 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 /* line 264, ../sass/screen.scss */
 #portfolio div figure {
@@ -411,6 +413,7 @@ section a {
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out 0s;
   -o-transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -433,6 +436,7 @@ section a {
   -webkit-transition: 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out 0s;
   -o-transition: 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 /* line 309, ../sass/screen.scss */
 #portfolio div figure figcaption h3 {
@@ -462,7 +466,7 @@ section a {
   }
 }
 /* line 331, ../sass/screen.scss */
-#portfolio div figure figcaption a[rel='open-prompt'] {
+#portfolio div figure figcaption a.moreinfo {
   position: relative;
   opacity: 1.0;
   display: inline;
@@ -474,7 +478,7 @@ section a {
   text-shadow: none;
 }
 /* line 341, ../sass/screen.scss */
-#portfolio div figure figcaption a[rel='open-prompt']:after {
+#portfolio div figure figcaption a.moreinfo:after {
   content: '\00BB';
 }
 /* line 345, ../sass/screen.scss */

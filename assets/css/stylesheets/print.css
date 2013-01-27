@@ -283,7 +283,7 @@ section a:visited {
   display: none !important;
 }
 /* line 196, ../sass/print.scss */
-#portfolio div figure figcaption a[rel='open-prompt'] {
+#portfolio div figure figcaption a.moreinfo {
   display: none;
 }
 /* line 200, ../sass/print.scss */
