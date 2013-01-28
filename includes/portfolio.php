@@ -10,7 +10,7 @@
             'web/irishtimes.jpg', 
             'printlogos/irishtimes.png',
             'qrcodes/irishtimes.png',
-            'The Irish Times - a major broadsheet newspaper in Ireland, gave us the task of overhauling their app for iPhone and Android platforms.',
+            'The Irish Times gave us the task of overhauling their news app for iPhone and Android platforms.',
             'As one of the lead developers on this project, I was responsible for smoothly integrating existing news infrastructure into a fast, feature rich and robust app.',
             array(
                 'Developed natively in Objective C and Java.',
@@ -53,17 +53,18 @@
          *  Web work
          */
         new portfolioitem(
-            'Dress For Success', 
-            'http://www.dressforsuccessdublin.org',
-            'http://is.gd/RgLjdm',
-            'web/dress-for-success-dublin.jpg', 
-            'printlogos/dress-for-success-dublin.png',
-            'qrcodes/dress-for-success-dublin.png',
-            'This site for an international charity was one of three developed by a team of seven people as part of the 24 The Web design challenge.',
-            'I worked as lead developer within a team of six other people. My responsibility was to set up the server and content management infrastructure and integrate the final design.',
+            'R.Hendy Chartered Accountants', 
+            'http://www.rhendy.ie',
+            'http://is.gd/NUJrre',
+            'web/rhendy.jpg', 
+            'printlogos/rhendy.jpg',
+            'qrcodes/rhendy.png',
+            'R.Hendy Chartered accountants needed a modern, professional looking website that was easily updatable and tied into their existing CRM solutions.',
+            'I coded this site in PHP with clean, standards compliant XHTML. Training and documentation was provided to staff to keep content updated.',
             array(
-                'Site comes integrated with Perch, a lightweight content management system.',
-                'CRM allows site owners to easily access volunteers information.'
+                'Integrated Facebook and Twitter social media plugins.',
+                'Clean and modern coding standards ensures the site runs smoothly on the latest browsers and tablet devices.',
+                'Chose Perch as the CMS and created custom templates, making it easy to update content.'
             )
         ),
         new portfolioitem(
@@ -116,6 +117,9 @@
             <h3>
                 <?=$portfolio_item->get('title');?>
             </h3>
+            <a class="close">
+                Close
+            </a>
             <a class="moreinfo">
                 More info
             </a>

@@ -444,28 +444,29 @@ section a {
   opacity: 1.0;
   display: inline;
   height: 100%;
+  width: 50%;
 }
-/* line 315, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 #portfolio div figure figcaption ol {
   margin: 10px 0px 0px 12.5%;
 }
-/* line 317, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 #portfolio div figure figcaption ol li {
   text-indent: -15px;
   margin: 0px 0px 0px 15px;
   line-height: 1.2em;
 }
-/* line 321, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 #portfolio div figure figcaption ol li:before {
   content: '\2714';
 }
 @media (max-width: 767px) {
-  /* line 327, ../sass/screen.scss */
+  /* line 328, ../sass/screen.scss */
   #portfolio div figure figcaption p {
     display: none !important;
   }
 }
-/* line 331, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 #portfolio div figure figcaption a.moreinfo {
   position: relative;
   opacity: 1.0;
@@ -476,33 +477,40 @@ section a {
   background-color: transparent;
   padding: 0px;
   text-shadow: none;
+  clear: both;
 }
-/* line 341, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 #portfolio div figure figcaption a.moreinfo:after {
   content: '\00BB';
 }
-/* line 345, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
+#portfolio div figure figcaption a.close {
+  display: none;
+  float: right;
+  margin: 5% 30px 0px 0px;
+}
+/* line 352, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-full {
   color: #397aa7;
   background-color: transparent;
   padding: 0px;
 }
-/* line 349, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-full:before {
   content: '\00BB';
 }
-/* line 353, ../sass/screen.scss */
+/* line 360, ../sass/screen.scss */
 #portfolio div figure figcaption a.link-short {
   display: none;
 }
 @media (max-width: 480px) {
-  /* line 358, ../sass/screen.scss */
+  /* line 365, ../sass/screen.scss */
   #portfolio div figure figcaption {
     display: none !important;
   }
 }
 
-/* line 366, ../sass/screen.scss */
+/* line 373, ../sass/screen.scss */
 footer {
   display: inline;
   float: left;

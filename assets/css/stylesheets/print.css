@@ -216,7 +216,7 @@ section a:visited {
 
 /* line 145, ../sass/print.scss */
 #portfolio {
-  display: block !important;
+  display: none !important;
   page-break-after: always;
 }
 /* line 148, ../sass/print.scss */

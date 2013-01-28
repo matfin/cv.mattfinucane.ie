@@ -69,6 +69,9 @@ function primePortfolioToSwipe(){
     $('a.moreinfo').each(function(){
         $(this).text('Tap to see more');
     });
+    $('a.close').each(function(){
+        $(this).text('Tap to close');
+    });
     $('button', '#portfolio').css({
         'display':'none'
     });
@@ -115,6 +118,9 @@ function primePortfolioScroll(){
     });
     $('a.moreinfo').each(function(){
         $(this).text('Click to see more');
+    });
+     $('a.close').each(function(){
+        $(this).text('Click to close');
     });
 }
 
@@ -202,6 +208,10 @@ function toggleFullFigCaption(showing){
                    'display':'none',
                    'opacity':'0.0'
                });
+               $('a.close', '#portfolio').css({
+                   'display':'inline',
+                   'opacity':'1.0'
+               });
            }, 100);
           
            $('figcaption').data('showing', true);
@@ -223,10 +233,14 @@ function toggleFullFigCaption(showing){
                'background-color':'#000',
                'color':'#fff'
            });
-            $('a.moreinfo', '#portfolio').css({
-                   'display':'inline',
-                   'opacity':'1.0'
-               });
+           $('a.moreinfo', '#portfolio').css({
+                'display':'inline',
+                'opacity':'1.0'
+           });
+           $('a.close', '#portfolio').css({
+               'display':'none',
+               'opacity':'0.0'
+           });
            $('figcaption').data('showing', false);
            break;
         }

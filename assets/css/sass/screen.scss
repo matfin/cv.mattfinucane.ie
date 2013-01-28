@@ -311,6 +311,7 @@ section{
                     opacity: 1.0;
                     display: inline;
                     height: 100%;
+                    width: 50%;
                 }
                 ol{
                     margin: 10px 0px 0px 12.5%;
@@ -338,9 +339,15 @@ section{
                     background-color: transparent;
                     padding: 0px;
                     text-shadow: none;
+                    clear: both;
                     &:after{
                         content: '\00BB';
                     }
+                }
+                a.close{
+                    display: none;
+                    float: right;
+                    margin: 5% 30px 0px 0px;
                 }
                 a.link-full{
                     color: #397aa7;
