@@ -113,7 +113,7 @@ header form, section form {
   }
   /* line 42, ../sass/screen.scss */
   header form, section form {
-    display: block;
+    display: none;
     position: fixed;
     top: 0px;
     left: 0px;

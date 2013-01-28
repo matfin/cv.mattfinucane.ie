@@ -5,15 +5,14 @@
  * Written by Matthew Finucane, January 2013.
  */
 
-function SectionHeading(heading_node){
-    this.title = heading_node.innerHTML.replace(/^\s+|\s+$/g, "");;
-    //this.position = heading_node.offsetTop;
+function Section(section_node){
+    this.title = section_node.getElementsByTagName('h2')[0].innerHTML.replace(/^\s+|\s+$/g, "");;
     var top = 0;
-    if(heading_node.offsetParent){
+    if(section_node.offsetParent){
         do{
-            top += heading_node.offsetTop;
+            top += section_node.offsetTop;
         }
-        while(heading_node = heading_node.offsetParent);
+        while(section_node = section_node.offsetParent);
     }
     this.position = top;
 }
@@ -36,11 +35,11 @@ function Select(){
 }
 
 Select.prototype.populate = function(){
-    var headings = document.getElementsByTagName('h2');
+    var sections = document.getElementsByTagName('section');
     this.options.push(new Option('Jump to...', 0).returnrendered());
-    for(i = 0; i < headings.length; i++){
-        var heading = new SectionHeading(headings[i]);
-        var option_node = new Option(heading.title, heading.position);
+    for(i = 0; i < sections.length; i++){
+        var section = new Section(sections[i]);
+        var option_node = new Option(section.title, section.position);
         this.options.push(option_node.returnrendered());
     }
 }

@@ -29,6 +29,9 @@ header, section{
 }
 
 header{
+    form{
+        display: none;
+    }
     h1{
         display: inline;
         float: left;

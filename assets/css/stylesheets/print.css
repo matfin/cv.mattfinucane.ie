@@ -93,6 +93,10 @@ header, section {
 }
 
 /* line 32, ../sass/print.scss */
+header form {
+  display: none;
+}
+/* line 35, ../sass/print.scss */
 header h1 {
   display: inline;
   float: left;
@@ -101,7 +105,7 @@ header h1 {
   font-size: 1.2em;
   font-weight: bold;
 }
-/* line 40, ../sass/print.scss */
+/* line 43, ../sass/print.scss */
 header a, header address {
   display: inline;
   float: left;
@@ -110,13 +114,13 @@ header a, header address {
   color: #000;
   margin: 3px 10px 0px 0px;
 }
-/* line 48, ../sass/print.scss */
+/* line 51, ../sass/print.scss */
 header address {
   width: 100%;
   clear: both;
 }
 
-/* line 55, ../sass/print.scss */
+/* line 58, ../sass/print.scss */
 section h2 {
   display: inline;
   float: left;
@@ -127,7 +131,7 @@ section h2 {
   padding: 0px 0px 5px 0px;
   letter-spacing: 0.1em;
 }
-/* line 65, ../sass/print.scss */
+/* line 68, ../sass/print.scss */
 section h3 {
   display: inline;
   float: left;
@@ -136,7 +140,7 @@ section h3 {
   clear: both;
   margin: 5px 0px 3px 0px;
 }
-/* line 73, ../sass/print.scss */
+/* line 76, ../sass/print.scss */
 section h4 {
   display: inline;
   float: left;
@@ -144,13 +148,13 @@ section h4 {
   font-size: 1.0em;
   margin: 0px 0px 5px 0px;
 }
-/* line 80, ../sass/print.scss */
+/* line 83, ../sass/print.scss */
 section h2 + p {
   display: inline;
   float: left;
   line-height: 1.3em;
 }
-/* line 85, ../sass/print.scss */
+/* line 88, ../sass/print.scss */
 section ol {
   display: inline;
   float: left;
@@ -158,72 +162,72 @@ section ol {
   text-indent: -11px;
   clear: both;
 }
-/* line 91, ../sass/print.scss */
+/* line 94, ../sass/print.scss */
 section ol li {
   display: inline;
   float: left;
   margin: 0px 20px 0px 0px;
   line-height: 1.5em;
 }
-/* line 96, ../sass/print.scss */
+/* line 99, ../sass/print.scss */
 section ol li:before {
   content: '\00BB';
 }
-/* line 101, ../sass/print.scss */
+/* line 104, ../sass/print.scss */
 section a {
   text-decoration: none;
   font-weight: bold;
 }
-/* line 104, ../sass/print.scss */
+/* line 107, ../sass/print.scss */
 section a:visited {
   color: #000;
 }
 
-/* line 110, ../sass/print.scss */
+/* line 113, ../sass/print.scss */
 #qualifications {
   page-break-before: always;
 }
 
-/* line 116, ../sass/print.scss */
+/* line 119, ../sass/print.scss */
 #interests a:after {
   content: "(" attr(href) ")";
 }
 
-/* line 123, ../sass/print.scss */
+/* line 126, ../sass/print.scss */
 #technical_skills dl {
   display: inline;
   float: left;
   width: 33%;
   margin: 10px 0px 0px;
 }
-/* line 128, ../sass/print.scss */
+/* line 131, ../sass/print.scss */
 #technical_skills dl dt, #technical_skills dl dd {
   display: inline;
   float: left;
   clear: both;
   width: 100%;
 }
-/* line 134, ../sass/print.scss */
+/* line 137, ../sass/print.scss */
 #technical_skills dl dt {
   font-weight: bold;
   margin: 0px 0px 5px 0px;
 }
-/* line 138, ../sass/print.scss */
+/* line 141, ../sass/print.scss */
 #technical_skills dl dd {
   line-height: 1.0em;
   margin: 0px 10px 5px 0px;
 }
 
-/* line 145, ../sass/print.scss */
+/* line 148, ../sass/print.scss */
 #portfolio {
   display: none !important;
   page-break-after: always;
 }
-/* line 148, ../sass/print.scss */
+/* line 151, ../sass/print.scss */
 #portfolio button {
   display: none;
 }
-/* line 151, ../sass/print.scss */
+/* line 154, ../sass/print.scss */
 #portfolio div {
   display: block !important;
   float: left;
@@ -233,7 +237,7 @@ section a:visited {
   -o-transform: translate3d(0px) !important;
   -ms-transform: translate3d(0px) !important;
 }
-/* line 156, ../sass/print.scss */
+/* line 159, ../sass/print.scss */
 #portfolio div figure {
   position: relative;
   display: block !important;
@@ -244,32 +248,32 @@ section a:visited {
   border-right: 1px solid #cdc9c8;
   border-bottom: 1px solid #000;
 }
-/* line 165, ../sass/print.scss */
+/* line 168, ../sass/print.scss */
 #portfolio div figure img.img-screen {
   display: none;
 }
-/* line 168, ../sass/print.scss */
+/* line 171, ../sass/print.scss */
 #portfolio div figure img.img-print {
   display: inline;
   float: left;
   width: 100px;
   height: auto;
 }
-/* line 174, ../sass/print.scss */
+/* line 177, ../sass/print.scss */
 #portfolio div figure img.img-qrcode {
   display: inline;
   float: right;
   width: 67px;
   height: auto;
 }
-/* line 180, ../sass/print.scss */
+/* line 183, ../sass/print.scss */
 #portfolio div figure figcaption {
   position: relative;
   display: inline;
   float: left;
   width: 250px;
 }
-/* line 185, ../sass/print.scss */
+/* line 188, ../sass/print.scss */
 #portfolio div figure figcaption h3, #portfolio div figure figcaption a.link-short {
   display: inline;
   float: left;
@@ -278,20 +282,20 @@ section a:visited {
   font-size: 100%;
   clear: both;
 }
-/* line 193, ../sass/print.scss */
+/* line 196, ../sass/print.scss */
 #portfolio div figure figcaption p, #portfolio div figure figcaption ol, #portfolio div figure figcaption a.link-full {
   display: none !important;
 }
-/* line 196, ../sass/print.scss */
+/* line 199, ../sass/print.scss */
 #portfolio div figure figcaption a.moreinfo {
   display: none;
 }
-/* line 200, ../sass/print.scss */
+/* line 203, ../sass/print.scss */
 #portfolio div figure:nth-child(3n) {
   border-right: 0px;
 }
 
-/* line 207, ../sass/print.scss */
+/* line 210, ../sass/print.scss */
 footer {
   display: none;
 }
