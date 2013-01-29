@@ -15,6 +15,6 @@
         Regularly provide pro-bono web development to charities and startups.
     </li>
     <li>
-        I am a keen photographer, I keep up with current affairs, and I enjoy reading, traveling and cycling.
+        Photography, reading, traveling and cycling.
     </li>
 </ol>

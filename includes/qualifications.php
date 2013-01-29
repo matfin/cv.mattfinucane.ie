@@ -5,7 +5,7 @@
     <time datetime="2001-09-26">September 2001</time> to <time datetime="2005-06-10">June 2005</time>
 </h3>
 <h4>
-    Computer Applications &ndash; Dublin City University
+    BSc. in Computer Applications (Honours) &ndash; Dublin City University
 </h4>
 <ol>
     <li>

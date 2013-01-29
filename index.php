@@ -18,39 +18,41 @@
         <script type="text/javascript" src="assets/js/script.js"></script>
     </head>
     <body>
-        <header>
-            <form></form>
-            <h1>
-                Matthew Finucane &ndash; CV
-            </h1>
-            <address>
-                85 The Paddocks, Hybreasal, Kilmainham, Dublin 8.
-            </address>
-            <a href="mailto:matfin@gmail.com" title="Email Matt Fimucane">
-                Email: matfin@gmail.com
-            </a>
-            <a href="tel:+353861945324" title="Phone Matt Finucane">
-                Tel: +353 (0)86 1945324
-            </a>
-        </header>
-        <section id="profile">
-            <?php include_once('includes/profile.php'); ?>
-        </section>
-        <section id="technical_skills">
-            <?php include_once('includes/skills.php'); ?>
-        </section>
-        <section id="professional_experience">
-            <?php include_once('includes/experience.php'); ?>
-        </section>
-        <section id="portfolio">
-            <?php include_once('includes/portfolio.php'); ?>
-        </section>             
-        <section id="qualifications">
-            <?php include_once('includes/qualifications.php'); ?>
-        </section>
-        <section id="interests">
-            <?php include_once('includes/interests.php'); ?>
-        </section>
+        <div class="wrapper">
+            <header>
+                <form></form>
+                <h1>
+                    Matthew Finucane &ndash; CV
+                </h1>
+                <address>
+                    85 The Paddocks, Hybreasal, Kilmainham, Dublin 8.
+                </address>
+                <a href="mailto:matfin@gmail.com" title="Email Matt Fimucane">
+                    Email: matfin@gmail.com
+                </a>
+                <a href="tel:+353861945324" title="Phone Matt Finucane">
+                    Tel: +353 (0)86 1945324
+                </a>
+            </header>
+            <section id="profile">
+                <?php include_once('includes/profile.php'); ?>
+            </section>
+            <section id="technical_skills">
+                <?php include_once('includes/skills.php'); ?>
+            </section>
+            <section id="professional_experience">
+                <?php include_once('includes/experience.php'); ?>
+            </section>
+            <section id="portfolio">
+                <?php include_once('includes/portfolio.php'); ?>
+            </section>             
+            <section id="qualifications">
+                <?php include_once('includes/qualifications.php'); ?>
+            </section>
+            <section id="interests">
+                <?php include_once('includes/interests.php'); ?>
+            </section>
+        </div>
         <footer>
             <!-- empty  -->
         </footer>

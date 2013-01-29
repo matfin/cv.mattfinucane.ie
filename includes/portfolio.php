@@ -5,7 +5,7 @@
          */
         new portfolioitem(
             'The Irish Times', 
-            'https://itunes.apple.com/ie/app/id365544593?mt=8&affId=1736887',
+            'https://itunes.apple.com/ie/app/id365544593?mt=8&amp;affId=1736887',
             'http://is.gd/ZrU6cB',
             'web/irishtimes.jpg', 
             'printlogos/irishtimes.png',
@@ -20,7 +20,7 @@
         ),
         new portfolioitem(
             'NewsWhip', 
-            'https://itunes.apple.com/ie/app/id569523615?mt=8&affId=1736887',
+            'https://itunes.apple.com/ie/app/id569523615?mt=8&amp;affId=1736887',
             'http://is.gd/yXEvbw',
             'web/newswhip.jpg', 
             'printlogos/newswhip.png',
@@ -35,7 +35,7 @@
         ),
         new portfolioitem(
             'Three Football', 
-            'https://itunes.apple.com/ie/app/id525701972?mt=8&affId=1736887',
+            'https://itunes.apple.com/ie/app/id525701972?mt=8&amp;affId=1736887',
             'http://is.gd/AnVBKS',
             'web/threefootball.jpg', 
             'printlogos/threefootball.png',

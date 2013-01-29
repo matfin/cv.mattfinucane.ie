@@ -12,10 +12,10 @@
         Strong analytical thinking.
     </li>
     <li>
-        In depth understanding of technologies across multiple domains. 
+        In-depth understanding of technologies across multiple domains. 
     </li>
     <li>
-        Fast learner with strong desire to continuously up-skill.
+        Life-long learner with strong interest in continuous professional development.
     </li>
     <li>
         Effective communication skills; training, presentations, documentation and delegation.
