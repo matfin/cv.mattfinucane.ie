@@ -9,7 +9,7 @@
         Self-taught in iOS and Android development. Projects can be found on <a href="http://github.com/matfin" title="GitHub" rel="external">GitHub</a>.
     </li>
     <li>
-        Participated in the <a href="http://24theweb.com/" title="24 The Web" rel="external">&#39;24 The Web&#39;</a> design challenge as lead developer.
+        Successfully participated in the <a href="http://24theweb.com/" title="24 The Web" rel="external">&#39;24 The Web&#39;</a> design challenge as lead developer.
     </li>
     <li>
         Regularly provide pro-bono web development to charities and startups.

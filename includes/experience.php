@@ -29,7 +29,7 @@
         ),
         new job(
             'Clearweb',
-            'Founder &amp; owner',
+            'Director',
             'Dublin, Ireland',
             new DateTime('2008-07-01'),
             new DateTime('2010-03-08'),
@@ -63,7 +63,7 @@
             array(
                 'Upgraded site standards compliancy in XHTML and CSS.',
                 'Coordinated internal knowledge sharing through regular web standards training.',
-                'Remodeled html email templates for all marketing campaigns.',
+                'Re-modeled html email templates for all marketing campaigns.',
                 'Provided ongoing maintenance and enhancements for the company website.'
             )
         ),
