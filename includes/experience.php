@@ -1,11 +1,24 @@
 <?php
     $jobs = array(
         new job(
+            'Contracting (Self employed)',
+            'Web Developer',
+            'Dublin, Ireland',
+            new DateTime('2013-03-11'),
+            'Present',
+            array(
+                'Created a knowlege based information portal (secure document sharing, retrieval and storage) for a large telecomms organisation in PHP.',
+                'Optimised customer login/registration flow and integrated this with other CRM tools (Salesforce, Eloqua).',
+                'Integrated the Compass SCSS framework and optimised HTML templates to improve SEO performance.',
+                'Developed HTML templates for the internal corporate IT intranet and assisted in integrating them to Microsoft Sharepoint.'
+            )
+        ),
+        new job(
             'Maith&uacute; IT Solutions',
             'Technical lead',
             'Dublin, Ireland',
             new DateTime('2012-01-16'),
-            'Present',
+            new DateTime('2013-03-08'),
             array(
                 'Drove the development of multiple mobile applications.',
                 'Developed TV guide software in HTML5 for set top boxes, smart TVs and web.',
