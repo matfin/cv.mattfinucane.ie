@@ -1,0 +1,37 @@
+Controllers
+===========
+
+-- Fetch data from json files
+-- Package needed for this
+-- Controller for standard text (profile, qualifications, interests) - use markdown
+-- Controller for portfolio items
+-- Controller for skills (by category)
+-- Controller for work experience
+
+Templates
+=========
+
+-- One page master template containing...
+-- Template for each of the sections
+-- card template for section sub items (portfolio item, skillset item)
+
+Styles
+======
+
+-- Each section and card will have its own style
+-- All should be included in main.less 
+-- Include vendor items in here as well
+-- All should compile to one main.css file
+-- Use a 16px grid set up
+-- Make good use of mixins and variables in LESS
+-- Font icons. Only use images for portfolio items.
+
+Vendor
+======
+
+-- iOS Slider for the portfolio
+-- Lesshat for css mixins, normalize.css for html5 resetting of styles
+-- jQuery for other dom manipulation
+-- Google Analytics for traking
+-- Markdown for content
+-- Iron router for html5 history state and routing
