@@ -1,4 +1,4 @@
 cv.mattfinucane.ie
 ==================
 
-HTML5 based CV. Making use of css3 media queries and compass CSS framework
+My CV is being rewritten using the Meteor Javascript framework.

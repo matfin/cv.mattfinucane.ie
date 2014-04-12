@@ -1,0 +1,32 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "lesshat": {},
+      "iron-router": {},
+      "normalize.css": {}
+    },
+    "packages": {
+      "lesshat": {
+        "git": "https://github.com/QaDeS/meteor-lesshat",
+        "tag": "v0.0.1",
+        "commit": "61514ff932e1e9615f007c3fdff633a110bf8910"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.0",
+        "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
+      },
+      "normalize.css": {
+        "git": "https://github.com/rithis/meteor-normalize.css",
+        "tag": "v2.0.1",
+        "commit": "671aba13223dd7d7ec1d26a6b2461943d7c4fa18"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.2",
+        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
+      }
+    }
+  }
+}
