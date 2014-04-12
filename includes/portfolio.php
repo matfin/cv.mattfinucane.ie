@@ -151,7 +151,7 @@
             
         </figcaption>
     </figure>
-    <?      
+    <?php      
         }
     ?>
 </div>
