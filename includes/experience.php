@@ -1,11 +1,25 @@
 <?php
     $jobs = array(
         new job(
+            'TunedIn Media GMBH (an Axel Springer funded startup)',
+            'Web Developer',
+            'Berlin, Germany',
+            new DateTime('2013-10-07'),
+            'Present',
+            array(
+                'Created a web application using the Meteor Javascript framework to deliver native-like performance.',
+                'Main features include a TV Guide and participation stream, both of which update in real time.',
+                'Wrote unit and acceptance tests to ensure the product was stable and robust throughout each sprint.',
+                'Supported the product owner and marketing team in creating the company website and marketing emails.'
+            )   
+        ),
+
+        new job(
             'Contracting (Self employed)',
             'Web Developer',
             'Dublin, Ireland',
-            new DateTime('2013-03-11'),
-            'Present',
+            new DateTime('2013-03-13'),
+            new DateTime('2013-09-23'),
             array(
                 'Created a knowlege based information portal (secure document sharing, retrieval and storage) for a large telecomms organisation in PHP.',
                 'Optimised customer login/registration flow and integrated this with other CRM tools (Salesforce, Eloqua).',

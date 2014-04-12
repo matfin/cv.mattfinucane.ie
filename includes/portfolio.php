@@ -110,9 +110,9 @@
         {
     ?>
     <figure data-index="<?=$index?>">
-        <img class="img-screen" src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('image_path'); ?>" width="600" height="450" alt="<?=$portfolio_item->get('title'); ?>" />
-        <img class="img-print" src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('logo_path'); ?>" width="225" height="150" alt="<?=$portfolio_item->get('title');?>" />
-        <img class="img-qrcode" src="<?=$base . '/assets/portfolio/' . $portfolio_item->get('qr_code'); ?>" width="100" height="100" alt="<?=$portfolio_item->get('title');?>" />
+        <img class="img-screen" src="<?= 'assets/portfolio/' . $portfolio_item->get('image_path'); ?>" width="600" height="450" alt="<?=$portfolio_item->get('title'); ?>" />
+        <img class="img-print" src="<?= 'assets/portfolio/' . $portfolio_item->get('logo_path'); ?>" width="225" height="150" alt="<?=$portfolio_item->get('title');?>" />
+        <img class="img-qrcode" src="<?= 'assets/portfolio/' . $portfolio_item->get('qr_code'); ?>" width="100" height="100" alt="<?=$portfolio_item->get('title');?>" />
         <figcaption data-showing=false>
             <h3>
                 <?=$portfolio_item->get('title');?>

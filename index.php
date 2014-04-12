@@ -1,4 +1,5 @@
 <?php 
+    date_default_timezone_set('Europe/Berlin');
     $protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
     $base = $protocol . '://' . $_SERVER['HTTP_HOST'];
     include_once('classes/portfolioitem.php'); 
