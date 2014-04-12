@@ -35,3 +35,10 @@ Vendor
 -- Google Analytics for traking
 -- Markdown for content
 -- Iron router for html5 history state and routing
+-- Google Analytics (?) package for routing 
+
+Analytics & SEO
+===============
+
+-- For SEO, investigate using a phantomJS server to deliver content
+-- Track events using GA javascript API. Cannot track 'pageviews'

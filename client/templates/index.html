@@ -1,0 +1,20 @@
+<template name="main">
+	<div class="container">
+		<div class="parentWrapper">
+			<header>
+				{{> yield region="header"}}
+			</header>
+			<section>
+				{{> components_profile }}
+				{{> components_skills }}
+				{{> components_experience }}
+				{{> components_portfolio }}
+				{{> components_qualifications }}
+				{{> components_interests }}
+			</section>
+			<footer>
+				{{> yield region="footer"}}
+			</footer>
+		</div>
+	</div>
+</template>
