@@ -2,6 +2,7 @@
   "packages": {
     "lesshat": {},
     "iron-router": {},
-    "normalize.css": {}
+    "normalize.css": {},
+    "jquery2": {}
   }
 }

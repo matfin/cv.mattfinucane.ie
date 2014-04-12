@@ -4,7 +4,8 @@
     "basePackages": {
       "lesshat": {},
       "iron-router": {},
-      "normalize.css": {}
+      "normalize.css": {},
+      "jquery2": {}
     },
     "packages": {
       "lesshat": {
@@ -21,6 +22,11 @@
         "git": "https://github.com/rithis/meteor-normalize.css",
         "tag": "v2.0.1",
         "commit": "671aba13223dd7d7ec1d26a6b2461943d7c4fa18"
+      },
+      "jquery2": {
+        "git": "https://github.com/gadicc/meteor-jquery2.git",
+        "tag": "v2.1.0-3",
+        "commit": "44b813b57d5f4ea1d1538acb48c13cc7acfb0f45"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
