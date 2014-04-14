@@ -4,12 +4,16 @@
 		{
 			"title": "contact",
 			"heading": "Matt Finucane &ndash; CV",
-			"content": "<address>Jablonskistraße 4, Prenzlauerberg, Berlin 10405, Germany.</address><a href=\"mailto:matfin@gmail.com\" title=\"Email me\">matfin@gmail.com</a><a href=\"tel:+4915257682974\" title=\"Call me\"></a>"
+			"content": {
+				"location": "Jablonskistraße 4, Prenzlauerberg, Berlin 10405, Germany",
+				"tel": "+4915257682974",
+				"email": "matfin@gmail.com"
+			}
 		},
 		{
 			"title": "profile",
 			"heading": "Profile",
-			"content": "<p>Skilled web and application developer with 8 years commercial experience. My passion is the application of modern technologies to solve real world problems, and I produce robust solutions of excellent quality.</p>"
+			"content": "Skilled web and application developer with 8 years commercial experience. My passion is the application of modern technologies to solve real world problems, and I produce robust solutions of excellent quality."
 		}
 	]
 }
