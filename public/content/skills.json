@@ -112,6 +112,116 @@
 					"content": "Meteor"
 				}
 			]
+		},
+		{
+			"title": "development-enviroments",
+			"heading": "Development Environments",
+			"skills": [
+				{
+					"id": "xcode",
+					"content": "Xcode"
+				},
+				{
+					"id": "eclipse",
+					"content": "Eclipse"
+				},
+				{
+					"id": "visual-studio",
+					"content": "MS Visual Studio"
+				},
+				{
+					"id": "netbeans",
+					"content": "Netbeans"
+				}
+			]
+		},
+		{
+			"title": "development-tools",
+			"heading": "Testing",
+			"skills": [
+				{
+					"id": "jasmine",
+					"content": "Jasmine"
+				},
+				{
+					"id": "selenium",
+					"content": "Selenium"
+				},
+				{
+					"id": "tiny-test",
+					"content": "Tiny Test"
+				},
+				{
+					"id": "testflight",
+					"content": "TestFlight"
+				}
+			]
+		},
+		{
+			"title": "infrastructure",
+			"heading": "Infrastructure",
+			"skills": [
+				{
+					"id": "unix",
+					"content": "Linux &amp; OSX"
+				},
+				{
+					"id": "apache",
+					"content": "Apache"
+				},
+				{
+					"id": "nginx",
+					"content": "Nginx"
+				},
+				{
+					"id": "mysql",
+					"content": "MySQL"
+				}
+			]
+		},
+		{
+			"title": "project-tools",
+			"heading": "Project Tools",
+			"skills": [
+				{
+					"id": "grunt",
+					"content": "Grunt"
+				},
+				{
+					"id": "redmine",
+					"content": "Redmine"
+				},
+				{
+					"id": "jira",
+					"content": "Jira"
+				},
+				{
+					"id": "google-apps",
+					"content": "Google Apps"
+				}
+			]
+		},
+		{
+			"title": "development-skills",
+			"heading": "Development Skills",
+			"skills": [
+				{
+					"id": "agile-scrum",
+					"content": "Agile &amp; Scrum"
+				},
+				{
+					"id": "unit-acceptance-testing",
+					"content": "Unit &amp; Acceptance Testing"
+				},
+				{
+					"id": "localisation",
+					"content": "Localisation"
+				},
+				{
+					"id": "mvc",
+					"content": "MVC"
+				}
+			]
 		}
 	]
 }
