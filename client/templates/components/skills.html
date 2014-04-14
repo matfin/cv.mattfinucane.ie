@@ -1,5 +1,13 @@
 <template name="components_skills">
 	<div class="skills">
 		<a id="skills"></a>
+		{{#each data}}
+			<dl>
+				<dt>{{heading}}</dt>
+				{{#each skills}}
+					<dd>{{{content}}}</dd>
+				{{/each}}
+			</dl>
+		{{/each}}
 	</div>
 </template>

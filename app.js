@@ -6,5 +6,8 @@ Meteor.startup(function() {
 		if(App.models.staticContent.find({}).count() === 0) {
 			Api.fetch('staticContent');
 		}
+		if(App.models.skills.find({}).count() === 0) {
+			Api.fetch('skills');
+		}
 	}
 });

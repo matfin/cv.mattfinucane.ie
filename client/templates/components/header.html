@@ -1,3 +1,6 @@
 <template name="components_common_header">
 	<h1>{{{heading}}}</h1>
+	<address>{{content.location}}</address>
+	<a href="tel:{{content.tel}}">{{content.tel}}</a>
+	<a href="mailto:{{content.email}}">{{content.email}}</a>
 </template>

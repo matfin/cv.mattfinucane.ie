@@ -1,0 +1,117 @@
+{
+	"name": "Skills",
+	"items": [
+		{
+			"title": "skills",
+			"heading": "Skills",
+			"skills": [
+				{
+					"content": "Development of mobile applications, both cross platform and native."
+				},
+				{
+					"content": "Practice and advocate the highest development standards."
+				},
+				{
+					"content": "Strong analytical thinking."
+				},
+				{
+					"content": "In&ndash;depth understanding of technologies across multiple domains."
+				},
+				{
+					"content": "Life&ndash;long learner with strong interest in continuous professional development."
+				},
+				{
+					"content": "Effective communication skills; training, presentations, documentation and delegation."
+				}
+			]
+		},
+		{
+			"title": "programming-languages",
+			"heading": "Programming Languages",
+			"skills": [
+				{
+					"id": "java",
+					"content": "Java"
+				},
+				{
+					"id": "objective-c",
+					"content": "Objective C"
+				},
+				{
+					"id": "cpp",
+					"content": "C++"
+				},
+				{
+					"id": "csharp",
+					"content": "C#"
+				}
+			]
+		},
+		{
+			"title": "mobile-app-development",
+			"heading": "Mobile App Development",
+			"skills": [
+				{
+					"id": "uikit",
+					"content": "UIKit (iOS)"
+				},
+				{
+					"id": "android",
+					"content": "Android"
+				},
+				{
+					"id": "sencha",
+					"content": "Sencha Touch 2"
+				},
+				{
+					"id": "phonegap",
+					"content": "PhoneGap"
+				}
+			]
+		},
+		{
+			"title": "web-development",
+			"heading": "Web Development",
+			"skills": [
+				{
+					"id": "php",
+					"content": "PHP"
+				},
+				{
+					"id": "html",
+					"content": "XHTML/HTML5"
+				},
+				{
+					"id": "css",
+					"content": "CSS2/3"
+				},
+				{
+					"id": "js",
+					"content": "Javascript"
+				}
+			]
+		},
+		{
+			"title": "frameworks",
+			"heading": "Frameworks",
+			"skills": [
+				{
+					"id": "ci",
+					"content": "CodeIgniter"
+				},
+				{
+					"id": "jquery",
+					"content": "jQuery (1/2)"
+				},
+				{
+					"id": "sassless",
+					"content": "Less &amp; Sass"
+				},
+				{
+					"id": "meteor",
+					"content": "Meteor"
+				}
+			]
+		}
+	]
+}
