@@ -1,0 +1,296 @@
+{
+	"name": "Experience",
+	"items": [
+		{
+			"title": "tunedin",
+			"company": "TunedIn Media GMBH",
+			"url": "http://www.tunedin.de",
+			"role": "Web Developer",
+			"from": "2013-10-08",
+			"to": "present",
+			"points": [
+				{
+					"content": "Created a web application using the Meteor Javascript framework to deliver native-like performance.",
+				},
+				{
+					"content": "Main features include a TV Guide and participation stream, both of which update in real time.",
+				},
+				{
+					"content": "Wrote unit and acceptance tests to ensure the product was stable and robust throughout each sprint.",
+				},
+				{
+					"content": "Supported the product owner and marketing team in creating the company website and marketing emails.",
+				}
+			], 
+			"skills": [
+				{
+					"id": "php"
+				},
+				{
+					"id": "html"
+				},
+				{
+					"id": "css"
+				},
+				{
+					"id": "js"
+				},
+				{
+					"id": "jquery"
+				},
+				{
+					"id": "sassless"
+				},
+				{
+					"id": "meteor"
+				},
+				{
+					"id": "xcode"
+				},
+				{
+					"id": "jasmine"
+				},
+				{
+					"id": "selenium"
+				},
+				{
+					"id": "tiny-test"
+				},
+				{
+					"id": "nginx"
+				},
+				{
+					"id": "unix"
+				},
+				{
+					"id": "grunt"
+				},
+				{
+					"id": "jira"
+				},
+				{
+					"id": "agile-scrum"
+				},
+				{
+					"id": "unit-acceptance-testing"
+				},
+				{
+					"id": "localisation"
+				},
+				{
+					"id": "mvc"
+				}
+			]
+		},
+		{
+			"title": "iqcontent",
+			"company": "iQContent Ltd",
+			"url": "http://www.iqcontent.com",
+			"role": "Contract Web Developer",
+			"from": "2013-03-13",
+			"to": "2013-09-20",
+			"points": [
+				{
+					"content": "Created a knowlege based information portal (secure document sharing, retrieval and storage) for a large telecomms organisation in PHP.",
+				},
+				{
+					"content": "Optimised customer login/registration flow and integrated this with other CRM tools (Salesforce, Eloqua).",
+				},
+				{
+					"content": "Integrated the Compass SCSS framework and optimised HTML templates to improve SEO performance.",
+				},
+				{
+					"content": "Developed HTML templates for the internal corporate IT intranet and assisted in integrating them to Microsoft Sharepoint.",
+				}
+			], 
+			"skills": [
+				{
+					"id": "php"
+				},
+				{
+					"id": "html"
+				},
+				{
+					"id": "css"
+				},
+				{
+					"id": "js"
+				},
+				{
+					"id": "jquery"
+				},
+				{
+					"id": "sassless"
+				},
+				{
+					"id": "netbeans"
+				},
+				{
+					"id": "visual-studio"
+				},
+				{
+					"id": "unix"
+				},
+				{
+					"id": "apache"
+				},
+				{
+					"id": "mysql"
+				},
+				{
+					"id": "agile-scrum"
+				}
+			]
+		},
+		{
+			"title": "maithu",
+			"company": "Maithu IT Solutions",
+			"url": "http://www.maithu.com",
+			"role": "Technical Lead",
+			"from": "2012-01-16",
+			"to": "2013-03-10",
+			"points": [
+				{
+					"content": "Drove the development of multiple mobile applications.",
+				},
+				{
+					"content": "Developed TV guide software in HTML5 for set top boxes, smart TVs and web.",
+				},
+				{
+					"content": "Overhauled the Irish Times News app (iOS, Android), integrating to their existing web infrastructure.",
+				},
+				{
+					"content": "Responsible for client satisfaction by delivering quality products on time and within budget.",
+				},
+				{
+					"content": "Responsible for reviewing CVs, creating recruitment exercises and interviewing candidates for development roles."
+				}
+			], 
+			"skills": [
+				{
+					"id": "objective-c"
+				},
+				{
+					"id": "csharp"
+				},
+				{
+					"id": "java"
+				},
+				{
+					"id": "uikit"
+				},
+				{
+					"id": "sencha"
+				},
+				{
+					"id": "phonegap"
+				},
+				{
+					"id": "php"
+				},
+				{
+					"id": "html"
+				},
+				{
+					"id": "css"
+				},
+				{
+					"id": "js"
+				},
+				{
+					"id": "jquery"
+				},
+				{
+					"id": "sassless"
+				},
+				{
+					"id": "xcode"
+				},
+				{
+					"id": "eclipse"
+				},
+				{
+					"id": "visual-studio"
+				},
+				{
+					"id": "testflight"
+				},
+				{
+					"id": "unix"
+				},
+				{
+					"id": "apache"
+				},
+				{
+					"id": "redmine"
+				},
+				{
+					"id": "agile-scrum"
+				},
+				{
+					"id": "mvc"
+				}
+			]
+		},
+		{
+			"title": "paddypower",
+			"company": "Paddy Power PLC",
+			"url": "http://www.paddypower.com",
+			"role": "Senior PHP Developer",
+			"from": "2010-03-10",
+			"to": "2012-01-12",
+			"points": [
+				{
+					"content": "Our scrum approach to development ensured timely delivery of product phases and stakeholders were kept up to date with development on large projects.",
+				},
+				{
+					"content": "Maintained high performance websites under heavy server load.",
+				},
+				{
+					"content": "Upgraded the in-house CMS for Paddy Power Games and Casino to enable targeted content delivery for different user groups.",
+				},
+				{
+					"content": "Built a staff rostering and payroll processing system used by shop managers for all Paddy Power retail outlets.",
+				}
+			], 
+			"skills": [
+				{
+					"id": "php"
+				},
+				{
+					"id": "html"
+				},
+				{
+					"id": "css"
+				},
+				{
+					"id": "js"
+				},
+				{
+					"id": "jquery"
+				},
+				{
+					"id": "eclipse"
+				},
+				{
+					"id": "unix"
+				},
+				{
+					"id": "apache"
+				},
+				{
+					"id": "jira"
+				},
+				{
+					"id": "agile-scrum"
+				},
+				{
+					"id": "localisation"
+				},
+				{
+					"id": "mvc"
+				}
+			]
+		}
+	]	
+}
