@@ -13,6 +13,7 @@ Data package wrapper
 
 Api = {
 	fetch: function(model) {
+		console.log('Fetching: ' + model);
 		$.ajax({
 			type: 'GET',
 			url: App.baseUrl + 'content/' + model + '.json',

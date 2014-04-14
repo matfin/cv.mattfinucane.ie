@@ -12,7 +12,7 @@ Data and models
 **/
 
 App = {
-	baseUrl: 'http://localhost:3000',
+	baseUrl: 'http://localhost:3000/',
 
 	models: {
 		staticContent: new Meteor.Collection('staticContent', {connection: null}),
