@@ -2,30 +2,6 @@
 	"name": "Skills",
 	"items": [
 		{
-			"title": "skills",
-			"heading": "Skills",
-			"skills": [
-				{
-					"content": "Development of mobile applications, both cross platform and native."
-				},
-				{
-					"content": "Practice and advocate the highest development standards."
-				},
-				{
-					"content": "Strong analytical thinking."
-				},
-				{
-					"content": "In&ndash;depth understanding of technologies across multiple domains."
-				},
-				{
-					"content": "Life&ndash;long learner with strong interest in continuous professional development."
-				},
-				{
-					"content": "Effective communication skills; training, presentations, documentation and delegation."
-				}
-			]
-		},
-		{
 			"title": "programming-languages",
 			"heading": "Programming Languages",
 			"skills": [

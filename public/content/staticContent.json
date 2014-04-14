@@ -14,6 +14,30 @@
 			"title": "profile",
 			"heading": "Profile",
 			"content": "Skilled web and application developer with 8 years commercial experience. My passion is the application of modern technologies to solve real world problems, and I produce robust solutions of excellent quality."
+		},
+		{
+			"title": "skills",
+			"heading": "Skills",
+			"skills": [
+				{
+					"content": "Development of mobile applications, both cross platform and native."
+				},
+				{
+					"content": "Practice and advocate the highest development standards."
+				},
+				{
+					"content": "Strong analytical thinking."
+				},
+				{
+					"content": "In&ndash;depth understanding of technologies across multiple domains."
+				},
+				{
+					"content": "Life&ndash;long learner with strong interest in continuous professional development."
+				},
+				{
+					"content": "Effective communication skills; training, presentations, documentation and delegation."
+				}
+			]
 		}
 	]
 }
