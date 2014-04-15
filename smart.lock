@@ -5,7 +5,8 @@
       "lesshat": {},
       "iron-router": {},
       "normalize.css": {},
-      "jquery2": {}
+      "jquery2": {},
+      "moment": {}
     },
     "packages": {
       "lesshat": {
@@ -27,6 +28,11 @@
         "git": "https://github.com/gadicc/meteor-jquery2.git",
         "tag": "v2.1.0-3",
         "commit": "44b813b57d5f4ea1d1538acb48c13cc7acfb0f45"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.5.1",
+        "commit": "8c9bc5d3fc96705057737cb9743d555417f6e551"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

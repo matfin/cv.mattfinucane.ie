@@ -3,6 +3,7 @@
     "lesshat": {},
     "iron-router": {},
     "normalize.css": {},
-    "jquery2": {}
+    "jquery2": {},
+    "moment": {}
   }
 }

@@ -15,4 +15,8 @@ Template['components_experience'].data = function() {
 
 Template['components_experience'].jobs = function() {
 	return App.models.experience.find({}).fetch();
-}
+};
+
+Template['components_experience'].formattedDate = function(date, format) {
+	return moment(date).format(format);
+};
