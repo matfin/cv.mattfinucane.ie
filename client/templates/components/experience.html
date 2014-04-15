@@ -1,5 +1,19 @@
 <template name="components_experience">
 	<div class="experience">
 		<a id="experience"></a>
+		<h2>
+			{{data.heading}}
+		</h2>
+		{{#each jobs}}
+			<h3>{{from}} &ndash; {{to}}</h3>
+			<h4>{{company}} as {{role}}</h4>
+			<ul>
+				{{#each points}}
+					<li>
+						{{content}}
+					</li>
+				{{/each}}
+			</ul>
+		{{/each}}
 	</div>
 </template>

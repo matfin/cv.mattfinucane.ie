@@ -9,5 +9,8 @@ Meteor.startup(function() {
 		if(App.models.skills.find({}).count() === 0) {
 			Api.fetch('skills');
 		}
+		if(App.models.experience.find({}).count() === 0) {
+			Api.fetch('experience');
+		}
 	}
 });
