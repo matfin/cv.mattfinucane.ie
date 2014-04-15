@@ -18,5 +18,5 @@ Template['components_experience'].jobs = function() {
 };
 
 Template['components_experience'].formattedDate = function(date, format) {
-	return moment(date).format(format);
+	return moment(date).isValid() ? moment(date).format(format) : date;
 };
