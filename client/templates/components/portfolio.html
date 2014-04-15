@@ -1,5 +1,11 @@
 <template name="components_portfolio">
 	<div class="portfolio">
 		<a id="portfolio"></a>
+		<h2>{{data.heading}}</h2>
+		<div class="iosslider">
+			{{#each portfolioItems}}
+				{{> cards_portfolioItem}}
+			{{/each}}
+		</div>
 	</div>
 </template>

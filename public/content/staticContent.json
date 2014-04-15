@@ -43,6 +43,11 @@
 			"title": "work-experience",
 			"heading": "Work Experience",
 			"content": "Detailing my work experience"
+		},
+		{
+			"title": "portfolio",
+			"heading": "Portfolio",
+			"content": "Detailing my portfolio"
 		}
 	]
 }
