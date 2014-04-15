@@ -10,16 +10,16 @@
 			"to": "present",
 			"points": [
 				{
-					"content": "Created a web application using the Meteor Javascript framework to deliver native-like performance.",
+					"content": "Created a web application using the Meteor Javascript framework to deliver native-like performance."
 				},
 				{
-					"content": "Main features include a TV Guide and participation stream, both of which update in real time.",
+					"content": "Main features include a TV Guide and participation stream, both of which update in real time."
 				},
 				{
-					"content": "Wrote unit and acceptance tests to ensure the product was stable and robust throughout each sprint.",
+					"content": "Wrote unit and acceptance tests to ensure the product was stable and robust throughout each sprint."
 				},
 				{
-					"content": "Supported the product owner and marketing team in creating the company website and marketing emails.",
+					"content": "Supported the product owner and marketing team in creating the company website and marketing emails."
 				}
 			], 
 			"skills": [
@@ -91,16 +91,16 @@
 			"to": "2013-09-20",
 			"points": [
 				{
-					"content": "Created a knowlege based information portal (secure document sharing, retrieval and storage) for a large telecomms organisation in PHP.",
+					"content": "Created a knowlege based information portal (secure document sharing, retrieval and storage) for a large telecomms organisation in PHP."
 				},
 				{
-					"content": "Optimised customer login/registration flow and integrated this with other CRM tools (Salesforce, Eloqua).",
+					"content": "Optimised customer login/registration flow and integrated this with other CRM tools (Salesforce, Eloqua)."
 				},
 				{
-					"content": "Integrated the Compass SCSS framework and optimised HTML templates to improve SEO performance.",
+					"content": "Integrated the Compass SCSS framework and optimised HTML templates to improve SEO performance."
 				},
 				{
-					"content": "Developed HTML templates for the internal corporate IT intranet and assisted in integrating them to Microsoft Sharepoint.",
+					"content": "Developed HTML templates for the internal corporate IT intranet and assisted in integrating them to Microsoft Sharepoint."
 				}
 			], 
 			"skills": [
@@ -151,16 +151,16 @@
 			"to": "2013-03-10",
 			"points": [
 				{
-					"content": "Drove the development of multiple mobile applications.",
+					"content": "Drove the development of multiple mobile applications."
 				},
 				{
-					"content": "Developed TV guide software in HTML5 for set top boxes, smart TVs and web.",
+					"content": "Developed TV guide software in HTML5 for set top boxes, smart TVs and web."
 				},
 				{
-					"content": "Overhauled the Irish Times News app (iOS, Android), integrating to their existing web infrastructure.",
+					"content": "Overhauled the Irish Times News app (iOS, Android), integrating to their existing web infrastructure."
 				},
 				{
-					"content": "Responsible for client satisfaction by delivering quality products on time and within budget.",
+					"content": "Responsible for client satisfaction by delivering quality products on time and within budget."
 				},
 				{
 					"content": "Responsible for reviewing CVs, creating recruitment exercises and interviewing candidates for development roles."
@@ -241,16 +241,16 @@
 			"to": "2012-01-12",
 			"points": [
 				{
-					"content": "Our scrum approach to development ensured timely delivery of product phases and stakeholders were kept up to date with development on large projects.",
+					"content": "Our scrum approach to development ensured timely delivery of product phases and stakeholders were kept up to date with development on large projects."
 				},
 				{
-					"content": "Maintained high performance websites under heavy server load.",
+					"content": "Maintained high performance websites under heavy server load."
 				},
 				{
-					"content": "Upgraded the in-house CMS for Paddy Power Games and Casino to enable targeted content delivery for different user groups.",
+					"content": "Upgraded the in-house CMS for Paddy Power Games and Casino to enable targeted content delivery for different user groups."
 				},
 				{
-					"content": "Built a staff rostering and payroll processing system used by shop managers for all Paddy Power retail outlets.",
+					"content": "Built a staff rostering and payroll processing system used by shop managers for all Paddy Power retail outlets."
 				}
 			], 
 			"skills": [
@@ -289,6 +289,222 @@
 				},
 				{
 					"id": "mvc"
+				},
+				{
+					"id": "ci"
+				}
+			]
+		},
+		{
+			"title": "clearweb",
+			"company": "Clearweb",
+			"url": "",
+			"role": "Director",
+			"from": "2008-07-01",
+			"to": "2010-03-10",
+			"points": [
+				{
+					"content": "Created several bespoke content managed websites for clients using hand-coded html and php."
+				},
+				{
+					"content": "Leveraged Twitter and Facebook APIs, to optimise the clients' online offering."
+				},
+				{
+					"content": "Provided web content strategy guidance to clients."
+				},
+				{
+					"content": "Practiced excellent standards in web development to ensure organic SEO performance and accessibility."
+				},
+				{
+					"content": "Initiated, managed and maintained long-lasting professional client relationships."
+				}
+			], 
+			"skills": [
+				{
+					"id": "php"
+				},
+				{
+					"id": "html"
+				},
+				{
+					"id": "css"
+				},
+				{
+					"id": "js"
+				},
+				{
+					"id": "jquery"
+				},
+				{
+					"id": "eclipse"
+				},
+				{
+					"id": "unix"
+				},
+				{
+					"id": "apache"
+				},
+				{
+					"id": "agile-scrum"
+				},
+				{
+					"id": "localisation"
+				},
+				{
+					"id": "mvc"
+				},
+				{
+					"id": "mysql"
+				},
+				{
+					"id": "ci"
+				}
+			]
+		},
+		{
+			"title": "net-a-porter",
+			"company": "Net a Porter",
+			"url": "http://www.net-a-porter.com",
+			"role": "Java Web Developer",
+			"from": "2007-07-01",
+			"to": "2008-07-01",
+			"points": [
+				{
+					"content": "Redeveloped the HTML and CSS during a complete overhaul of the company website."
+				},
+				{
+					"content": "Created an internal WYSIWYG tool to author promotional emails and newsletter templates."
+				},
+				{
+					"content": "Designed and built the in house intranet portal, tying it into existing LDAP servers. This enabled seamless integration with existing user logins."
+				},
+				{
+					"content": "Provided ongoing maintenance to website product pages to optimise the eCommerce purchase flows."
+				}
+			], 
+			"skills": [
+				{
+					"id": "html"
+				},
+				{
+					"id": "css"
+				},
+				{
+					"id": "js"
+				},
+				{
+					"id": "unix"
+				},
+				{
+					"id": "apache"
+				},
+				{
+					"id": "localisation"
+				},
+				{
+					"id": "mvc"
+				},
+				{
+					"id": "mysql"
+				},
+				{
+					"id": "java"
+				},
+				{
+					"id": "jira"
+				}
+			]
+		},
+		{
+			"title": "findmypast",
+			"company": "FindMyPast.com",
+			"url": "http://www.findmypast.com",
+			"role": "Java Web Developer",
+			"from": "2006-09-15",
+			"to": "2007-06-30",
+			"points": [
+				{
+					"content": "Upgraded site standards compliancy in XHTML and CSS."
+				},
+				{
+					"content": "Coordinated internal knowledge sharing through regular web standards training."
+				},
+				{
+					"content": "Re-modeled html email templates for all marketing campaigns."
+				},
+				{
+					"content": "Provided ongoing maintenance and enhancements for the company website."
+				}
+			], 
+			"skills": [
+				{
+					"id": "html"
+				},
+				{
+					"id": "css"
+				},
+				{
+					"id": "js"
+				},
+				{
+					"id": "unix"
+				},
+				{
+					"id": "apache"
+				},
+				{
+					"id": "localisation"
+				},
+				{
+					"id": "mvc"
+				},
+				{
+					"id": "java"
+				}
+			]
+		},
+		{
+			"title": "aol",
+			"company": "AOL Technologies Ltd",
+			"url": "http://www.aol.com",
+			"role": "Associate Software Engineer",
+			"from": "2005-07-10",
+			"to": "2006-06-15",
+			"points": [
+				{
+					"content": "Created a web app to monitor RSS feeds from news providers."
+				},
+				{
+					"content": "Built an XSLT processor to populate XML feeds to databases."
+				},
+				{
+					"content": "Upgraded servers and software from HPUX to Linux and authored the associated technical documentation."
+				}
+			], 
+			"skills": [
+				{
+					"id": "html"
+				},
+				{
+					"id": "css"
+				},
+				{
+					"id": "js"
+				},
+				{
+					"id": "unix"
+				},
+				{
+					"id": "apache"
+				},
+				{
+					"id": "localisation"
+				},
+				{
+					"id": "mvc"
+				},
+				{
+					"id": "java"
 				}
 			]
 		}
