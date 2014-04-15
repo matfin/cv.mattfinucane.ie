@@ -1,5 +1,13 @@
 <template name="cards_portfolioItem">
 	<div class="slide">
 		<h3>{{heading}}</h3>
+		{{#each contents}}
+			<p>{{content}}</p>
+		{{/each}}
+		<ul>
+			{{#each points}}
+				<li>{{content}}</li>
+			{{/each}}
+		</ul>
 	</div>
 </template>
