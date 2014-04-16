@@ -16,7 +16,7 @@ Api = {
 		console.log('Fetching: ' + model);
 		$.ajax({
 			type: 'GET',
-			url: App.baseUrl + 'content/' + model + '.json',
+			url: 'content/' + model + '.json',
 			dataType: 'json'
 			// Success
 		}).done(function(result) {
