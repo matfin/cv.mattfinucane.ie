@@ -2,4 +2,10 @@
 
 // Fonts and their sizes
 @helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+@baseFontSize: 16px;
+@fontSizeMultiple: 1;
+
+@standardFontSize: @baseFontSize * @fontSizeMultiple;
+
+
 

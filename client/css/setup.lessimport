@@ -1,7 +1,7 @@
 // General setup
 body {
 	font-family: @helvetica;
-
+	font-size: @standardFontSize;
 	@media @hd {
 		background-color: blue;
 	}
