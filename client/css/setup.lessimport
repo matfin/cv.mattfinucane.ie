@@ -1,0 +1,6 @@
+// General setup
+body {
+	font-family: @helvetica;
+	color: @colourFontDark;
+	.bodyFontSize;
+}
