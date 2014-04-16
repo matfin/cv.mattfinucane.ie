@@ -1,5 +1,13 @@
 <template name="components_interests">
 	<div class="interests">
 		<a id="interests"></a>
+		<h2>{{data.heading}}</h2>
+		<ul>
+		{{#each data.items}}
+			<li>
+				{{content}}
+			</li>
+		{{/each}}
+		</ul>
 	</div>
 </template>

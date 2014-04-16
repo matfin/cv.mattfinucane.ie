@@ -48,6 +48,51 @@
 			"title": "portfolio",
 			"heading": "Portfolio",
 			"content": "Detailing my portfolio"
+		},
+		{
+			"title": "qualifications",
+			"heading": "Qualifications",
+			"items": [
+				{
+					"title": "dcu",
+					"institute": "Dublin City University",
+					"course": "BSc. in Computer Applications (Honours)",
+					"from": "2001-09-26",
+					"to": "2005-06-01",
+					"points": [
+						{
+							"content": "Modules include Java software development, Business process management, Computer Graphics, Database administration and the Software development life-cycle (waterfall)."
+						},
+						{
+							"content": "Alcatel CIT, France: developed an error logging system for GSM cell towers (INTRA work placement)."
+						},
+						{
+							"content": "Coded a mobile 2D game using J2ME (Final year project)."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "interests",
+			"heading": "Interests",
+			"items": [
+				{
+					"content": "Passionate about technology inside and outside of my professional life."
+				},
+				{
+					"content": "Self-taught in iOS and Android development. Projects can be found on GitHub."
+				},
+				{
+					"content": "Successfully participated in the '24 The Web' design challenge as lead developer."
+				},
+				{
+					"content": "Regularly provide pro-bono web development to charities and startups."
+				},
+				{
+					"content": "Photography, reading, traveling and cycling."
+				}
+			]
 		}
 	]
 }

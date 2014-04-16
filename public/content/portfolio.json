@@ -110,35 +110,6 @@
 				"mobile": "",
 				"video": ""
 			}
-		},
-		{
-			"name": "paddypower-casino",
-			"heading": "Paddy Power Casino",
-			"contents": [
-				{
-					"content": "An overhaul was needed for the The Paddy Power Casino website to deliver a wider selection of games and customised content to the customer."
-				},
-				{
-					"content": "The site was redeveloped and redesigned with a custom built CMS and access to a wider variety of games."
-				}
-			],
-			"points": [
-				{
-					"content": "Optimised delivery of images, CSS and Javascript to minimise load on servers."
-				},
-				{
-					"content": "CMS developed to allow content owners to deliver custom content to customer groups."
-				},
-				{
-					"content": "Smooth and secure integration of website with existing infrastructure."
-				}
-			],
-			"url": "https://itunes.apple.com/ie/app/id569523615?mt=8&affId=1736887",
-			"media": {
-				"web": "",
-				"mobile": "",
-				"video": ""
-			}
 		}
 	]
 }
