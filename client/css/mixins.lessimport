@@ -1,1 +1,21 @@
 // Mixins
+
+// Set the body font size based on screen resolution
+
+.bodyFontSize {
+	@media @hd {
+		font-size: @standardFontSize * 2;
+	}
+
+	@media @desktop {
+		font-size: @standardFontSize * 1.5;
+	}
+
+	@media @tablet {
+		font-size: @standardFontSize * 1.5;
+	}
+
+	@media @mobile {
+		font-size: @standardFontSize * 1;
+	}
+}
