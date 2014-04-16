@@ -1,3 +1,5 @@
 // Variables go in here
 
-@colorGreen: green;
+// Fonts and their sizes
+@helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
