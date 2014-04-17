@@ -4,18 +4,50 @@
 
 .bodyFontSize {
 	@media @hd {
-		font-size: @standardFontSize * 2;
+		font-size: @standardFontSize * 2.0;
 	}
 
 	@media @desktop {
-		font-size: @standardFontSize * 1.5;
+		font-size: @standardFontSize * 1.6;
 	}
 
 	@media @tablet {
-		font-size: @standardFontSize * 1.5;
+		font-size: @standardFontSize * 1.3;
 	}
 
 	@media @mobile {
 		font-size: @standardFontSize * 1;
 	}
+}
+
+.portfolioBackgroundImage(@img) {
+	
+	@media @hd {
+		background-image: url('images/portfolio/@{img}-d.jpg');
+		@media @retina {
+			background-image: url('images/portfolio/@{img}-d@2x.jpg');
+		}
+	}
+	@media @desktop {
+		background-image: url('images/portfolio/@{img}-d.jpg');
+		@media @retina {
+			background-image: url('images/portfolio/@{img}-d@2x.jpg');
+		}
+	}
+	@media @tablet {
+		background-image: url('images/portfolio/@{img}-t.jpg');
+		@media @retina {
+			background-image: url('images/portfolio/@{img}-t@2x.jpg');
+		}
+	}
+	@media @mobile {
+		background-image: url('images/portfolio/@{img}-p.jpg');
+		@media @retina {
+			background-image: url('images/portfolio/@{img}-p@2x.jpg');
+		}
+	}
+
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
 }

@@ -2,11 +2,21 @@
 
 // Fonts and their sizes
 @helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-@standardFontSize: 14px;
+@standardFontSize: 12px;
+
+// Headings
+@h1Size: 2em;
+@h2Size: 1.6em;
+@h3Size: 1.3em;
+@h4Size: 1.0em;
 
 // Colours
-@colourFontDark: #000;
-@colourFontLight: #fff;
+@colourDark: #2d3d4c;
+@colourLight: #eff3f3;
+
+// General layout
+@gridColumnWidth: 16px;
+@maxWidth: @gridColumnWidth * 80;
 
 
 

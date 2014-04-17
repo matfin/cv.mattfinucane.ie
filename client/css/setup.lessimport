@@ -1,6 +1,59 @@
 // General setup
 body {
+	width: 100%;
+	height: 100%;
+
 	font-family: @helvetica;
-	color: @colourFontDark;
+	color: @colourDark;
+	background-color: @colourDark;
 	.bodyFontSize;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+
+	.parentWrapper {
+		margin: 0 auto;
+		width: 100%;
+		max-width: @maxWidth;
+		text-align: left;
+		padding: @gridColumnWidth;
+		background-color: @colourLight;
+		@media @hd {
+			// .box-shadow(
+			// 	6px 0px 15px -5px #999999, 
+			// 	-6px 0px 15px -5px #999999
+			// );
+		}
+		.box-sizing(border-box);
+	}
+}
+
+// General styling for tags
+
+header, section, footer {
+	display: inline-block;
+	width: 100%;
+}
+
+h1 {
+	font-size: @h1Size;
+}
+
+h2 {
+	font-size: @h2Size;
+}
+
+h3 {
+	font-size: @h3Size;
+}
+
+h4 {
+	font-size: @h4Size;
+}
+
+ul {
+	list-style-type: none;
 }

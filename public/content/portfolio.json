@@ -25,8 +25,7 @@
 			],
 			"url": "http://webapp.tunedin.de",
 			"media": {
-				"web": "",
-				"mobile": ""
+				"img": "tunedin-desktop-webapp"
 			}
 		},
 		{
@@ -47,8 +46,7 @@
 			],
 			"url": "http://www.tunedin.de",
 			"media": {
-				"web": "",
-				"mobile": ""
+				"img": "tunedin-desktop-website"
 			}
 		},
 		{
@@ -75,8 +73,7 @@
 			],
 			"url": "https://itunes.apple.com/ie/app/id365544593?mt=8&affId=1736887",
 			"media": {
-				"web": "",
-				"mobile": ""
+				"img": "irishtimes-ios-app"
 			}
 		},
 		{
@@ -103,8 +100,7 @@
 			],
 			"url": "https://itunes.apple.com/ie/app/id569523615?mt=8&affId=1736887",
 			"media": {
-				"web": "",
-				"mobile": ""
+				"img": "newswhip-ios-app"
 			}
 		}
 	]

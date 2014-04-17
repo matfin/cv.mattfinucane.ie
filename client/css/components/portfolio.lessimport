@@ -1,0 +1,9 @@
+.portfolio {
+	.iosslider {
+		.slide {
+			&[data-background-image='irishtimes-ios-app'] {
+				.portfolioBackgroundImage('irishtimes-ios-app');
+			}
+		}
+	}
+}
