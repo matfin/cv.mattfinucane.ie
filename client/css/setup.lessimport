@@ -90,15 +90,15 @@ h4 {
 	font-size: @h4Size;
 }
 
+ol {
+	list-style-type: none;
+	.resetMarginPadding;
+}
+
 ul {
 	list-style-type: disc;
 	li {
 		line-height: 170%;
-		// &:before {
-		// 	content: "\2022";
-		// 	font-size: 0.6em;
-		// 	line-height: 1.0em;
-		// }
 	}
 }
 

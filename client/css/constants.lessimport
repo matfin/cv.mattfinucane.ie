@@ -16,7 +16,7 @@
 
 // General layout
 @gridColumnWidth: 16px;
-@maxWidth: @gridColumnWidth * 80;
+@maxWidth: @gridColumnWidth * 52.5;
 
 
 

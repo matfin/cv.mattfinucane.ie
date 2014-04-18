@@ -6,6 +6,6 @@
 		margin-bottom: @gridColumnWidth / 2;
 	}
 	ul {
-		width: 50%;
+		width: 75%;
 	}
 }

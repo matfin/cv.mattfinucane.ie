@@ -1,10 +1,10 @@
 .skills {
 	ul {
-		margin-bottom: @gridColumnWidth;
+		margin-bottom: @gridColumnWidth * 2;
 	}
 	dl {
 		display: inline-block;
-		width: 25%;
+		width: 32%;
 		.box-sizing(border-box);
 
 		dt {
