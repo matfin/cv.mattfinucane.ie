@@ -5,7 +5,9 @@ body {
 
 	font-family: @helvetica;
 	color: @colourDark;
-	background-color: @colourDark;
+	letter-spacing: 1px;
+
+	background-color: #a5c3ce;
 	.bodyFontSize;
 }
 
@@ -14,19 +16,32 @@ body {
 	height: 100%;
 	text-align: center;
 
+	@media @hd {
+		background-image: url('images/background_hd.jpg');
+	}
+
+	@media @desktop {
+		background-image: url('images/background_hd.jpg');
+	} 
+
+	@media @tablet {
+		background-image: none;
+	}
+
+	@media @mobile {
+		background-image: none;
+	}
+
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: cover;
+
 	.parentWrapper {
 		margin: 0 auto;
 		width: 100%;
 		max-width: @maxWidth;
 		text-align: left;
 		padding: @gridColumnWidth;
-		background-color: @colourLight;
-		@media @hd {
-			// .box-shadow(
-			// 	6px 0px 15px -5px #999999, 
-			// 	-6px 0px 15px -5px #999999
-			// );
-		}
 		.box-sizing(border-box);
 	}
 }
@@ -36,6 +51,9 @@ body {
 header, section, footer {
 	display: inline-block;
 	width: 100%;
+	div {
+		width: 100%;
+	}
 }
 
 h1 {
@@ -56,4 +74,8 @@ h4 {
 
 ul {
 	list-style-type: none;
+}
+
+ul, dd{
+	.resetMarginPadding;
 }

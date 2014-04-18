@@ -1,0 +1,17 @@
+.skills {
+	ul {
+		margin-bottom: @gridColumnWidth;
+	}
+	dl {
+		display: inline-block;
+		width: 25%;
+		.box-sizing(border-box);
+
+		dt {
+			font-weight: bold;
+		}
+		dd {
+			line-height: 150%;
+		}
+	}
+}

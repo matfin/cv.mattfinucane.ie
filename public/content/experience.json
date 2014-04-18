@@ -8,6 +8,7 @@
 			"role": "Web Developer",
 			"from": "2013-10-08",
 			"to": "Present",
+			"location": "Berlin",
 			"points": [
 				{
 					"content": "Created a web application using the Meteor Javascript framework to deliver native-like performance."
@@ -89,6 +90,7 @@
 			"role": "Contract Web Developer",
 			"from": "2013-03-13",
 			"to": "2013-09-20",
+			"location": "Dublin",
 			"points": [
 				{
 					"content": "Created a knowlege based information portal (secure document sharing, retrieval and storage) for a large telecomms organisation in PHP."
@@ -149,6 +151,7 @@
 			"role": "Technical Lead",
 			"from": "2012-01-16",
 			"to": "2013-03-10",
+			"location": "Dublin",
 			"points": [
 				{
 					"content": "Drove the development of multiple mobile applications."
@@ -239,6 +242,7 @@
 			"role": "Senior PHP Developer",
 			"from": "2010-03-10",
 			"to": "2012-01-12",
+			"location": "Dublin",
 			"points": [
 				{
 					"content": "Our scrum approach to development ensured timely delivery of product phases and stakeholders were kept up to date with development on large projects."
@@ -302,6 +306,7 @@
 			"role": "Director",
 			"from": "2008-07-01",
 			"to": "2010-03-10",
+			"location": "Dublin",
 			"points": [
 				{
 					"content": "Created several bespoke content managed websites for clients using hand-coded html and php."
@@ -368,6 +373,7 @@
 			"role": "Java Web Developer",
 			"from": "2007-07-01",
 			"to": "2008-07-01",
+			"location": "London",
 			"points": [
 				{
 					"content": "Redeveloped the HTML and CSS during a complete overhaul of the company website."
@@ -422,6 +428,7 @@
 			"role": "Java Web Developer",
 			"from": "2006-09-15",
 			"to": "2007-06-30",
+			"location": "London",
 			"points": [
 				{
 					"content": "Upgraded site standards compliancy in XHTML and CSS."
@@ -470,6 +477,7 @@
 			"role": "Associate Software Engineer",
 			"from": "2005-07-10",
 			"to": "2006-06-15",
+			"location": "Dublin",
 			"points": [
 				{
 					"content": "Created a web app to monitor RSS feeds from news providers."
