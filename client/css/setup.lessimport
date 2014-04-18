@@ -48,6 +48,17 @@ body {
 
 // General styling for tags
 
+a {
+	color: @colourDark;
+	text-decoration: none;
+	border-bottom: 1px solid @colourDark;
+	padding-bottom: 2px;
+}
+
+address {
+	font-style: normal;
+}
+
 header, section, footer {
 	display: inline-block;
 	width: 100%;
@@ -56,12 +67,18 @@ header, section, footer {
 	}
 }
 
+h1, h2, h3, h4, h5, h6 {
+	.resetMarginPadding;
+	margin: @gridColumnWidth 0;
+}
+
 h1 {
 	font-size: @h1Size;
 }
 
 h2 {
 	font-size: @h2Size;
+	margin-top: @gridColumnWidth * 2;
 }
 
 h3 {
@@ -73,7 +90,15 @@ h4 {
 }
 
 ul {
-	list-style-type: none;
+	list-style-type: disc;
+	li {
+		line-height: 170%;
+		// &:before {
+		// 	content: "\2022";
+		// 	font-size: 0.6em;
+		// 	line-height: 1.0em;
+		// }
+	}
 }
 
 ul, dd{

@@ -1,0 +1,27 @@
+header {
+
+	h1 {
+		margin-bottom: @gridColumnWidth / 2;
+	}
+
+	address {
+		margin-bottom: @gridColumnWidth / 4;
+		@media @hd {
+			font-size: 0.9em;
+		}
+		@media @desktop {
+			font-size: 0.9em;
+		}
+	}
+	span {
+		margin: 0 @gridColumnWidth / 4;
+	}
+	a {
+		@media @hd {
+			font-size: 0.9em;
+		}
+		@media @desktop {
+			font-size: 0.9em;
+		}
+	}
+}

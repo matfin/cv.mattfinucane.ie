@@ -1,0 +1,12 @@
+.experience {
+	h3 {
+		margin-top: @gridColumnWidth / 2;
+	}
+	h4 {
+		margin-top: @gridColumnWidth * 2;
+		margin-bottom: @gridColumnWidth / 2;
+	}
+	ul {
+		width: 50%;
+	}
+}

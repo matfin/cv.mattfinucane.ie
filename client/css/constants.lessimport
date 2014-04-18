@@ -2,11 +2,11 @@
 
 // Fonts and their sizes
 @helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-@standardFontSize: 10px;
+@standardFontSize: 8px;
 
 // Headings
-@h1Size: 2em;
-@h2Size: 1.6em;
+@h1Size: 1.75em;
+@h2Size: 1.75em;
 @h3Size: 1.3em;
 @h4Size: 1.0em;
 

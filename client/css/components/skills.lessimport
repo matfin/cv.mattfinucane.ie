@@ -11,7 +11,7 @@
 			font-weight: bold;
 		}
 		dd {
-			line-height: 150%;
+			line-height: 170%;
 		}
 	}
 }
