@@ -1,37 +1,5 @@
 // Mixins
 
-.portfolioBackgroundImage(@img) {
-	
-	@media @hd {
-		background-image: url('images/portfolio/@{img}-d.jpg');
-		@media @retina {
-			background-image: url('images/portfolio/@{img}-d@2x.jpg');
-		}
-	}
-	@media @desktop {
-		background-image: url('images/portfolio/@{img}-d.jpg');
-		@media @retina {
-			background-image: url('images/portfolio/@{img}-d@2x.jpg');
-		}
-	}
-	@media @tablet {
-		background-image: url('images/portfolio/@{img}-t.jpg');
-		@media @retina {
-			background-image: url('images/portfolio/@{img}-t@2x.jpg');
-		}
-	}
-	@media @mobile {
-		background-image: url('images/portfolio/@{img}-p.jpg');
-		@media @retina {
-			background-image: url('images/portfolio/@{img}-p@2x.jpg');
-		}
-	}
-
-	background-size: contain;
-	background-position: center center;
-	background-repeat: no-repeat;
-}
-
 .resetMarginPadding {
 	margin: 0;
 	padding: 0;

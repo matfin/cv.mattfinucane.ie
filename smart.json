@@ -4,6 +4,7 @@
     "iron-router": {},
     "normalize.css": {},
     "jquery2": {},
-    "moment": {}
+    "moment": {},
+    "modernizr-meteor": {}
   }
 }

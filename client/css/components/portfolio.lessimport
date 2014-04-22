@@ -115,19 +115,6 @@
 						//line-height: @gridColumnWidth * 4;
 					}
 				}
-
-				&[data-background-image='tunedin-desktop-webapp'] {
-					.portfolioBackgroundImage('tunedin-desktop-webapp');
-				}
-				&[data-background-image='tunedin-desktop-website'] {
-					.portfolioBackgroundImage('tunedin-desktop-website');
-				}
-				&[data-background-image='irishtimes-ios-app'] {
-					.portfolioBackgroundImage('irishtimes-ios-app');
-				}
-				&[data-background-image='newswhip-ios-app'] {
-					.portfolioBackgroundImage('newswhip-ios-app');
-				}
 			}
 		}
 	}
