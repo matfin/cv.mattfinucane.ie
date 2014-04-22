@@ -26,3 +26,14 @@ Template - cards_portfolioitem
 Template['cards_portfolioItem'].destroyed = function() {
 	
 };
+
+/**
+Template - cards_portfolioitem
+{{events}}
+@return undefined
+**/
+Template['cards_portfolioItem'].events = {
+	'click .content': function(e, template) {
+		$(e.currentTarget).toggleClass('revealed');
+	}
+}

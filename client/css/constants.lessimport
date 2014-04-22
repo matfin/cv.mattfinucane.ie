@@ -18,6 +18,9 @@
 @gridColumnWidth: 16px;
 @maxWidth: @gridColumnWidth * 60;
 
+// Animation
+@transitionDuration: 350ms;
+
 
 
 

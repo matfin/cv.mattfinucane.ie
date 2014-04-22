@@ -17,6 +17,35 @@
 				width: 100%;
 				height: 100%;
 				float: left;
+				overflow: hidden;
+				position: relative;
+
+				.content {
+					width: 100%;
+					height: 100%;
+					padding: 0 @gridColumnWidth * 2;
+					position: absolute;
+					left: 0; 
+					top: 90%;
+					.box-sizing(border-box);
+					.hexToRGBA(@colourDark, 0.9);
+					.transition-property(top);
+					.transition-duration(@transitionDuration);
+
+					&.revealed {
+						top: 0;
+					}
+
+					h3, p, ul {
+						color: @colourLight;
+					}
+
+					h3 {
+						.resetMarginPadding; 
+						height: @gridColumnWidth * 4;
+						line-height: @gridColumnWidth * 4;
+					}
+				}
 
 				&[data-background-image='tunedin-desktop-webapp'] {
 					.portfolioBackgroundImage('tunedin-desktop-webapp');

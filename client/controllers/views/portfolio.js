@@ -17,7 +17,8 @@ Template['views_portfolio'].rendered = function() {
 	$('.portfolioSlider').iosSlider({
 		desktopClickDrag: true,
 		snapToChildren: true,
-		keyboardControls: true
+		keyboardControls: true,
+		infiniteSlider: true
 	});
 };
 

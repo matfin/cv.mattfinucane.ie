@@ -56,3 +56,12 @@
 	margin: 0;
 	padding: 0;
 }
+
+.hexToRGBA(@hexColour, @alpha: 1) {
+	background: rgba(
+		red(@hexColour),
+		green(@hexColour),
+		blue(@hexColour),
+		@alpha
+	);
+}
