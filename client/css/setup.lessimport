@@ -48,7 +48,7 @@ body {
 		width: 100%;
 		max-width: @maxWidth;
 		text-align: left;
-		padding: @gridColumnWidth;
+		// padding: @gridColumnWidth;
 		padding-bottom: @gridColumnWidth * 22.5;
 		.box-sizing(border-box);
 	}
