@@ -14,7 +14,11 @@ Template - views_portfolio
 @return	undefined
 **/
 Template['views_portfolio'].rendered = function() {
-	
+	$('.portfolioSlider').iosSlider({
+		desktopClickDrag: true,
+		snapToChildren: true,
+		keyboardControls: true
+	});
 };
 
 /**

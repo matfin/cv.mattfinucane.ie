@@ -2874,7 +2874,6 @@
 		} else {
 			$.error('invalid method call!');
 		}
-	
     };
 
 }) (jQuery);
