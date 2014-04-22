@@ -2,7 +2,7 @@
 
 // Fonts and their sizes
 @helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-@standardFontSize: 8px;
+@standardFontSize: 16px;
 
 // Headings
 @h1Size: 1.75em;
@@ -16,7 +16,9 @@
 
 // General layout
 @gridColumnWidth: 16px;
+@iconSize: @gridColumnWidth * 3;
 @maxWidth: @gridColumnWidth * 60;
+@scale: 0.8;
 
 // Animation
 @transitionDuration: 350ms;

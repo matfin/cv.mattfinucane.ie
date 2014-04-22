@@ -33,7 +33,5 @@ Template - cards_portfolioitem
 @return undefined
 **/
 Template['cards_portfolioItem'].events = {
-	'click .content': function(e, template) {
-		$(e.currentTarget).toggleClass('revealed');
-	}
+	
 }

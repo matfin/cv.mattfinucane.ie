@@ -14,7 +14,7 @@ body {
 	letter-spacing: 1px;
 
 	background-color: #a5c3ce;
-	.bodyFontSize;
+	// .bodyFontSize;
 }
 
 .container {
@@ -48,9 +48,16 @@ body {
 		width: 100%;
 		max-width: @maxWidth;
 		text-align: left;
-		// padding: @gridColumnWidth;
-		padding-bottom: @gridColumnWidth * 22.5;
 		.box-sizing(border-box);
+		padding-bottom: @gridColumnWidth * 22.5;
+
+		@media @tablet {
+			padding-bottom: 0;
+		}
+
+		@media @mobile {
+			padding-bottom: 0;
+		}
 	}
 }
 
@@ -111,4 +118,8 @@ ul {
 
 ul, dd{
 	.resetMarginPadding;
+}
+
+button {
+	.resetButton;
 }

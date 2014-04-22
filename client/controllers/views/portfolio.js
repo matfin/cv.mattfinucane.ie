@@ -18,7 +18,9 @@ Template['views_portfolio'].rendered = function() {
 		desktopClickDrag: true,
 		snapToChildren: true,
 		keyboardControls: true,
-		infiniteSlider: true
+		infiniteSlider: true,
+		navPrevSelector: '.goLeft',
+		navNextSelector: '.goRight'
 	});
 };
 
