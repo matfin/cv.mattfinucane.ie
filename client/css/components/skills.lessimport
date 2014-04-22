@@ -1,6 +1,6 @@
 .skills {
 	ul {
-		margin-bottom: @gridColumnWidth * 2;
+		margin-bottom: @gridColumnWidth * 1.25;
 	}
 	dl {
 		display: inline-block;

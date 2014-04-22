@@ -1,4 +1,10 @@
 // General setup
+html {
+	width: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
 body {
 	width: 100%;
 	height: 100%;
@@ -15,6 +21,7 @@ body {
 	width: 100%;
 	height: 100%;
 	text-align: center;
+	display: inline-table;
 
 	@media @hd {
 		background-image: url('images/background_hd.jpg');

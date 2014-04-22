@@ -2,18 +2,16 @@
 	<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-    <title>Matthew Finucane - CV</title>
+    <title>Matt Finucane - CV</title>
 	<div class="container">
 		<div class="parentWrapper">
 			<header>
 				{{> yield region="header"}}
 			</header>
 			<section>
-				<!-- {{> components_profile }} -->
-				{{> components_skills }}
-				{{> components_experience }}
+				{{> yield region="content"}}
+				<!-- {{> components_experience }} -->
 				<!-- {{> components_portfolio }} -->
-				{{> components_qualifications }}
 				<!-- {{> components_interests }} -->
 			</section>
 			<footer>
