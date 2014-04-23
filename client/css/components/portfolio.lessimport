@@ -106,11 +106,15 @@
 					z-index: 4;
 					width: 100%;
 					height: 100%;
+					overflow-y: auto;
 					text-align: left;
 					position: absolute;
 					left: 0; 
 					top: 100%;
 					padding: @gridColumnWidth * 6;
+					@media @mobile {
+						padding: @gridColumnWidth * 2;
+					}
 					.box-sizing(border-box);
 					.hexToRGBA(@colourDark, 0.9);
 					.transition-property(top);
