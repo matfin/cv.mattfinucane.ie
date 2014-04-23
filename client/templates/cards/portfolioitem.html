@@ -1,8 +1,10 @@
 <template name="cards_portfolioItem">
 	<div class="slide">
+		<button class="toggleInfo icon-info"></button>
 		<img src="images/portfolio/{{getImageSource}}" width="" height="" alt="{{heading}}" />
+		<i class="icon-cycle"></i>
 		<div class="content">
-			<!-- <h3>{{heading}}</h3>
+			<h3>{{heading}}</h3>
 			{{#each contents}}
 				<p>{{content}}</p>
 			{{/each}}
@@ -10,7 +12,7 @@
 				{{#each points}}
 					<li>{{content}}</li>
 				{{/each}}
-			</ul> -->
+			</ul>
 		</div>
 	</div>
 </template>

@@ -2,24 +2,8 @@
 
 	position: relative;
 
-	i {
-		z-index: 3;
-		position: absolute;
-		top: 50%;
-		left: 0;
-		font-size: @iconSize;
-		width: 100%;
-		height: @iconSize;
-		line-height: @iconSize;
-		color: @colourDark;
-		text-align: center;
-
-		.spin(2s);
-
-	}
-
 	button {
-		z-index: 2;
+		z-index: 3;
 		position: absolute;
 		width: @iconSize;
 		height: @iconSize;
@@ -37,22 +21,27 @@
 		&.goRight {
 			right: @gridColumnWidth;
 		}
-	}
 
-	@media @tablet {
-		button {
-			display: none;
+		&.toggleInfo {
+			z-index: 6;
+			top: @gridColumnWidth;
+			right: @gridColumnWidth;
+			font-size: @iconSize * 0.4;
+			width: @iconSize * 0.8;
+			height: @iconSize * 0.8;
+			line-height: @iconSize * 0.8;
 		}
 	}
 
 	@media @mobile {
-		button {
+		.goLeft, .goRight {
 			display: none;
 		}
 	}
 
 	.portfolioSlider {
 
+		z-index: 3;
 		position: relative;
 		top: 0;
 		left: 0;
@@ -90,19 +79,38 @@
 				background-color: #fff;
 				text-align: center;
 
+				i {
+					z-index: 1;
+					position: absolute;
+					top: 50%;
+					left: 0;
+					font-size: @iconSize;
+					width: 100%;
+					height: @iconSize;
+					line-height: @iconSize;
+					color: @colourDark;
+					text-align: center;
+
+					.spin(2s);
+				}
+
 				img {
+					z-index: 2;
+					position: relative;
 					margin: 0 auto;
 					width: auto;
 					height: 100%;
 				}
 
 				.content {
+					z-index: 4;
 					width: 100%;
 					height: 100%;
-					// padding: 0 @gridColumnWidth * 2;
+					text-align: left;
 					position: absolute;
 					left: 0; 
 					top: 100%;
+					padding: @gridColumnWidth * 6;
 					.box-sizing(border-box);
 					.hexToRGBA(@colourDark, 0.9);
 					.transition-property(top);
