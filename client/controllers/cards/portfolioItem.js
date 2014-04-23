@@ -32,8 +32,34 @@ Template - cards_portfolioitem
 @return	String
 **/
 Template['cards_portfolioItem'].getImageSource = function() {
+	// This gets automatically called when the window is resized.
 	Dependencies.resizeDependency.depend();
-	return new Date().getTime();
+	var imageSource;
+	var windowWidth = $(window).width();
+
+	//@hd 
+	if(windowWidth >= 1280) {
+		imageSource = this.media.img + '-d';
+	}
+	//@desktop
+	else if(windowWidth < 1280 && windowWidth > 1024) {
+		imageSource = this.media.img + '-d';
+	}
+	//@tablet
+	else if(windowWidth <= 1024 && windowWidth > 640) {
+		imageSource = this.media.img + '-t';
+	}
+	//@mobile
+	else if(windowWidth <= 640) {
+		imageSource = this.media.img + '-p';
+	}
+
+	if(App.isRetina) {
+		return imageSource + '@2x.jpg';
+	}
+	else {
+		return imageSource + '.jpg';
+	}
 };
 
 /**
