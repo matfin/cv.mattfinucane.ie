@@ -9,10 +9,6 @@
 	font-style: normal;
 }
 
-html {
-	color: red !important;
-}
-
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'cv';
 	speak: none;
