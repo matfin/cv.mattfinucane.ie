@@ -112,6 +112,9 @@
 					left: 0; 
 					top: 100%;
 					padding: @gridColumnWidth * 14;
+					@media @tablet { 
+						padding: @gridColumnWidth * 6;
+					}
 					@media @mobile {
 						padding: @gridColumnWidth * 2;
 					}
