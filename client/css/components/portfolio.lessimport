@@ -62,7 +62,7 @@
 		}
 
 		@media @mobile {
-			height: 400px;
+			height: 200px;
 		}
 
 		.slider {
@@ -112,7 +112,7 @@
 					left: 0; 
 					top: 90%;
 					@media @mobile {
-						top: 90%;
+						top: @gridColumnWidth * 10;
 					}
 					.box-sizing(border-box);
 					.hexToRGBA(@colourDark, 0.9);
@@ -124,6 +124,12 @@
 						color: @colourLight;
 						width: 60%;
 						margin: 0 auto;
+					}
+
+					@media @mobile {
+						ul {
+							display: none; 
+						}
 					}
 
 					h3 {

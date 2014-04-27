@@ -54,10 +54,10 @@
 			"heading": "The Irish Times",
 			"contents": [
 				{
-					"content": "The Irish Times gave us the task of overhauling their news app for iPhone and Android platforms."
+					"content": "Overhauled version of the Irish Times news app for iOS and Android devices."
 				},
 				{
-					"content": "As one of the lead developers on this project, I was responsible for smoothly integrating existing news infrastructure into a fast, feature rich and robust app."
+					"content": "App built natively for iOS and Android phones - plugging into existing infrastructure with solid performance and stability."
 				}
 			],
 			"points": [
@@ -81,7 +81,7 @@
 			"heading": "NewsWhip",
 			"contents": [
 				{
-					"content": "NewsWhip are a Dublin based startup who have devised a system to deliver news stories to users based on their popularity."
+					"content": "NewsWhip have devised a system to deliver news stories to users based on their popularity."
 				},
 				{
 					"content": "Using their existing feed infrastructure, I was able to create a cross platform app using html5 and javascript."
