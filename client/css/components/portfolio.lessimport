@@ -111,7 +111,7 @@
 					position: absolute;
 					left: 0; 
 					top: 100%;
-					padding: @gridColumnWidth * 6;
+					padding: @gridColumnWidth * 14;
 					@media @mobile {
 						padding: @gridColumnWidth * 2;
 					}
