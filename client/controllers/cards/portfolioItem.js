@@ -35,25 +35,25 @@ Template['cards_portfolioItem'].getImageSource = function() {
 	// This gets automatically called when the window is resized.
 	Dependencies.resizeDependency.depend();
 	var imageSource;
-	var windowWidth = $(window).width();
 
 	//@hd 
-	if(windowWidth >= 1280) {
+	if(Device.isHD) {
 		imageSource = this.media.img + '-d';
 	}
 	//@desktop
-	else if(windowWidth < 1280 && windowWidth > 1024) {
+	else if(Device.isDesktop) {
 		imageSource = this.media.img + '-d';
 	}
 	//@tablet
-	else if(windowWidth <= 1024 && windowWidth > 640) {
+	else if(Device.isTablet) {
 		imageSource = this.media.img + '-t';
 	}
 	//@mobile
-	else if(windowWidth <= 640) {
+	else if(Device.isMobile) {
 		imageSource = this.media.img + '-p';
 	}
 
+	// Retina or not
 	if(Device.isRetina) {
 		return imageSource + '@2x.jpg';
 	}
