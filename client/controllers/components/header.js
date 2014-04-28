@@ -35,3 +35,12 @@ Template - components_common_header
 Template['components_common_header'].data = function() {
 	return App.models.staticContent.findOne({'title':'contact'});
 };
+
+Template['components_common_header'].events = {
+	'click button.nav': function(e, template) {
+		$(template.find('nav')).toggleClass('revealed');
+	},
+	'click a': function() {
+		$(template.find('nav')).toggleClass('revealed');
+	}
+}
