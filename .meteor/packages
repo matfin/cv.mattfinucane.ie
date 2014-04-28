@@ -7,8 +7,6 @@ standard-app-packages
 autopublish
 insecure
 iron-router
-app
-api
 normalize.css
 lesshat
 jquery2
@@ -17,4 +15,4 @@ less
 ios-slider
 underscore
 modernizr-meteor
-dependencies
+cv.mattfinucane.ie

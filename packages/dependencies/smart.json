@@ -1,7 +1,0 @@
-{
-	"name": "Matt Finucane",
-	"description": "Handle dependencies for this app. Automatically call re-render functions on an event.",
-	"homepage": "http://github.com/matfin/cv.mattfinucane.ie",
-	"author": "Matt Finucane",
-	"version": "1.0"
-}
