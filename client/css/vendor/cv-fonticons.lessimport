@@ -9,7 +9,7 @@
 	font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class*=" icon-"] {
 	font-family: 'cv';
 	speak: none;
 	font-style: normal;
@@ -107,7 +107,7 @@
 .icon-arrow-up5:before {
 	content: "\e61a";
 }
-.icon-uniE61B:before {
+.icon-arrow-right5:before {
 	content: "\e61b";
 }
 .icon-github:before {

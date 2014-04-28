@@ -1,20 +1,6 @@
 <template name="cards_portfolioItem">
 	<div class="slide">
-		<button class="toggleInfo icon-info"></button>
 		<img src="images/portfolio/{{getImageSource}}" width="" height="" alt="{{heading}}" />
-		<i class="icon-cycle"></i>
-		<div class="content">
-			<div class="text">
-				<h3>{{heading}}</h3>
-				{{#each contents}}
-					<p>{{content}}</p>
-				{{/each}}
-				<ul>
-					{{#each points}}
-						<li>{{content}}</li>
-					{{/each}}
-				</ul>
-			</div>
-		</div>
+		<h3>{{heading}}</h3>
 	</div>
 </template>
