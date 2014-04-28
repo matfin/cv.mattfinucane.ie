@@ -11,10 +11,12 @@ Package.on_use(function(api) {
 	api.export('App');
 	api.export('Api');
 	api.export('Dependencies');
+	api.export('Device');
 
 	api.add_files([
 		'_src/app.js',
 		'_src/api.js',
-		'_src/dependencies.js'
+		'_src/dependencies.js',
+		'_src/device.js'
 	], 'client');
 });

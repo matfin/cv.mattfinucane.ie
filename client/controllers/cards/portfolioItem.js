@@ -54,7 +54,7 @@ Template['cards_portfolioItem'].getImageSource = function() {
 		imageSource = this.media.img + '-p';
 	}
 
-	if(App.isRetina) {
+	if(Device.isRetina) {
 		return imageSource + '@2x.jpg';
 	}
 	else {

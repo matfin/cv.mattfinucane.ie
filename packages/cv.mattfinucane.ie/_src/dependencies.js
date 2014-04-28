@@ -13,12 +13,5 @@ Dependencies
 
 Dependencies = {
 	resizeDependency: new Deps.Dependency
-}
-
-/**
-Events to call changes on dependencies
-**/
-$(window).on('resize', _.debounce(function() {
-	Dependencies.resizeDependency.changed();
-}, 500));
+};
 

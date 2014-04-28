@@ -13,7 +13,6 @@ Data and models
 
 App = {
 	baseUrl: 'http://localhost:3000/',
-	isRetina: window.devicePixelRatio > 1,
 
 	models: {
 		staticContent: new Meteor.Collection('staticContent', {connection: null}),
