@@ -111,10 +111,21 @@ ol {
 }
 
 ul {
-	list-style-type: disc;
+	list-style-type: none;
 	li {
+		display: inline-flex;
 		line-height: 170%;
+		text-indent: 0 - (@gridColumnWidth + 6px);
+		padding: 0 @gridColumnWidth + 4px;
+		&:before {
+			font-family: 'cv';
+			content: "\e60f";
+		}
 	}
+}
+
+p {
+	line-height: 170%;
 }
 
 ul, dd{

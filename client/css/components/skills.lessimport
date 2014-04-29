@@ -9,6 +9,7 @@
 	dl {
 		display: inline-block;
 		width: 32%;
+		min-width: @gridColumnWidth * 15;
 		.box-sizing(border-box);
 
 		dt {

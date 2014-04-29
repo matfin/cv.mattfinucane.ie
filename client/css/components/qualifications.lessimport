@@ -9,7 +9,4 @@
 	h4 {
 		margin-bottom: @gridColumnWidth / 2;
 	}
-	ul {
-		width: 75%;
-	}
 }
