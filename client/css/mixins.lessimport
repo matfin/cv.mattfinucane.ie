@@ -21,6 +21,8 @@
 	&:active {
 		.scale(@scale);
 	}
+
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .hexToRGBA(@hexColour, @alpha: 1) {

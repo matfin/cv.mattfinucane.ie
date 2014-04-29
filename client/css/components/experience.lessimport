@@ -1,4 +1,8 @@
 .experience {
+	
+	padding: 0 @gridColumnWidth;
+	.box-sizing(border-box);
+	
 	h3 {
 		margin-top: @gridColumnWidth / 2;
 	}
@@ -6,7 +10,6 @@
 		margin-top: @gridColumnWidth * 2;
 		margin-bottom: @gridColumnWidth / 2;
 	}
-	ul {
-		// width: 75%;
-	}
+	
+	.box-sizing(border-box);
 }

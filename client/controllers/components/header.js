@@ -37,10 +37,12 @@ Template['components_common_header'].data = function() {
 };
 
 Template['components_common_header'].events = {
-	'click button.nav': function(e, template) {
+	'touchstart button.nav': function(e, template) {
+		$(e.target).toggleClass('revealed');
 		$(template.find('nav')).toggleClass('revealed');
 	},
-	'click a': function() {
-		$(template.find('nav')).toggleClass('revealed');
+	'click a': function(e, template) {
+		$(e.target).removeClass('revealed');	
+		$(template.find('nav')).removeClass('revealed');
 	}
 }

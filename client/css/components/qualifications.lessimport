@@ -1,4 +1,8 @@
 .qualifications {
+
+	padding: 0 @gridColumnWidth;
+	.box-sizing(border-box);
+
 	h3 {
 		margin-top: @gridColumnWidth / 2;
 	}

@@ -2,6 +2,10 @@
 
 	position: relative;
 
+	h2 {
+		margin-left: @gridColumnWidth;
+	}
+
 	button {
 		z-index: 3;
 		position: absolute;
