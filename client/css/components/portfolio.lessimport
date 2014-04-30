@@ -44,19 +44,19 @@
 		height: 100%;
 
 		@media @hd {
-			height: 640px;
+			height: @gridColumnWidth * 40;
 		}
 
 		@media @desktop {
-			height: 640px;
+			height: @gridColumnWidth * 40;
 		}
 
 		@media @tablet {
-			height: 480px;
+			height: @gridColumnWidth * 30;
 		}
 
 		@media @mobile {
-			height: 200px + (@gridColumnWidth * 3);
+			height: @gridColumnWidth * 14.5;
 		}
 
 		.slider {
