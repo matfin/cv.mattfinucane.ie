@@ -14,7 +14,7 @@
 // Colours
 @colourDark: #2d3d4c;
 @colourLight: #eff3f3;
-@colourBackground: #a5c3ce;
+@colourBackground: #accee4;
 @colourSecondary: #f8933c;
 
 // General layout

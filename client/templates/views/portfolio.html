@@ -3,7 +3,11 @@
 		<h2>{{data.heading}}</h2>
 		<div class="sliderIndicator">
 			{{#each portfolioItems}}
-				<button></button>
+				{{#if active}}
+					<button class="active"></button>
+				{{else}}
+					<button></button>
+				{{/if}}
 			{{/each}}
 		</div>
 		<button class="goLeft icon-arrow-left5"></button>

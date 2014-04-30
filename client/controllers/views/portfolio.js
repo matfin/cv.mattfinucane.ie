@@ -24,8 +24,17 @@ Template['views_portfolio'].rendered = function() {
 		navPrevSelector: '.goLeft',
 		navNextSelector: '.goRight',
 		onSliderLoaded: function(args) {
+			setActiveSlideIndicator(args.currentSlideNumber);
+		},
+		onSlideChange: function(args) {
+			setActiveSlideIndicator(args.currentSlideNumber);
 		}
 	});
+};
+
+var setActiveSlideIndicator = function(number) {
+	this.$('button', '.sliderIndicator').removeClass('active');
+	$('button', '.sliderIndicator').eq(number - 1).addClass('active');
 };
 
 /**
@@ -63,7 +72,7 @@ Template - views_portfolio
 @return	undefined
 **/
 Template['views_portfolio'].events = {
-	'click button': function(e, template) {
+	'click .sliderIndicator > button': function(e, template) {
 		var buttonIndex = typeof $(e.target).index() === 'number' ? $(e.target).index() + 1:0;
 		$('.portfolioSlider').iosSlider('goToSlide', buttonIndex);
 	}
