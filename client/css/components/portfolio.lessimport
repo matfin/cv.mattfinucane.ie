@@ -56,7 +56,7 @@
 		}
 
 		@media @mobile {
-			height: 200px;
+			height: 200px + (@gridColumnWidth * 3);
 		}
 
 		.slider {
@@ -79,6 +79,9 @@
 					margin: 0 auto;
 					width: auto;
 					height: 100%;
+					@media @mobile {
+						height: 200px;
+					}
 				}
 
 				h3 {
