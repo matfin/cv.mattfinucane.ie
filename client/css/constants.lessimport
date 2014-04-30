@@ -14,6 +14,8 @@
 // Colours
 @colourDark: #2d3d4c;
 @colourLight: #eff3f3;
+@colourBackground: #a5c3ce;
+@colourSecondary: #f8933c;
 
 // General layout
 @gridColumnWidth: 16px;

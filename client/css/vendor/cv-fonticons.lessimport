@@ -23,14 +23,23 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-menu:before {
+	content: "\e627";
+}
 .icon-point-up:before {
 	content: "\e626";
 }
-.icon-cog:before {
-	content: "\e600";
+.icon-arrow-left5:before {
+	content: "\e618";
 }
-.icon-cross:before {
-	content: "\e601";
+.icon-arrow-right5:before {
+	content: "\e61b";
+}
+.icon-arrow-up5:before {
+	content: "\e61a";
+}
+.icon-arrow-down5:before {
+	content: "\e619";
 }
 .icon-info:before {
 	content: "\e602";
@@ -41,38 +50,8 @@
 .icon-cycle:before {
 	content: "\e604";
 }
-.icon-cw:before {
-	content: "\e605";
-}
-.icon-ccw:before {
-	content: "\e606";
-}
 .icon-list:before {
 	content: "\e607";
-}
-.icon-arrow-left:before {
-	content: "\e608";
-}
-.icon-arrow-down:before {
-	content: "\e609";
-}
-.icon-arrow-up:before {
-	content: "\e60a";
-}
-.icon-arrow-right:before {
-	content: "\e60b";
-}
-.icon-arrow-left2:before {
-	content: "\e60c";
-}
-.icon-arrow-down2:before {
-	content: "\e60d";
-}
-.icon-arrow-up2:before {
-	content: "\e60e";
-}
-.icon-arrow-right2:before {
-	content: "\e60f";
 }
 .icon-arrow-left3:before {
 	content: "\e610";
@@ -98,17 +77,8 @@
 .icon-arrow-right4:before {
 	content: "\e617";
 }
-.icon-arrow-left5:before {
-	content: "\e618";
-}
-.icon-arrow-down5:before {
-	content: "\e619";
-}
-.icon-arrow-up5:before {
-	content: "\e61a";
-}
-.icon-arrow-right5:before {
-	content: "\e61b";
+.icon-twitter2:before {
+	content: "\e61f";
 }
 .icon-github:before {
 	content: "\e61c";
@@ -118,9 +88,6 @@
 }
 .icon-twitter:before {
 	content: "\e61e";
-}
-.icon-twitter2:before {
-	content: "\e61f";
 }
 .icon-facebook:before {
 	content: "\e620";
@@ -139,4 +106,40 @@
 }
 .icon-linkedin2:before {
 	content: "\e625";
+}
+.icon-cross:before {
+	content: "\e601";
+}
+.icon-cog:before {
+	content: "\e600";
+}
+.icon-cw:before {
+	content: "\e605";
+}
+.icon-ccw:before {
+	content: "\e606";
+}
+.icon-arrow-left2:before {
+	content: "\e60c";
+}
+.icon-arrow-down2:before {
+	content: "\e60d";
+}
+.icon-arrow-up2:before {
+	content: "\e60e";
+}
+.icon-arrow-right2:before {
+	content: "\e60f";
+}
+.icon-arrow-left:before {
+	content: "\e608";
+}
+.icon-arrow-down:before {
+	content: "\e609";
+}
+.icon-arrow-up:before {
+	content: "\e60a";
+}
+.icon-arrow-right:before {
+	content: "\e60b";
 }

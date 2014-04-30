@@ -70,34 +70,39 @@ header {
 		h1 {
 			.resetMarginPadding;
 			padding-left: @gridColumnWidth;
-			width: 80%;
+			width: 100%;
 			.box-sizing(border-box);
 			background-color: @colourDark;
-			color: @colourLight;
+			color: @colourBackground;
 		}
 
 		address, > a {
-			margin: @gridColumnWidth;
-			margin-right: 0;
-			margin-top: @gridColumnWidth * 1.5;
-			margin-bottom: @gridColumnWidth / 2;
+			display: inline-block;
+			margin: (@gridColumnWidth) 
+					0
+					0
+					(@gridColumnWidth);
 			&:last-child {
 				margin-left: 0;
 			}
 		}
-		span {
-			// display: none;
+		> a {
+			margin-top: @gridColumnWidth / 2;
 		}
 
 		button.nav {
-			position: relative;
+			position: absolute;
+			top: @gridColumnWidth / 2;
+			right: @gridColumnWidth / 2;
 			z-index: 3;
-			width: 20%;
+			width: @gridColumnWidth * 2;
+			height: @gridColumnWidth * 2;
+			line-height: @gridColumnWidth * 2;
 			display: block;
-			height: @gridColumnWidth * 3;
-			line-height: @gridColumnWidth * 3;
-			background-color: @colourDark;
-			color: @colourLight;
+			
+			font-size: @gridColumnWidth * 1.5;
+			background-color: @colourSecondary;
+			color: @colourDark;
 			
 			&:active {
 				.scale(1);
@@ -108,12 +113,12 @@ header {
 			.resetMarginPadding;
 			z-index: 4;
 			position: absolute;
-			top: @gridColumnWidth * 3.5;
+			top: @gridColumnWidth * 3;
 			left: 0;
 			width: 100%;
 			height: 0;
 			overflow: hidden;
-			background-color: @colourLight;
+			// background-color: @colourDark;
 
 			.transition-property(height);
 			.transition-duration(@transitionDuration / 2);
@@ -125,17 +130,22 @@ header {
 					a {
 						.resetMarginPadding;
 						display: block;
-						width: 100%;
+						clear: both;
+						width: 50%;
 						height: @gridColumnWidth * 3;
 						line-height: @gridColumnWidth * 3;
-						float: left;
+						float: right;
 						padding-right: @gridColumnWidth;
 						text-align: right;
 						font-size: 1.0em;
+						color: @colourSecondary;
+						border-top: 1px solid @colourBackground;
+						background-color: @colourDark;
+						font-size: 1.5em;
 						.box-sizing(border-box);
 
 						&:hover {
-							border-bottom: none;
+							border-bottom: 0;
 						}
 					}
 				}

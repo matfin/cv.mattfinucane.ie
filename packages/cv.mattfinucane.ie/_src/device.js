@@ -18,6 +18,7 @@ Device = {
 	isDesktop: false,
 	isTablet: false,
 	isMobile: false,
+	isTouchCapable: false,
 
 	reset: function() {
 
@@ -27,7 +28,7 @@ Device = {
 		this.isDesktop = this.windowWidth < 1280 && this.windowWidth > 1024;
 		this.isTablet = this.windowWidth <= 1024 && this.windowWidth > 640;
 		this.isMobile = this.windowWidth <= 640;
-
+		this.isTouchCapable = 'ontouchstart' in document.documentElement;
 	}
 
 };
