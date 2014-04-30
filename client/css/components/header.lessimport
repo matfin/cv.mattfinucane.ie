@@ -66,24 +66,39 @@ header {
 	}
 
 	@media @mobile {
-		button.nav {
-			z-index: 3;
-			display: block;
-			position: absolute;
-			top: @gridColumnWidth * 1.5;
-			right: @gridColumnWidth / 2;
-			width: @gridColumnWidth * 2;
-			height: @gridColumnWidth * 2;
-			font-size: @gridColumnWidth;
-			background-color: @colourLight;
+		.resetMarginPadding;
+		h1 {
+			.resetMarginPadding;
+			padding-left: @gridColumnWidth;
+			width: 80%;
+			.box-sizing(border-box);
+			background-color: @colourDark;
+			color: @colourLight;
+		}
 
-			// .border-radius(@gridColumnWidth);
-
-			&.revealed {
-				// position: fixed;
-				// .border-bottom-left-radius(0);
-				// .border-bottom-right-radius(0);
+		address, > a {
+			margin: @gridColumnWidth;
+			margin-right: 0;
+			margin-top: @gridColumnWidth * 1.5;
+			margin-bottom: @gridColumnWidth / 2;
+			&:last-child {
+				margin-left: 0;
 			}
+		}
+		span {
+			// display: none;
+		}
+
+		button.nav {
+			position: relative;
+			z-index: 3;
+			width: 20%;
+			display: block;
+			height: @gridColumnWidth * 3;
+			line-height: @gridColumnWidth * 3;
+			background-color: @colourDark;
+			color: @colourLight;
+			
 			&:active {
 				.scale(1);
 			}
