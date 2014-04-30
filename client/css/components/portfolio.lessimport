@@ -8,13 +8,14 @@
 
 	.sliderIndicator {
 		width: 100%;
-		height: @gridColumnWidth * 2;
+		// height: @gridColumnWidth * 2;
+		margin: @gridColumnWidth 0;
 		text-align: center;
 		> button {
-			width: @gridColumnWidth * .75;
-			height: @gridColumnWidth * .75;
+			width: @gridColumnWidth * 1.5;
+			height: @gridColumnWidth * 1.5;
 			background-color: @colourDark;
-			margin: 0 @gridColumnWidth / 2;
+			margin: 0 @gridColumnWidth;
 			&.active {
 				background-color: @colourSecondary;
 			}

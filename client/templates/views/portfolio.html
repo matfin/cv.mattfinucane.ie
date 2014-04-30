@@ -1,15 +1,6 @@
 <template name="views_portfolio">
 	<div class="portfolio">
 		<h2>{{data.heading}}</h2>
-		<div class="sliderIndicator">
-			{{#each portfolioItems}}
-				{{#if active}}
-					<button class="active"></button>
-				{{else}}
-					<button></button>
-				{{/if}}
-			{{/each}}
-		</div>
 		<button class="goLeft icon-arrow-left5"></button>
 		<button class="goRight icon-arrow-right5"></button>
 		<div class="portfolioSlider">
@@ -18,6 +9,11 @@
 					{{> cards_portfolioItem}}
 				{{/each}}
 			</div>
+		</div>
+		<div class="sliderIndicator">
+			{{#each portfolioItems}}
+				<button></button>
+			{{/each}}
 		</div>
 	</div>
 	{{> components_experience}}
