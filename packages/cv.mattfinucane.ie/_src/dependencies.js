@@ -12,6 +12,7 @@ Dependencies
 **/
 
 Dependencies = {
-	resizeDependency: new Deps.Dependency
+	resizeDependency: new Deps.Dependency,
+	iosSliderDependency: new Deps.Dependency
 };
 

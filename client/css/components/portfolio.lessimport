@@ -6,7 +6,22 @@
 		margin-left: @gridColumnWidth;
 	}
 
-	button {
+	.sliderIndicator {
+		width: 100%;
+		height: @gridColumnWidth * 2;
+		text-align: center;
+		> button {
+			width: @gridColumnWidth * .75;
+			height: @gridColumnWidth * .75;
+			background-color: @colourDark;
+			margin: 0 @gridColumnWidth / 2;
+			&.active {
+				background-color: @colourSecondary;
+			}
+		}
+	}
+
+	> button {
 		z-index: 3;
 		position: absolute;
 		width: @iconSize;
@@ -95,6 +110,10 @@
 					color: @colourLight;
 					.hexToRGBA(@colourDark, 0.9);
 					z-index: 3;
+					@media @mobile {
+						background-color: @colourSecondary;
+						color: @colourDark;
+					}
 				}
 			}
 		}
