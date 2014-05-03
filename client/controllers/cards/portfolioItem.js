@@ -74,6 +74,17 @@ Template['cards_portfolioItem'].formattedDate = function(date, format) {
 };
 
 /**
+Template - cards_portfolioItem
+{{formattedDate}}	
+@params String date, String format
+@return	String
+**/
+Template['cards_portfolioItem'].isMobile = function() {
+	Dependencies.resizeDependency.depend();
+	return Device.isMobile;
+};
+
+/**
 Template - cards_portfolioitem
 {{events}}
 @return undefined
