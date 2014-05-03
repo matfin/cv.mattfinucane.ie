@@ -37,7 +37,7 @@ Template['components_common_header'].data = function() {
 };
 
 Template['components_common_header'].events = {
-	'click button.nav': function(e, template) {
+	'click button.navButton': function(e, template) {
 		$(e.target).toggleClass('revealed');
 		$(template.find('nav')).toggleClass('revealed');
 	},

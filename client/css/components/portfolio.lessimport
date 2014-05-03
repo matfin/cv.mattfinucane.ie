@@ -108,13 +108,9 @@
 					width: 100%;
 					height: @gridColumnWidth * 3;
 					line-height: @gridColumnWidth * 3;
-					color: @colourLight;
-					.hexToRGBA(@colourDark, 0.9);
 					z-index: 3;
-					@media @mobile {
-						background-color: @colourSecondary;
-						color: @colourDark;
-					}
+					background-color: @colourSecondary;
+					color: @colourDark;
 				}
 			}
 		}
