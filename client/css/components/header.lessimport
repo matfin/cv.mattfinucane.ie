@@ -161,6 +161,9 @@ header {
 						&:hover {
 							border-bottom: 0;
 						}
+						&:after {
+							content: '';
+						}
 					}
 				}
 			}

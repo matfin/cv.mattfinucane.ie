@@ -12,8 +12,8 @@
 		margin: @gridColumnWidth 0;
 		text-align: center;
 		> button {
-			width: @gridColumnWidth;
-			height: @gridColumnWidth;
+			width: @gridColumnWidth - 2;
+			height: @gridColumnWidth - 2;
 			background-color: @colourDark;
 			margin: 0 @gridColumnWidth;
 			&.active {
@@ -28,10 +28,11 @@
 		width: @iconSize;
 		height: @iconSize;
 		line-height: @iconSize;
-		font-size: @iconSize / 2;
-		color: @colourDark;
-		top: 50%;
-		background-color: @colourLight;
+		font-size: @iconSize;
+		color: @colourSecondary;
+		.opacity(0.8);
+		top: 45%;
+		
 		.border-radius(@iconSize / 2);
 
 		&.goLeft {
