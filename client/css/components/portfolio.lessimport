@@ -12,8 +12,8 @@
 		margin: @gridColumnWidth 0;
 		text-align: center;
 		> button {
-			width: @gridColumnWidth * 1.5;
-			height: @gridColumnWidth * 1.5;
+			width: @gridColumnWidth;
+			height: @gridColumnWidth;
 			background-color: @colourDark;
 			margin: 0 @gridColumnWidth;
 			&.active {
