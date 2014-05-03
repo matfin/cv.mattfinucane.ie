@@ -112,13 +112,17 @@ ol {
 	.resetMarginPadding;
 }
 
+ul, dd{
+	.resetMarginPadding;
+}
+
 ul {
-	list-style-type: none;
+	list-style: none outside;
+	text-indent: -22px;
+	padding-left: 22px;
 	li {
-		display: inline-flex;
+		display: block;
 		line-height: 170%;
-		text-indent: 0 - (@gridColumnWidth + 6px);
-		padding: 0 @gridColumnWidth + 4px;
 		&:before {
 			font-family: 'cv';
 			content: "\e60f";
@@ -128,10 +132,6 @@ ul {
 
 p {
 	line-height: 170%;
-}
-
-ul, dd{
-	.resetMarginPadding;
 }
 
 button {
