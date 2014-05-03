@@ -10,7 +10,7 @@
 }
 
 [class*=" icon-"] {
-	font-family: 'cv';
+	font-family: 'cv', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;

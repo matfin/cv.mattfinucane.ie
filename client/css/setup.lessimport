@@ -32,7 +32,8 @@ body {
 	} 
 
 	@media @tablet {
-		background-image: none;
+		// background-image: none;
+		background-image: url('images/background_hd.jpg');
 	}
 
 	@media @mobile {
@@ -52,7 +53,7 @@ body {
 		padding-bottom: @gridColumnWidth * 52.5;
 
 		@media @tablet {
-			padding-bottom: 0;
+			padding-bottom: @gridColumnWidth * 45;
 		}
 
 		@media @mobile {
