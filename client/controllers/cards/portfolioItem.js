@@ -14,6 +14,7 @@ Template - cards_portfolioitem
 @return	undefined
 **/
 Template['cards_portfolioItem'].rendered = function() {
+	$(this.find('a[rel="external"]')).attr('target', '_blank');
 };
 
 /**
@@ -60,6 +61,16 @@ Template['cards_portfolioItem'].getImageSource = function() {
 	else {
 		return imageSource + '.jpg';
 	}
+};
+
+/**
+Template - cards_portfolioItem
+{{formattedDate}}	
+@params String date, String format
+@return	String
+**/
+Template['cards_portfolioItem'].formattedDate = function(date, format) {
+	return moment(date).isValid() ? moment(date).format(format) : date;
 };
 
 /**

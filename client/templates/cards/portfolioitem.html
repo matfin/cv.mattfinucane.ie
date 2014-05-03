@@ -1,6 +1,9 @@
 <template name="cards_portfolioItem">
 	<div class="slide">
 		<img src="images/portfolio/{{getImageSource}}" width="" height="" alt="{{heading}}" />
-		<h3>{{heading}}</h3>
+		<h3>{{heading}} // {{formattedDate released "MMMM YYYY"}}</h3>
+		<a class="link" rel="external" href="{{url}}" title="View {{heading}}">
+			View project
+		</a>
 	</div>
 </template>

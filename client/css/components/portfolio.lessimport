@@ -36,11 +36,11 @@
 		.border-radius(@iconSize / 2);
 
 		&.goLeft {
-			left: @gridColumnWidth;
+			left: 0;
 		}
 
 		&.goRight {
-			right: @gridColumnWidth;
+			right: 0;
 		}
 	}
 
@@ -103,15 +103,46 @@
 
 				h3 {
 					.resetMarginPadding;
+					padding-left: @gridColumnWidth;
 					position: absolute;
 					bottom: 0px;
 					left: 0px;
-					width: 100%;
 					height: @gridColumnWidth * 3;
 					line-height: @gridColumnWidth * 3;
 					z-index: 3;
-					background-color: @colourSecondary;
 					color: @colourDark;
+					text-align: left;
+					.box-sizing(border-box);
+				}
+
+				a.link {
+					z-index: 3;
+					.resetMarginPadding;
+					// padding: 0 @gridColumnWidth;
+					border: none;
+					position: absolute;
+					bottom: 0;
+					right: @gridColumnWidth;
+					height: @gridColumnWidth * 3;
+					line-height: @gridColumnWidth * 3;
+					color: @colourSecondary;
+					font-size: @h3Size;
+					font-weight: bold;
+
+					.box-sizing(border-box);
+
+					.transition-property(border);
+					.transition-duration(@transitionDuration);
+
+					&:after {
+						font-family: cv;
+						content: "\e60f";
+						font-size: initial;
+					}
+
+					&:hover {
+						border-bottom: 5px solid;
+					}
 				}
 			}
 		}
