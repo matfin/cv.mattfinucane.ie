@@ -61,7 +61,8 @@ header {
 					.transition-duration(300ms);
 					.transition-property(border);
 
-					&:hover {
+					&:hover,
+					&.active {
 						color: @colourSecondary;
 						border-bottom: 5px solid;
 					}

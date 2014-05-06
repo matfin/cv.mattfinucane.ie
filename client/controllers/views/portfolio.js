@@ -32,6 +32,9 @@ Template['views_portfolio'].rendered = function() {
 			setActiveSlideIndicator(args.currentSlideNumber);
 		}
 	});
+
+	// Highlight the nav
+	$('a[href*="portfolio"]').addClass('active');
 };
 
 var setActiveSlideIndicator = function(number) {
@@ -47,6 +50,8 @@ Template - views_portfolio
 **/
 Template['views_portfolio'].destroyed = function() {
 	$('portfolioSlider').iosSlider('destroy');
+	// Remove nav highlight
+	$('a[href*="portfolio"]').removeClass('active');
 };
 
 /**
