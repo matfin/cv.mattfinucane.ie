@@ -21,19 +21,20 @@ header {
 		@media @desktop {
 			font-size: 0.9em;
 		}
-		@media @mobile {
-			width: 100%;
-		}
 	}
-	span {
-		margin: 0 @gridColumnWidth / 4;
-	}
-	a {
-		@media @hd {
-			font-size: 0.9em;
+	div {
+		display: inline;
+		float: left;
+		span {
+			margin: 0 @gridColumnWidth / 4;
 		}
-		@media @desktop {
-			font-size: 0.9em;
+		a {
+			@media @hd {
+				font-size: 0.9em;
+			}
+			@media @desktop {
+				font-size: 0.9em;
+			}
 		}
 	}
 
@@ -92,8 +93,9 @@ header {
 			color: @colourBackground;
 		}
 
+
+
 		address, > a {
-			display: inline-block;
 			margin: (@gridColumnWidth) 
 					0
 					0
@@ -102,8 +104,17 @@ header {
 				margin-left: 0;
 			}
 		}
-		> a {
-			margin-top: @gridColumnWidth / 2;
+		address {
+			display: block;
+			float: left;
+		}
+		div {
+			margin-left: @gridColumnWidth;
+			max-width: @gridColumnWidth * 19;
+			> a {
+				display: inline-block;
+				margin-top: @gridColumnWidth / 2;
+			}
 		}
 
 		button.navButton {
@@ -161,8 +172,11 @@ header {
 						font-size: 1.5em;
 						.box-sizing(border-box);
 
-						&:hover {
+						&:hover,
+						&.active {
 							border-bottom: 0;
+							color: @colourDark;
+							background-color: @colourSecondary;
 						}
 						&:after {
 							content: '';
