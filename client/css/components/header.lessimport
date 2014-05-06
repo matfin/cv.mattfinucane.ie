@@ -1,5 +1,6 @@
 header {
-	
+	position: relative;
+	z-index: 3;
 	width: 100%;	
 	margin-bottom: @gridColumnWidth;
 	padding: 0 @gridColumnWidth;
@@ -7,6 +8,8 @@ header {
 	.box-sizing(border-box);
 
 	h1 {
+		position: relative;
+		z-index: 3;
 		line-height: @gridColumnWidth * 3;
 		height: @gridColumnWidth * 3;
 		float: left;
@@ -84,6 +87,7 @@ header {
 
 	@media @mobile {
 		.resetMarginPadding;
+
 		h1 {
 			.resetMarginPadding;
 			padding-left: @gridColumnWidth;
@@ -140,16 +144,16 @@ header {
 		}
 		nav {
 			.resetMarginPadding;
-			z-index: 4;
+			z-index: 2;
 			position: absolute;
 			top: @gridColumnWidth * 3;
 			left: 0;
 			width: 100%;
-			height: 0;
-			overflow: hidden;
+			
+			.translateY(-150%);
 
-			.transition-property(height);
-			.transition-duration(@transitionDuration / 2);
+			.transition-property(transform);
+			.transition-duration(@transitionDuration);
 
 			ol {
 				li {
@@ -186,7 +190,8 @@ header {
 			}
 
 			&.revealed {
-				height: @gridColumnWidth * 9;
+				// height: @gridColumnWidth * 9;
+				.translateY(0%);
 			}
 		}
 	}
