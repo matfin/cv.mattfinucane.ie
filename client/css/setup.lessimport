@@ -14,7 +14,6 @@ body {
 	letter-spacing: 1px;
 
 	background-color: @colourBackground;
-	// .bodyFontSize;
 }
 
 .container {
@@ -32,7 +31,6 @@ body {
 	} 
 
 	@media @tablet {
-		// background-image: none;
 		background-image: url('images/background_hd.jpg');
 	}
 

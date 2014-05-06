@@ -34,8 +34,8 @@ Device = {
 };
 
 /**
-Events to call changes on dependencies
-**/
+ *	Events to call changes on dependencies
+ */
 $(window).on('resize', _.debounce(function() {
 	Device.reset();
 	Dependencies.resizeDependency.changed();

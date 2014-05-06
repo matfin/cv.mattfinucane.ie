@@ -1,0 +1,40 @@
+// Styles for printing
+
+@media print {
+
+	html {
+		overflow-x: visible;
+	}
+
+	body {
+		font-size: @standardFontSize * 0.625;
+		background-color: transparent;
+		color: @colourPrint;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.container {
+		.parentWrapper {
+			padding-bottom: 0;
+		}
+	}
+
+	header,
+	footer,
+	.profile,
+	.skills,
+	.experience,
+	.qualifications,
+	.interests {
+		.resetMarginPadding;
+	}
+
+	.skills {
+		dl {
+			min-width: @gridColumnWidth * 10;
+		}
+	}
+}
