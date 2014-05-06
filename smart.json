@@ -5,6 +5,7 @@
     "normalize.css": {},
     "jquery2": {},
     "moment": {},
-    "modernizr-meteor": {}
+    "modernizr-meteor": {},
+    "q": {}
   }
 }

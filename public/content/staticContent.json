@@ -13,7 +13,7 @@
 		{
 			"title": "profile",
 			"heading": "Profile",
-			"content": "Skilled web and application developer with 8 years commercial experience. My passion is the application of modern technologies to solve real world problems, and I produce robust solutions of excellent quality."
+			"content": "Web and mobile application developer with nine years commercial experience."
 		},
 		{
 			"title": "skills",
@@ -72,6 +72,24 @@
 					]
 				}
 			]
+		},
+		{
+			"title": "about",
+			"heading": "About",
+			"items": [
+				{
+					"content": "Hello. My name is Matt and I work as a web and mobile application developer. I like to create beautiful and usable interfaces and bring simple solutions to complex problems."
+				},
+				{
+					"content": "I have been building websites, web and mobile applications for almost fifteen years now and I have nine years of professional experience, working with a wide variety of people both in-house and in agencies."
+				},
+				{
+					"content": "In my spare time I like to create my own websites to keep up with the latest web technologies. I also like taking photos and teaching others about web development."
+				}
+			], 
+			"media": {
+				"img": "me"
+			}
 		},
 		{
 			"title": "interests",

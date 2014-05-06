@@ -1,0 +1,11 @@
+<template name="components_about">
+	<div class="about">
+		<h2>{{data.heading}}</h2>
+		<img src="images/{{getImageSource}}" width="" height="" alt="" />
+		{{#each data.items}}
+			<p>
+				{{content}}
+			</p>
+		{{/each}}
+	</div>
+</template>

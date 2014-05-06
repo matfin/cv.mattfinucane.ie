@@ -7,7 +7,8 @@
       "normalize.css": {},
       "jquery2": {},
       "moment": {},
-      "modernizr-meteor": {}
+      "modernizr-meteor": {},
+      "q": {}
     },
     "packages": {
       "lesshat": {
@@ -39,6 +40,11 @@
         "git": "https://github.com/ckir/modernizr-meteor.git",
         "tag": "v2.6.2",
         "commit": "391ca2a3beff3cd2b0e1099cb2d744b5a2e8a73e"
+      },
+      "q": {
+        "git": "https://github.com/frozeman/q-meteor.git",
+        "tag": "v0.9.7",
+        "commit": "e5c10f087b76fda32ae6be4d8950ab2633c520a3"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

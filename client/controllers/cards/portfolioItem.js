@@ -14,6 +14,9 @@ Template - cards_portfolioitem
 @return	undefined
 **/
 Template['cards_portfolioItem'].rendered = function() {
+	// Refresh the portfolio slider when the slides have rendered
+	$('.portfolioSlider').iosSlider('update');
+	$('.portfolioSlider').iosSlider('goToSlide', 1);
 	$(this.find('a[rel="external"]')).attr('target', '_blank');
 };
 
@@ -37,29 +40,31 @@ Template['cards_portfolioItem'].getImageSource = function() {
 	Dependencies.resizeDependency.depend();
 	var imageSource;
 
-	//@hd 
-	if(Device.isHD) {
-		imageSource = this.media.img + '-d';
-	}
-	//@desktop
-	else if(Device.isDesktop) {
-		imageSource = this.media.img + '-d';
-	}
-	//@tablet
-	else if(Device.isTablet) {
-		imageSource = this.media.img + '-t';
-	}
-	//@mobile
-	else if(Device.isMobile) {
-		imageSource = this.media.img + '-p';
-	}
+	if(this.media && this.media.img) {
+		//@hd 
+		if(Device.isHD) {
+			imageSource = this.media.img + '-d';
+		}
+		//@desktop
+		else if(Device.isDesktop) {
+			imageSource = this.media.img + '-d';
+		}
+		//@tablet
+		else if(Device.isTablet) {
+			imageSource = this.media.img + '-t';
+		}
+		//@mobile
+		else if(Device.isMobile) {
+			imageSource = this.media.img + '-p';
+		}
 
-	// Retina or not
-	if(Device.isRetina) {
-		return imageSource + '@2x.jpg';
-	}
-	else {
-		return imageSource + '.jpg';
+		// Retina or not
+		if(Device.isRetina) {
+			return imageSource + '@2x.jpg';
+		}
+		else {
+			return imageSource + '.jpg';
+		}
 	}
 };
 

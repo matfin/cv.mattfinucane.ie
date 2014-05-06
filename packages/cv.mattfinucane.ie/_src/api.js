@@ -14,6 +14,10 @@ Data package wrapper
 Api = {
 	fetch: function(model) {
 		console.log('Fetching: ' + model);
+
+		// Setting up a promise
+		var deferred = Q.defer();
+
 		$.ajax({
 			type: 'GET',
 			url: 'content/' + model + '.json',
@@ -22,11 +26,20 @@ Api = {
 		}).done(function(result) {
 			_.each(result.items, function(item, index) {
 				item._display_index = index;
-				App.models[model].insert(item)
+				App.models[model].insert(item);
 			});
+			// Resolve the promise
+			deferred.resolve();
 			// Fail
 		}).fail(function(error) {
-			console.log('Cannot fetch ' + model + ' data', error);
+			// Reject the promise
+			var errorMessage = {
+				message: 'Cannot fetch ' + model + ' data',
+				error: error
+			};
+			deferred.reject(errorMessage);
 		});
+
+		return deferred.promise;
 	}
 };
