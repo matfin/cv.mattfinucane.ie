@@ -21,6 +21,9 @@ header {
 		@media @desktop {
 			font-size: 0.9em;
 		}
+		@media @mobile {
+			width: 100%;
+		}
 	}
 	span {
 		margin: 0 @gridColumnWidth / 4;

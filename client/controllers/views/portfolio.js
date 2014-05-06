@@ -14,13 +14,15 @@ Template - views_portfolio
 @return	undefined
 **/
 Template['views_portfolio'].rendered = function() {
-	
+
 	// Prime the portfolio slider
 	$('.portfolioSlider').iosSlider({
 		desktopClickDrag: true,
 		snapToChildren: true,
 		keyboardControls: true,
 		infiniteSlider: true,
+		responsiveSlideContainer: true,
+		responsiveSlides: true,
 		navPrevSelector: '.goLeft',
 		navNextSelector: '.goRight',
 		onSliderLoaded: function(args) {
@@ -44,7 +46,7 @@ Template - views_portfolio
 @return	undefined
 **/
 Template['views_portfolio'].destroyed = function() {
-	
+	$('portfolioSlider').iosSlider('destroy');
 };
 
 /**

@@ -126,6 +126,8 @@ ul {
 		&:before {
 			font-family: 'cv';
 			content: "\e60f";
+			width: 22px;
+			float: left;
 		}
 	}
 }

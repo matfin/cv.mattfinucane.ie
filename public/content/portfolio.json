@@ -52,34 +52,6 @@
 			}
 		},
 		{
-			"name": "irish-times",
-			"heading": "The Irish Times",
-			"released": "2012-12-19",
-			"contents": [
-				{
-					"content": "Overhauled version of the Irish Times news app for iOS and Android devices."
-				},
-				{
-					"content": "App built natively for iOS and Android phones - plugging into existing infrastructure with solid performance and stability."
-				}
-			],
-			"points": [
-				{
-					"content": "Developed natively in Objective C and Java."
-				},
-				{
-					"content": "Downloads and caches content concurrently to ensure smooth user interface."
-				},
-				{
-					"content": "Used a web based beta testing and crash reporting tool to pinpoint problems."
-				}
-			],
-			"url": "https://itunes.apple.com/ie/app/id365544593?mt=8&affId=1736887",
-			"media": {
-				"img": "irishtimes-ios-app"
-			}
-		},
-		{
 			"name": "newswhip",
 			"heading": "NewsWhip",
 			"released": "2013-01-20",
@@ -105,6 +77,34 @@
 			"url": "https://itunes.apple.com/ie/app/id569523615?mt=8&affId=1736887",
 			"media": {
 				"img": "newswhip-ios-app"
+			}
+		},
+		{
+			"name": "irish-times",
+			"heading": "The Irish Times",
+			"released": "2012-12-19",
+			"contents": [
+				{
+					"content": "Overhauled version of the Irish Times news app for iOS and Android devices."
+				},
+				{
+					"content": "App built natively for iOS and Android phones - plugging into existing infrastructure with solid performance and stability."
+				}
+			],
+			"points": [
+				{
+					"content": "Developed natively in Objective C and Java."
+				},
+				{
+					"content": "Downloads and caches content concurrently to ensure smooth user interface."
+				},
+				{
+					"content": "Used a web based beta testing and crash reporting tool to pinpoint problems."
+				}
+			],
+			"url": "https://itunes.apple.com/ie/app/id365544593?mt=8&affId=1736887",
+			"media": {
+				"img": "irishtimes-ios-app"
 			}
 		}
 	]
