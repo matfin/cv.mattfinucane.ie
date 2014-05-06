@@ -79,6 +79,13 @@ Template['views_portfolio'].portfolioItems = function() {
 	return App.models.portfolio.find({}).fetch();
 };
 
+
+// Called by the sliderindicator button click/tap event
+var goToSlide = function(e, template) {
+	var buttonIndex = typeof $(e.target).index() === 'number' ? $(e.target).index() + 1:0;
+	$('.portfolioSlider').iosSlider('goToSlide', buttonIndex);
+};
+
 /**
 Template - views_portfolio
 {{events}}	
@@ -87,9 +94,16 @@ Template - views_portfolio
 **/
 Template['views_portfolio'].events = {
 	'click .sliderIndicator > button': function(e, template) {
-		var buttonIndex = typeof $(e.target).index() === 'number' ? $(e.target).index() + 1:0;
-		$('.portfolioSlider').iosSlider('goToSlide', buttonIndex);
+		if(Device.isTouchCapable) {
+			e.preventDefault();
+			console.log('Touch device!')
+			return false;
+		}
+		else {
+			goToSlide(e, template);
+		}		
 	},
-	'click .slide': function(e, template) {
+	'touchstart .sliderIndicator > button': function(e, template) {
+		goToSlide(e, template);
 	}
 };
