@@ -6,7 +6,7 @@ Meteor.startup(function() {
 		Device.reset();
 
 		// Check browser support 
-		if(Browser.isSupported()) {
+		if(!Browser.isSupported()) {
 			$('body').addClass('unsupported');
 		}
 
