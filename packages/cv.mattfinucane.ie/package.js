@@ -12,11 +12,13 @@ Package.on_use(function(api) {
 	api.export('Api');
 	api.export('Dependencies');
 	api.export('Device');
+	api.export('Browser');
 
 	api.add_files([
 		'_src/app.js',
 		'_src/api.js',
 		'_src/dependencies.js',
-		'_src/device.js'
+		'_src/device.js',
+		'_src/browser.js'
 	], 'client');
 });

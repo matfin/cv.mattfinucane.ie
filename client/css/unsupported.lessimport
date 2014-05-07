@@ -1,0 +1,62 @@
+.unsupported {
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	display: block;
+	background-color: #ff7b4c;
+	text-align: center;
+
+	> div.content {
+		margin: 0 auto;
+		width: 100%;
+		padding-top: @gridColumnWidth * 10;
+		max-width: @gridColumnWidth * 55;
+		display: block;
+		color: @colourLight;
+		text-align: left;
+
+		h1 {
+
+		}
+
+		p {
+			display: block;
+			float: left;
+		}
+
+		ul {
+			display: block;
+			width: 100%;
+			text-align: center;
+			text-indent: 0;
+			padding: 0;
+			li {
+				display: inline-block;
+				margin: @gridColumnWidth auto;
+				min-width: @gridColumnWidth * 10;
+				
+				a {
+					display: block;
+					text-decoration: none;
+					border-bottom: none;
+					color: @colourLight;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+
+				&:before {
+					content: '';
+				}
+			}
+		}
+	}
+
+	> div.container {
+		display: none;
+	}
+}

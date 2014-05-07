@@ -5,6 +5,11 @@ Meteor.startup(function() {
 		// Device capabilities
 		Device.reset();
 
+		// Check browser support 
+		if(Browser.isSupported()) {
+			$('body').addClass('unsupported');
+		}
+
 		// Populate the Collections
 		if(App.models.staticContent.find({}).count() === 0) {
 			Api.fetch('staticContent').then(function() {
