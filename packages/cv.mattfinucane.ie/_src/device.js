@@ -39,5 +39,4 @@ Device = {
 $(window).on('resize', _.debounce(function() {
 	Device.reset();
 	Dependencies.resizeDependency.changed();
-	console.log('Did we resize??');
 }, 500));

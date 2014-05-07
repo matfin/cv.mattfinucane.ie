@@ -56,19 +56,16 @@ header {
 					margin: 0 @gridColumnWidth / 4;
 					font-size: @h1Size;
 					font-weight: bold;
-					border-bottom: none;
+					border-bottom: 3px solid;
 					padding-bottom: 0;
 
 					line-height: @gridColumnWidth * 3;
 					height: @gridColumnWidth * 3;
 
-					.transition-duration(300ms);
-					.transition-property(border);
-
 					&:hover,
 					&.active {
 						color: @colourSecondary;
-						border-bottom: 5px solid;
+						border-bottom: 3px solid;
 					}
 
 					&:after {

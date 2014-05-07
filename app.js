@@ -1,6 +1,6 @@
 Meteor.startup(function() {
 	if(Meteor.isClient) {
-		console.log('Starting CV app');
+		// console.log('Starting CV app');
 
 		// Device capabilities
 		Device.reset();
@@ -16,7 +16,7 @@ Meteor.startup(function() {
 				Dependencies.staticContentLoadedDependency.changed();
 			})
 			.fail(function(msg) {
-				console.log(msg);
+				// console.log(msg);
 			});
 		}
 		if(App.models.skills.find({}).count() === 0) {
@@ -24,7 +24,7 @@ Meteor.startup(function() {
 				Dependencies.skillsContentLoadedDependency.changed();
 			})
 			.fail(function(msg) {
-				console.log(msg);
+				// console.log(msg);
 			});
 		}
 		if(App.models.experience.find({}).count() === 0) {
@@ -32,7 +32,7 @@ Meteor.startup(function() {
 				Dependencies.experienceContentLoadedDependency.changed();
 			})
 			.fail(function(msg) {
-				console.log(msg);
+				// console.log(msg);
 			});
 		}
 		if(App.models.portfolio.find({}).count() === 0) {
@@ -40,7 +40,7 @@ Meteor.startup(function() {
 				Dependencies.portfolioContentLoadedDependency.changed();
 			})
 			.fail(function(msg) {
-				console.log(msg);
+				// console.log(msg);
 			});
 		}
 	}

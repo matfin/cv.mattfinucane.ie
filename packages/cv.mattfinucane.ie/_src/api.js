@@ -13,7 +13,7 @@ Data package wrapper
 
 Api = {
 	fetch: function(model) {
-		console.log('Fetching: ' + model);
+		// console.log('Fetching: ' + model);
 
 		// Setting up a promise
 		var deferred = Q.defer();
