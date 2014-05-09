@@ -31,7 +31,7 @@ Template['views_portfolio'].rendered = function() {
 		onSlideChange: function(args) {
 			setActiveSlideIndicator(args.currentSlideNumber);
 		},
-		onSliderUpdate: function() {
+		onSliderUpdate: function(args) {
 			setActiveSlideIndicator(args.currentSlideNumber);
 		},
 		onSliderLoaded: function(args) {
