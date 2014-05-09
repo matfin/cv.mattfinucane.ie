@@ -31,7 +31,11 @@ Template['views_portfolio'].rendered = function() {
 		onSlideChange: function(args) {
 			setActiveSlideIndicator(args.currentSlideNumber);
 		},
+		onSliderUpdate: function() {
+			setActiveSlideIndicator(args.currentSlideNumber);
+		},
 		onSliderLoaded: function(args) {
+			setActiveSlideIndicator(args.currentSlideNumber);
 		}
 	});
 
@@ -54,11 +58,6 @@ Template['views_portfolio'].destroyed = function() {
 	$('portfolioSlider').iosSlider('destroy');
 	// Remove nav highlight
 	$('a[href*="portfolio"]').removeClass('active');
-};
-
-var dum = function() {
-	Dependencies.portfolioContentLoadedDependency.depend();
-	console.log('Dummy function called here.');
 };
 
 /**
@@ -96,7 +95,6 @@ Template['views_portfolio'].events = {
 	'click .sliderIndicator > button': function(e, template) {
 		if(Device.isTouchCapable) {
 			e.preventDefault();
-			console.log('Touch device!')
 			return false;
 		}
 		else {

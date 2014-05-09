@@ -16,8 +16,7 @@
 @colourLight: #eff3f3;
 @colourPrint: #000;
 @colourBackground: #dadada;
-// @colourSecondary: #f8935b;
-@colourSecondary: #33C4D9;
+@colourSecondary: #33c4d9;
 
 // General layout
 @gridColumnWidth: 16px;
