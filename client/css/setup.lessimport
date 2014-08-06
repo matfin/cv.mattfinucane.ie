@@ -10,8 +10,9 @@ body {
 	height: 100%;
 
 	font-family: @helvetica;
+	font-size: @standardFontSize;
 	color: @colourDark;
-	letter-spacing: 1px;
+	font-weight: @fontLight;
 
 	background-color: @colourBackground;
 
@@ -120,6 +121,7 @@ ul {
 			content: "\e60f";
 			width: 22px;
 			float: left;
+			font-size: 14px;
 		}
 	}
 }

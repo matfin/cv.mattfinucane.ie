@@ -1,8 +1,9 @@
 // Variables go in here
 
 // Fonts and their sizes
-@helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-@standardFontSize: 16px;
+@helvetica: "camingodos-web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+@standardFontSize: 18px;
+@fontLight: 100;
 
 // Headings
 @h1Size: 1.5em;

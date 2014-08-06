@@ -1,5 +1,5 @@
 <template name="components_common_header">
-	<h1>{{{heading}}}</h1>
+	<h1>{{{data.heading}}}</h1>
 	<button class="navButton icon-menu-cv"></button>
 	<nav>
 		<ol>
@@ -20,10 +20,10 @@
 			</li>
 		</ol>
 	</nav>
-	<address>{{content.location}}</address>
+	<address>{{data.content.location}}</address>
 	<div>
-		<a href="tel:{{content.tel}}">{{content.tel}}</a>
+		<a href="tel:{{content.tel}}">{{data.content.tel}}</a>
 		<span>//</span>
-		<a href="mailto:{{content.email}}">{{content.email}}</a>
+		<a href="mailto:{{content.email}}">{{data.content.email}}</a>
 	</div>
 </template>

@@ -32,28 +32,28 @@ Template - components_about
 {{getImageSource}}	
 @return	String
 **/
-Template['components_about'].getImageSource = function() {
+Template['components_about'].getImageSource = function(src) {
 	// This gets automatically called when the window is resized.
 	Dependencies.resizeDependency.depend();
 	Dependencies.staticContentLoadedDependency.depend();
 	var imageSource;
 
-	if(this.media && this.media.img) {
+	if(src !== '') {
 		//@hd 
 		if(Device.isHD) {
-			imageSource = this.media.img + '-d';
+			imageSource = src + '-d';
 		}
 		//@desktop
 		if(Device.isDesktop) {
-			imageSource = this.media.img + '-d';
+			imageSource = src + '-d';
 		}
 		//@tablets
 		if(Device.isTablet) {
-			imageSource = this.media.img + '-t';
+			imageSource = src + '-t';
 		}
 		//@mobile
 		if(Device.isMobile) {
-			imageSource = this.media.img + '-p';
+			imageSource = src + '-p';
 		}
 
 		// Retina or not

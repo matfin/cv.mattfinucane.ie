@@ -28,18 +28,4 @@ Router.map(function() {
 			'components_common_footer': {to: 'footer'}
 		}
 	});
-
-	// this.route('print', {
-	// 	path: 'print',
-	// 	template: 'print',
-	// 	yieldTemplates: {
-	// 		'components_common_header': {to: 'header'},
-	// 		'components_profile': {to: 'profile'},
-	// 		'components_skills': {to: 'skills'},
-	// 		'components_experience': {to: 'experience'},
-	// 		'components_qualifications': {to: 'qualifications'},
-	// 		'components_interests': {to: 'interests'},
-	// 		'components_common_footer': {to: 'footer'}
-	// 	}
-	// });
 });
