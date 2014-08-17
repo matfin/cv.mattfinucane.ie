@@ -52,5 +52,5 @@ Template - components_experience
 @return	String
 **/
 Template['components_experience'].formattedDate = function(date, format) {
-	return moment(date).isValid() ? moment(date).format(format) : date;
+	return moment(date, 'YYYY-MM-DD').isValid() ? moment(date, 'YYYY-MM-DD').format(format) : date;
 };

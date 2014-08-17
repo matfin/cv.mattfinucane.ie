@@ -75,7 +75,7 @@ Template - cards_portfolioItem
 @return	String
 **/
 Template['cards_portfolioItem'].formattedDate = function(date, format) {
-	return moment(date).isValid() ? moment(date).format(format) : date;
+	return moment(date, 'YYYY-MM-DD').isValid() ? moment(date, 'YYYY-MM-DD').format(format) : date;
 };
 
 /**
