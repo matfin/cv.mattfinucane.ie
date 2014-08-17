@@ -119,6 +119,15 @@ ul {
 	text-indent: -22px;
 	padding-left: 22px;
 	max-width: 64%;
+
+	@media @mobile {
+		max-width: 100%;
+	}
+
+	@media @tablet {
+		max-width: 100%;
+	}
+
 	li {
 		display: block;
 		line-height: 120%;
@@ -134,7 +143,16 @@ ul {
 }
 
 p {
-	line-height: 170%;
+	line-height: 120%;
+	max-width: 64%;
+	@media @mobile {
+		max-width: 100%;
+	}
+
+	@media @tablet {
+		max-width: 100%;
+	}
+	
 	letter-spacing: @letter-spacing;
 }
 
