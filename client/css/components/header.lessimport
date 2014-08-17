@@ -47,7 +47,7 @@ header {
 
 	nav {
 		margin-top: @gridColumnWidth;
-		float: right;
+		float: left;
 		padding: 0 @gridColumnWidth;
 		ol {
 			li {

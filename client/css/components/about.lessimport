@@ -9,9 +9,6 @@
 			max-width: 100%;
 		}
 
-		@media @tablet {
-			max-width: 100%;
-		}
 		height: auto;
 		margin-top: @gridColumnWidth + 2;
 	}

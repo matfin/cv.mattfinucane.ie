@@ -124,10 +124,6 @@ ul {
 		max-width: 100%;
 	}
 
-	@media @tablet {
-		max-width: 100%;
-	}
-
 	li {
 		display: block;
 		line-height: 120%;
@@ -145,14 +141,12 @@ ul {
 p {
 	line-height: 120%;
 	max-width: 64%;
+	
 	@media @mobile {
 		max-width: 100%;
 	}
 
-	@media @tablet {
-		max-width: 100%;
-	}
-	
+	text-align: justify;
 	letter-spacing: @letter-spacing;
 }
 
