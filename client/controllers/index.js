@@ -1,29 +1,29 @@
 /**
-Template - print
+Template - main
 {{created}}	
 @private
 @return	undefined
 **/
-Template['print'].created = function() {
+Template['main'].created = function() {
 };
 
 /**
-Template - print
+Template - main
 {{rendered}}	
 @private
 @return	undefined
 **/
-Template['print'].rendered = function() {
+Template['main'].rendered = function() {
 	// window.print();
 };
 
 /**
-Template - print
+Template - main
 {{destroyed}}	
 @private
 @return	undefined
 **/
-Template['print'].destroyed = function() {
+Template['main'].destroyed = function() {
 	
 };
 
