@@ -7,7 +7,7 @@ Meteor.startup(function() {
 
 		// Check browser support 
 		if(!Browser.isSupported()) {
-			$('body').addClass('unsupported');
+			// $('body').addClass('unsupported');
 		}
 
 		// Populate the Collections
@@ -38,6 +38,14 @@ Meteor.startup(function() {
 		if(App.models.portfolio.find({}).count() === 0) {
 			Api.fetch('portfolio').then(function() {
 				Dependencies.portfolioContentLoadedDependency.changed();
+			})
+			.fail(function(msg) {
+				// console.log(msg);
+			});
+		}
+		if(App.models.seo.find({}).count() === 0) {
+			Api.fetch('seo').then(function() {
+				Dependencies.seoContentLoadedDependency.changed();
 			})
 			.fail(function(msg) {
 				// console.log(msg);

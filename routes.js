@@ -2,13 +2,6 @@ Router.map(function() {
 	this.route('home', {
 		path: '/',
 		template: 'main',
-		data: {
-			meta: {
-				title: 'Matt Finucane - CV',
-				description: 'Online CV for Matt Finucane - Frontend Javascript developer',
-				keywords: 'matt finucane, cv, profile, skills, qualifications'
-			}
-		},
 		yieldTemplates: {
 			'components_common_header': {to: 'header'},
 			'views_home': {to: 'content'},

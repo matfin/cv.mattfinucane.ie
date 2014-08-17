@@ -6,6 +6,7 @@
     "jquery2": {},
     "moment": {},
     "modernizr-meteor": {},
-    "q": {}
+    "q": {},
+    "ms-seo": {}
   }
 }

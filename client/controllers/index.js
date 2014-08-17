@@ -26,9 +26,3 @@ Template - main
 Template['main'].destroyed = function() {
 	
 };
-
-Template['print'].events = {
-	'mouseover': function() {
-		// console.log('The mouse is over it');
-	}
-}

@@ -21,15 +21,15 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
 
-    <!-- Document information -->
-    <title>Matt Finucane - CV</title>
+	<!-- Document information -->
+	<meta charset="UTF-8">
+	<title>Matt Finucane - CV</title>
 
     <!-- Typekit fonts -->
     <script type="text/javascript" src="//use.typekit.net/sjp2iui.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	{{> unsupported}}
 </body>
 
 <template name="main">
@@ -47,24 +47,3 @@
 		</div>
 	</div>
 </template>
-
-<template name="print">
-	<div class="container">
-		<div class="parentWrapper">
-			<header>
-				{{> yield region="header"}}
-			</header>
-			<section>
-				{{> yield region="profile"}}
-				{{> yield region="skills"}}
-				{{> yield region="experience"}}
-				{{> yield region="qualifications"}}
-				{{> yield region="interests"}}
-			</section>
-			<footer>
-				{{> yield region="footer"}}
-			</footer>
-		</div>
-	</div>
-</template>
-

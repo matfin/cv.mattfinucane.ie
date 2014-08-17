@@ -17,6 +17,7 @@ Dependencies = {
 	staticContentLoadedDependency: new Deps.Dependency,
 	skillsContentLoadedDependency: new Deps.Dependency,
 	portfolioContentLoadedDependency: new Deps.Dependency,
-	experienceContentLoadedDependency: new Deps.Dependency
+	experienceContentLoadedDependency: new Deps.Dependency,
+	seoContentLoadedDependency: new Deps.Dependency
 };
 
