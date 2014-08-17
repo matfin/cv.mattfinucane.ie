@@ -2,134 +2,38 @@
 	"name": "Skills",
 	"items": [
 		{
-			"title": "programming-languages",
-			"heading": "Programming Languages",
+			"title": "javascript",
+			"heading": "Javascript",
 			"skills": [
 				{
-					"id": "java",
-					"content": "Java"
+					"content": "Meteor JS"
 				},
 				{
-					"id": "objective-c",
-					"content": "Objective C"
+					"content": "jQuery"
 				},
 				{
-					"id": "cpp",
-					"content": "C++"
+					"content": "Package/Plugin Development"
 				},
 				{
-					"id": "csharp",
-					"content": "C#"
+					"content": "Sencha Touch/ExtJS"
 				}
 			]
 		},
 		{
-			"title": "mobile-app-development",
-			"heading": "Mobile App Development",
+			"title": "css",
+			"heading": "CSS",
 			"skills": [
 				{
-					"id": "uikit",
-					"content": "UIKit (iOS)"
+					"content": "Less/Sass"
 				},
 				{
-					"id": "android",
-					"content": "Android"
-				},
-				{
-					"id": "sencha",
-					"content": "Sencha Touch 2"
-				},
-				{
-					"id": "phonegap",
-					"content": "PhoneGap"
-				}
-			]
-		},
-		{
-			"title": "web-development",
-			"heading": "Web Development",
-			"skills": [
-				{
-					"id": "php",
-					"content": "PHP"
-				},
-				{
-					"id": "html",
-					"content": "XHTML/HTML5"
-				},
-				{
-					"id": "css",
 					"content": "CSS2/3"
 				},
 				{
-					"id": "js",
-					"content": "Javascript"
-				}
-			]
-		},
-		{
-			"title": "frameworks",
-			"heading": "Frameworks",
-			"skills": [
-				{
-					"id": "ci",
-					"content": "CodeIgniter"
+					"content": "Bootstrap"
 				},
 				{
-					"id": "jquery",
-					"content": "jQuery (1/2)"
-				},
-				{
-					"id": "sassless",
-					"content": "Less &amp; Sass"
-				},
-				{
-					"id": "meteor",
-					"content": "Meteor"
-				}
-			]
-		},
-		{
-			"title": "development-enviroments",
-			"heading": "Dev Environments",
-			"skills": [
-				{
-					"id": "xcode",
-					"content": "Xcode"
-				},
-				{
-					"id": "eclipse",
-					"content": "Eclipse"
-				},
-				{
-					"id": "visual-studio",
-					"content": "MS Visual Studio"
-				},
-				{
-					"id": "netbeans",
-					"content": "Netbeans"
-				}
-			]
-		},
-		{
-			"title": "development-tools",
-			"heading": "Testing",
-			"skills": [
-				{
-					"id": "jasmine",
-					"content": "Jasmine"
-				},
-				{
-					"id": "selenium",
-					"content": "Selenium"
-				},
-				{
-					"id": "tiny-test",
-					"content": "Tiny Test"
-				},
-				{
-					"id": "testflight",
-					"content": "TestFlight"
+					"content": "Responsive development"
 				}
 			]
 		},
@@ -138,64 +42,70 @@
 			"heading": "Infrastructure",
 			"skills": [
 				{
-					"id": "unix",
-					"content": "Linux &amp; OSX"
-				},
-				{
-					"id": "apache",
-					"content": "Apache"
-				},
-				{
-					"id": "nginx",
 					"content": "Nginx"
 				},
 				{
-					"id": "mysql",
-					"content": "MySQL"
+					"content": "NodeJS"
+				},
+				{
+					"content": "Phantom JS"
+				},
+				{
+					"content": "Linux/OSX"
 				}
 			]
 		},
 		{
-			"title": "project-tools",
-			"heading": "Project Tools",
+			"title": "tools",
+			"heading": "Project tools",
 			"skills": [
 				{
-					"id": "grunt",
-					"content": "Grunt"
+					"content": "Git Flow"
 				},
 				{
-					"id": "redmine",
-					"content": "Redmine"
+					"content": "Confluence/Jira"
 				},
 				{
-					"id": "jira",
-					"content": "Jira"
+					"content": "Sublime Text"
 				},
 				{
-					"id": "google-apps",
-					"content": "Google Apps"
+					"content": "Grunt &amp; Bower"
 				}
 			]
 		},
 		{
 			"title": "development-skills",
-			"heading": "Development Skills",
+			"heading": "Development skills",
 			"skills": [
 				{
-					"id": "agile-scrum",
-					"content": "Agile &amp; Scrum"
+					"content": "Agile &amp; Scrum development"
 				},
 				{
-					"id": "unit-acceptance-testing",
-					"content": "Unit &amp; Acceptance Testing"
+					"content": "Unit &amp; Acceptance testing"
 				},
 				{
-					"id": "localisation",
-					"content": "Localisation"
+					"content": "Content localisation"
 				},
 				{
-					"id": "mvc",
-					"content": "MVC"
+					"content": "Version control &amp; deployment"
+				}
+			]
+		},
+		{
+			"title": "other",
+			"heading": "Other",
+			"skills": [
+				{
+					"content": "W3C compliant html"
+				},
+				{
+					"content": "Adobe creative suite"
+				},
+				{
+					"content": "PHP/Apache/MySQL"
+				},
+				{
+					"content": "Native (iOS/Android)"
 				}
 			]
 		}
