@@ -4,6 +4,7 @@
 @helvetica: "camingodos-web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 @standardFontSize: 18px;
 @fontLight: 100;
+@letter-spacing: -0.2px;
 
 // Headings
 @h1Size: 1.5em;

@@ -105,8 +105,13 @@ ol {
 	.resetMarginPadding;
 }
 
+p {
+	letter-spacing: @letter-spacing;
+}
+
 ul, dd{
 	.resetMarginPadding;
+	letter-spacing: @letter-spacing;
 }
 
 ul {
@@ -128,6 +133,7 @@ ul {
 
 p {
 	line-height: 170%;
+	letter-spacing: @letter-spacing;
 }
 
 button {
