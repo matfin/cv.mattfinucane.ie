@@ -118,9 +118,11 @@ ul {
 	list-style: none outside;
 	text-indent: -22px;
 	padding-left: 22px;
+	max-width: 64%;
 	li {
 		display: block;
-		line-height: 170%;
+		line-height: 120%;
+		margin-bottom: @gridColumnWidth / 2;
 		&:before {
 			font-family: 'cv';
 			content: "\e60f";
