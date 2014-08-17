@@ -3,19 +3,19 @@
 	"items": [
 		{
 			"route_name": "home",
-			"title": "Profile, Skills and Qualifications &ndash; Matt Finucane CV",
+			"title": "Profile, Skills and Qualifications - Matt Finucane CV",
 			"description": "Information on my profile, skills and qualifications.",
 			"keywords": "profile, skills, qualifications"
 		},
 		{
 			"route_name": "portfolio",
-			"title": "Portfolio and Work Experience &ndash; Matt Finucane CV",
+			"title": "Portfolio and Work Experience - Matt Finucane CV",
 			"description": "An outline of some of the projects I have worked for across the different places I have worked.",
 			"keywords": "work experience, portfolio, projects"
 		},
 		{
 			"route_name": "about",
-			"title": "About me and my interests &ndash; Matt Finucane CV",
+			"title": "About me and my interests - Matt Finucane CV",
 			"description": "Information about me and my current interests",
 			"keywords": "about me, matt finucane, interests"
 		}
