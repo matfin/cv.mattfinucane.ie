@@ -10,9 +10,16 @@ body {
 	height: 100%;
 
 	font-family: @helvetica;
-	font-size: @standardFontSize;
 	color: @colourDark;
 	font-weight: @fontLight;
+	font-size: @standardFontSize;
+
+	.transition-property(font-size);
+	.transition-duration(@transitionDuration);
+
+	@media @hd {
+		font-size: @largeFontSize;
+	}
 
 	background-color: @colourBackground;
 
@@ -118,11 +125,6 @@ ul {
 	list-style: none outside;
 	text-indent: -22px;
 	padding-left: 22px;
-	max-width: 64%;
-
-	@media @mobile {
-		max-width: 100%;
-	}
 
 	li {
 		display: block;
@@ -140,11 +142,6 @@ ul {
 
 p {
 	line-height: 120%;
-	max-width: 64%;
-	
-	@media @mobile {
-		max-width: 100%;
-	}
 
 	text-align: justify;
 	letter-spacing: @letter-spacing;

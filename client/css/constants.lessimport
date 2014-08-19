@@ -3,6 +3,7 @@
 // Fonts and their sizes
 @helvetica: "camingodos-web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 @standardFontSize: 18px;
+@largeFontSize: @standardFontSize * 1.2;
 @fontLight: 100;
 @letter-spacing: -0.2px;
 
