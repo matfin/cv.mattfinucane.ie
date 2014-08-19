@@ -28,6 +28,9 @@ header {
 	div {
 		display: inline;
 		float: left;
+		@media @mobile {
+			clear: both;
+		}
 		span {
 			margin: 0 @gridColumnWidth / 4;
 		}
@@ -47,7 +50,7 @@ header {
 
 	nav {
 		margin-top: @gridColumnWidth;
-		float: left;
+		float: right;
 		padding: 0 @gridColumnWidth;
 		ol {
 			li {

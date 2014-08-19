@@ -4,11 +4,6 @@
 
 	img {
 		width: 100%;
-		max-width: 64%;
-		@media @mobile {
-			max-width: 100%;
-		}
-
 		height: auto;
 		margin-top: @gridColumnWidth + 2;
 	}

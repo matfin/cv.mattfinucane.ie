@@ -24,7 +24,7 @@
 // General layout
 @gridColumnWidth: 16px;
 @iconSize: @gridColumnWidth * 3;
-@maxWidth: @gridColumnWidth * 60;
+@maxWidth: @gridColumnWidth * 50;
 @scale: 0.8;
 
 // Animation

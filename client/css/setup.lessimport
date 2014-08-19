@@ -17,10 +17,6 @@ body {
 	.transition-property(font-size);
 	.transition-duration(@transitionDuration);
 
-	@media @hd {
-		font-size: @largeFontSize;
-	}
-
 	background-color: @colourBackground;
 
 	> div.content {
