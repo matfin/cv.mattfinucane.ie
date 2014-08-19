@@ -1,0 +1,4 @@
+.not-found {
+	padding: 0 @gridColumnWidth;
+	.box-sizing(border-box);
+}

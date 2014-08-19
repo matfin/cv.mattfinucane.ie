@@ -6,8 +6,8 @@ Meteor.startup(function() {
 		Device.reset();
 
 		// Check browser support 
-		if(!Browser.isSupported()) {
-			// $('body').addClass('unsupported');
+		if(!Browser.isCrawler() && !Browser.isSupported()) {
+			$('body').addClass('unsupported');
 		}
 
 		// Populate the Collections

@@ -1,3 +1,7 @@
+Router.configure({
+	notFoundTemplate: 'views_notfound'
+});
+
 Router.onAfterAction(function() {
 	/**
 	 *	Setting up SEO after route has completed
