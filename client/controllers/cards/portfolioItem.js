@@ -41,30 +41,7 @@ Template['cards_portfolioItem'].getImageSource = function() {
 	var imageSource;
 
 	if(this.media && this.media.img) {
-		//@hd 
-		if(Device.isHD) {
-			imageSource = this.media.img + '-d';
-		}
-		//@desktop
-		else if(Device.isDesktop) {
-			imageSource = this.media.img + '-d';
-		}
-		//@tablet
-		else if(Device.isTablet) {
-			imageSource = this.media.img + '-t';
-		}
-		//@mobile
-		else if(Device.isMobile) {
-			imageSource = this.media.img + '-p';
-		}
-
-		// Retina or not
-		if(Device.isRetina) {
-			return imageSource + '@2x.jpg';
-		}
-		else {
-			return imageSource + '.jpg';
-		}
+		return Helpers.getImageSource(this.media.img);
 	}
 };
 
