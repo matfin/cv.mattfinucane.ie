@@ -29,18 +29,14 @@ Template['components_skills'].destroyed = function() {
 
 /**
 Template - components_skills
-{{data}}	
-@return	Meteor.Collection
-**/
-Template['components_skills'].data = function() {
-	return App.models.staticContent.findOne({'title':'skills'});
-};
-
-/**
-Template - components_skills
 {{skillsets}}	
 @return	Meteor.Collection
 **/
-Template['components_skills'].skillsets = function() {
-	return App.models.skills.find({}).fetch();
-};
+Template['components_skills'].helpers({
+	skillsets: function() {
+		return App.models.skills.find({}).fetch();
+	},
+	data: function() {
+		return App.models.staticContent.findOne({'title':'skills'});
+	}
+});

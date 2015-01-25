@@ -27,21 +27,13 @@ Template['components_qualifications'].destroyed = function() {
 	
 };
 
-/**
-Template - components_qualifications
-{{data}}	
-@return	Meteor.Collection
-**/
-Template['components_qualifications'].data = function() {
-	return App.models.staticContent.findOne({"title": "qualifications"});
-};
+Template['components_qualifications'].helpers({
 
-/**
-Template - components_qualifications
-{{formattedDate}}	
-@params String data, String format
-@return	String
-**/
-Template['components_qualifications'].formattedDate = function(date, format) {
-	return moment(date).isValid() ? moment(date).format(format) : date;
-};
+	data: function() {
+		return App.models.staticContent.findOne({"title": "qualifications"});
+	},
+	formattedDate: function(date, format) {
+		return moment(date).isValid() ? moment(date).format(format) : date;
+	}
+
+});

@@ -32,6 +32,8 @@ Template - components_interests
 {{data}}	
 @return	Meteor.Collection
 **/
-Template['components_interests'].data = function() {
-	return App.models.staticContent.findOne({"title": "interests"});
-};
+Template['components_interests'].helpers({
+	data: function() {
+		return App.models.staticContent.findOne({"title": "interests"});
+	}
+});

@@ -32,6 +32,8 @@ Template - components_profile
 {{data}}	
 @return	Meteor.Collection
 **/
-Template['components_profile'].data = function() {
-	return App.models.staticContent.findOne({'title':'profile'});
-};
+Template['components_profile'].helpers({
+	data: function() {
+		return App.models.staticContent.findOne({'title':'profile'});
+	}
+});
