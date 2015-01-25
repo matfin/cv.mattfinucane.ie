@@ -4,18 +4,12 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-insecure
-iron-router
-normalize.css
-lesshat
-jquery2
-moment
 less
 ios-slider
 underscore
-modernizr-meteor
 cv.mattfinucane.ie
-q
-ms-seo
-coffeescript
-spiderable
+jquery
+cwaring:modernizr
+momentjs:moment
+aramk:q
+iron:router

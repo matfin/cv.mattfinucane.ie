@@ -42,3 +42,12 @@ Analytics & SEO
 
 -- For SEO, investigate using a phantomJS server to deliver content
 -- Track events using GA javascript API. Cannot track 'pageviews'
+
+Packages
+========
+
+cv.mattfinucane.ie     0.0.0+ Stores settings and sets up Meteor Collections.
+ios-slider             0.0.0+ Touch Enabled, Responsive jQuery Horizontal Content Slider/Carousel/Image Gallery Plugin. For this project I have made this plugin...
+mrt:lesshat            0.0.1  LESS Hat. Get MORE of LESS with smart mixins.
+mrt:normalize.css      2.0.1  A modern, HTML5-ready alternative to CSS resets
+underscore             1.0.2  Collection of small helpers: _.map, _.each, ...

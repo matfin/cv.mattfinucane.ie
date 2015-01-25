@@ -15,10 +15,10 @@ App = {
 	baseUrl: 'http://localhost:3000/',
 
 	models: {
-		staticContent: new Meteor.Collection('staticContent', {connection: null}),
-		skills: new Meteor.Collection('skillsets', {connection: null}),
-		experience: new Meteor.Collection('experience', {connection: null}),
-		portfolio: new Meteor.Collection('portfolio', {connection: null}), 
-		seo: new Meteor.Collection('seo', {connection: null})
+		staticContent: new Mongo.Collection('staticContent', {connection: null}),
+		skills: new Mongo.Collection('skillsets', {connection: null}),
+		experience: new Mongo.Collection('experience', {connection: null}),
+		portfolio: new Mongo.Collection('portfolio', {connection: null}), 
+		seo: new Mongo.Collection('seo', {connection: null})
 	}
 }

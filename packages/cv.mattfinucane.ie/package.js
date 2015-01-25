@@ -7,6 +7,7 @@ Package.on_use(function(api) {
 	api.use('deps', 'client');
 	api.use('jquery', 'client');
 	api.use('underscore', 'client');
+	api.use('mongo', ['client', 'server']);
 
 	api.export('App');
 	api.export('Api');
