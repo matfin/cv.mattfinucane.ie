@@ -20,51 +20,28 @@ Template['cards_portfolioItem'].rendered = function() {
 	$(this.find('a[rel="external"]')).attr('target', '_blank');
 };
 
-/**
-Template - cards_portfolioitem
-{{destroyed}}	
-@private
-@return	undefined
-**/
-Template['cards_portfolioItem'].destroyed = function() {
-	
-};
+Template['cards_portfolioItem'].helpers({
 
-/**
-Template - cards_portfolioitem
-{{imageSource}}	
-@return	String
-**/
-Template['cards_portfolioItem'].getImageSource = function() {
-	// This gets automatically called when the window is resized.
-	Dependencies.resizeDependency.depend();
-	var imageSource;
+	getImageSource: function() {
+		// This gets automatically called when the window is resized.
+		Dependencies.resizeDependency.depend();
+		var imageSource;
 
-	if(this.media && this.media.img) {
-		return Helpers.getImageSource(this.media.img);
+		if(this.media && this.media.img) {
+			return Helpers.getImageSource(this.media.img);
+		}
+	},
+
+	formattedDate: function(date, format) {
+		return moment(date, 'YYYY-MM-DD').isValid() ? moment(date, 'YYYY-MM-DD').format(format) : date;
+	},
+
+	isMobile: function() {
+		Dependencies.resizeDependency.depend();
+		return Device.isMobile;
 	}
-};
 
-/**
-Template - cards_portfolioItem
-{{formattedDate}}	
-@params String date, String format
-@return	String
-**/
-Template['cards_portfolioItem'].formattedDate = function(date, format) {
-	return moment(date, 'YYYY-MM-DD').isValid() ? moment(date, 'YYYY-MM-DD').format(format) : date;
-};
-
-/**
-Template - cards_portfolioItem
-{{formattedDate}}	
-@params String date, String format
-@return	String
-**/
-Template['cards_portfolioItem'].isMobile = function() {
-	Dependencies.resizeDependency.depend();
-	return Device.isMobile;
-};
+});
 
 /**
 Template - cards_portfolioitem

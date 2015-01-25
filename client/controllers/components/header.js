@@ -29,12 +29,14 @@ Template['components_common_header'].destroyed = function() {
 
 /**
 Template - components_common_header
-{{data}}	
-@return	Meteor.Collection
+Helpers
 **/
-Template['components_common_header'].data = function() {
-	return App.models.staticContent.findOne({'title':'contact'});
-};
+Template['components_common_header'].helpers({
+
+	data: function() {
+		return App.models.staticContent.findOne({'title':'contact'});
+	}
+});
 
 // Reveal button function called by events
 var revealNav = function(e, template) {

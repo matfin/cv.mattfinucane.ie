@@ -12,12 +12,12 @@ Dependencies
 **/
 
 Dependencies = {
-	resizeDependency: new Deps.Dependency,
-	iosSliderDependency: new Deps.Dependency,
-	staticContentLoadedDependency: new Deps.Dependency,
-	skillsContentLoadedDependency: new Deps.Dependency,
-	portfolioContentLoadedDependency: new Deps.Dependency,
-	experienceContentLoadedDependency: new Deps.Dependency,
-	seoContentLoadedDependency: new Deps.Dependency
+	resizeDependency: new Tracker.Dependency,
+	iosSliderDependency: new Tracker.Dependency,
+	staticContentLoadedDependency: new Tracker.Dependency,
+	skillsContentLoadedDependency: new Tracker.Dependency,
+	portfolioContentLoadedDependency: new Tracker.Dependency,
+	experienceContentLoadedDependency: new Tracker.Dependency,
+	seoContentLoadedDependency: new Tracker.Dependency
 };
 
