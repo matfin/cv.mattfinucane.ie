@@ -29,10 +29,10 @@ body {
 	text-align: center;
 	display: inline-table;
 
-	background-image: url('/images/background_gs.jpg');
+	background-image: url('http://media.mattfinucane.com/images/background_gs.jpg');
 
 	@media @mobile {
-		background-image: url('/images/background_m.jpg');
+		background-image: url('http://media.mattfinucane.com/images/background_m.jpg');
 	}
 
 	background-repeat: no-repeat;

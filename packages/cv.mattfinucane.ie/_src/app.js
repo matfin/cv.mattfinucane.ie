@@ -13,6 +13,7 @@ Data and models
 
 App = {
 	baseUrl: 'http://localhost:3000/',
+	mediaUrl: 'http://media.mattfinucane.com/',
 
 	models: {
 		staticContent: new Mongo.Collection('staticContent', {connection: null}),
