@@ -2,6 +2,81 @@
 	"name": "Portfolio",
 	"items": [
 		{
+			"name": "anna-christoffer",
+			"heading": "Anna Christoffer",
+			"released": "2014-01-10",
+			"contents": [
+				{
+					"content": "Single page portfolio website created using the Meteor Javascript framrwork. Fully respsonsive to different device parameters, such as screen size and pixel density."
+				}
+			],
+			"points": [
+				{
+					"content": "Developed using the Meteor Javascript framework."
+				},
+				{
+					"content": "One project, fully respsonsive to work with multiple devices."
+				},
+				{
+					"content": "Created a fast slider plugin."
+				}
+			],
+			"url": "http://annachristoffer.com",
+			"media": {
+				"img": "annachristoffer-desktop"
+			}
+		},
+		{
+			"name": "anna-christoffer",
+			"heading": "Anna Christoffer - Mobile",
+			"released": "2014-01-10",
+			"contents": [
+				{
+					"content": "Single page portfolio website created using the Meteor Javascript framrwork. Fully respsonsive to different device parameters, such as screen size and pixel density."
+				}
+			],
+			"points": [
+				{
+					"content": "Developed using the Meteor Javascript framework."
+				},
+				{
+					"content": "One project, fully respsonsive to work with multiple devices."
+				},
+				{
+					"content": "Created a fast slider plugin."
+				}
+			],
+			"url": "http://annachristoffer.com",
+			"media": {
+				"img": "annachristoffer-mobile"
+			}
+		},
+		{
+			"name": "cry-monster-cry",
+			"heading": "Cry Monster Cry - Official site",
+			"released": "2014-02-06",
+			"contents": [
+				{
+					"content": "Single page Meteor JS based website for promoting the bands music."
+				}
+			],
+			"points": [
+				{
+					"content": "Developed using the Meteor Javascript framework."
+				},
+				{
+					"content": "Connects to several content providers and updates itself automatically."
+				},
+				{
+					"content": "Server side rendering to make this site readable to crawlers and bots."
+				}
+			],
+			"url": "http://crymonstercry.com",
+			"media": {
+				"img": "crymonstercry-desktop"
+			}
+		},
+		{
 			"name": "tunedin-webapp",
 			"heading": "TunedIn Webapp",
 			"released": "2014-04-30",

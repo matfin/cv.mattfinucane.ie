@@ -2,6 +2,68 @@
 	"name": "Experience",
 	"items": [
 		{
+			"title": "Freelance",
+			"company": "Freelance",
+			"url": "http://www.mattfinucane.com",
+			"role": "Web/iOS developer",
+			"from": "2014-12-15",
+			"to": "Present",
+			"location": "Berlin",
+			"points": [
+				{
+					"content": "Created a portfolio website using the Meteor JS website, making it fully reactive, localised and responsive."
+				},
+				{
+					"content": "Created a pro-bono website for a Dublin based band, pulling content from various sources to make it update itself automatically."
+				},
+				{
+					"content": "Continued working on native iOS7/8 application development."
+				}
+			],
+			"skills": [
+			]
+		},
+		{
+			"title": "Monoqi.com",
+			"company": "Things I Like GMBH",
+			"url": "http://www.monoqi.com",
+			"role": "Web Developer",
+			"from": "2014-06-02",
+			"to": "2014-12-15",
+			"location": "Berlin",
+			"points": [
+				{
+					"content": "Implemented a new website for the Monoqi B2B platform to facilitate communication and sales between designers and resellers."
+				},
+				{
+					"content": "Improved purchase flows and address verification for the Monoqi B2C platform."
+				},
+				{
+					"content": "Created new tools to improve front end development workflow for the team."
+				},
+				{
+					"content": "Authored email templates for both platforms to increase conversion rates."
+				}
+			],
+			"skills": [
+				{
+					"id": "php"
+				},
+				{
+					"id": "html"
+				},
+				{
+					"id": "css"
+				},
+				{
+					"id": "html"
+				},
+				{
+					"id": "js"
+				}
+			]
+		},
+		{
 			"title": "tunedin",
 			"company": "TunedIn Media GMBH",
 			"url": "http://www.tunedin.de",
