@@ -17,7 +17,7 @@
 					"content": "Created a pro-bono website for a Dublin based band, pulling content from various sources to make it update itself automatically."
 				},
 				{
-					"content": "Continued working on native iOS7/8 application development."
+					"content": "Working on two native iOS7/8 apps, both of which connect to third party REST services to aggregate data and manage user authentication."
 				}
 			],
 			"skills": [
@@ -64,16 +64,16 @@
 			]
 		},
 		{
-			"title": "tunedin",
-			"company": "TunedIn Media GMBH",
+			"title": "axel-springer-ideas",
+			"company": "Axel Springer Ideas",
 			"url": "http://www.tunedin.de",
 			"role": "Web Developer",
 			"from": "2013-10-08",
-			"to": "Present",
+			"to": "2014-05-01",
 			"location": "Berlin",
 			"points": [
 				{
-					"content": "Created a web application using the Meteor Javascript framework to deliver native-like performance."
+					"content": "Created a web application using the Meteor Javascript framework for an Axel Springer Ideas funded startup TunedIn to deliver native-like performance."
 				},
 				{
 					"content": "Main features include a TV Guide and participation stream, both of which update in real time."
