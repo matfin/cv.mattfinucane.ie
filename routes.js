@@ -6,6 +6,7 @@ Router.map(function() {
 	this.route('home', {
 		path: '/',
 		template: 'main',
+		trackPageView: true,
 		yieldTemplates: {
 			'components_common_header': {to: 'header'},
 			'views_home': {to: 'content'},
@@ -16,6 +17,7 @@ Router.map(function() {
 	this.route('portfolio', {
 		path: '/portfolio',
 		template: 'main',
+		trackPageView: true,
 		yieldTemplates: {
 			'components_common_header': {to: 'header'},
 			'views_portfolio': {to: 'content'},
@@ -26,6 +28,7 @@ Router.map(function() {
 	this.route('about', {
 		path: '/about',
 		template: 'main',
+		trackPageView: true,
 		yieldTemplates: {
 			'components_common_header': {to: 'header'},
 			'views_about': {to: 'content'},
